@@ -1,0 +1,150 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Base surfaces — light, faint UAE-green tint */
+  --bg: #ffffff;
+  --surface: #f2f8f4;
+  --surface-2: #e2efe8;
+
+  /* Primary brand = UAE flag green */
+  --navy: #0b6b3a;
+  --navy-700: #07512c;
+  --navy-600: #128a4e;
+  --navy-500: #2ba567;
+
+  /* Premium gold accent */
+  --brass: #b07d2b;
+  --brass-2: #c99a45;
+  --brass-3: #e8d4a6;
+
+  /* UAE flag red (sparing accent) */
+  --red: #ce1126;
+  --red-600: #a90e1f;
+  --red-100: #f7dadd;
+
+  /* Text — UAE flag black for headings */
+  --ink: #0b120e;
+  --text: #283730;
+  --muted: #5d7268;
+
+  --line: rgba(10, 81, 50, 0.12);
+}
+
+* {
+  border-color: var(--line);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-content px-5 sm:px-8;
+  }
+
+  .h-display {
+    @apply font-display font-bold tracking-tightest text-ink;
+  }
+
+  .accent-serif {
+    @apply font-serif italic font-normal;
+    color: var(--brass);
+  }
+
+  /* Buttons */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-pill font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2;
+    --tw-ring-color: var(--brass-2);
+    --tw-ring-offset-color: var(--bg);
+  }
+  .btn-primary {
+    @apply btn bg-navy text-white px-6 py-3 shadow-soft hover:bg-navy-700 hover:shadow-lift;
+  }
+  .btn-brass {
+    @apply btn px-6 py-3 text-white shadow-brass;
+    background: linear-gradient(135deg, var(--brass-2), var(--brass));
+  }
+  .btn-brass:hover {
+    filter: brightness(1.05);
+  }
+  .btn-ghost {
+    @apply btn border border-line bg-white/70 text-ink px-6 py-3 hover:bg-surface hover:border-brass-3;
+  }
+
+  .card {
+    @apply rounded-card border border-line bg-white shadow-soft;
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-navy-600;
+  }
+
+  .chip {
+    @apply inline-flex items-center rounded-pill border border-line bg-surface px-3 py-1 text-xs font-medium text-navy-700;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .brass-gradient-text {
+    background: linear-gradient(135deg, var(--brass), var(--brass-2));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .grid-bg {
+    background-image:
+      linear-gradient(var(--line) 1px, transparent 1px),
+      linear-gradient(90deg, var(--line) 1px, transparent 1px);
+    background-size: 56px 56px;
+  }
+  /* Reveal-on-scroll (progressive enhancement; visible by default) */
+  .reveal {
+    opacity: 1;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .js .reveal {
+      opacity: 0;
+      transform: translateY(16px);
+      transition:
+        opacity 0.6s ease,
+        transform 0.6s ease;
+    }
+    .js .reveal.is-in {
+      opacity: 1;
+      transform: none;
+    }
+  }
+}

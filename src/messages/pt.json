@@ -1,0 +1,236 @@
+{
+  "meta": {
+    "homeTitle": "NovaCore Global FZE — Fabricante e exportador de lubrificantes, EAU",
+    "homeDescription": "Fabricante de lubrificantes com certificação ISO em Ras Al Khaimah, EAU. Óleos de motor, diesel, industriais e marítimos, graxas e óleos base. Marca própria e marca branca para distribuidores em todo o mundo.",
+    "productsTitle": "Produtos — Lubrificantes de motor, industriais e marítimos",
+    "productsDescription": "Linha completa de lubrificantes fabricados nos EAU: óleos de motor, diesel, transmissão e engrenagens, hidráulicos, marítimos, graxas, fluidos de arrefecimento e óleos base.",
+    "manufacturingTitle": "Fabricação e controle de qualidade",
+    "manufacturingDescription": "Dentro da nossa planta em Ras Al Khaimah: mistura, laboratório próprio, tecnologia de aditivos e logística de exportação sob ISO 9001 / 14001 / 45001.",
+    "certificationsTitle": "Certificações — ISO 9001 / 14001 / 45001",
+    "certificationsDescription": "Sistemas de gestão verificados ISO 9001:2015, ISO 14001:2015 e ISO 45001:2018 com números de certificado e dados de acreditação.",
+    "privateLabelTitle": "Lubrificantes de marca própria e marca branca",
+    "privateLabelDescription": "Lance sua própria marca de lubrificantes a partir de uma planta com certificação ISO nos EAU. Formulação, mistura, envase, embalagem e exportação com um único parceiro.",
+    "aboutTitle": "Sobre a NovaCore Global FZE",
+    "aboutDescription": "A divisão de exportação e comercial de um fabricante de lubrificantes com certificação ISO em Ras Al Khaimah, EAU, fornecendo a distribuidores em seis regiões.",
+    "contactTitle": "Contato e solicitação de orçamento",
+    "contactDescription": "Solicite um orçamento, condições para distribuidores ou uma proposta de marca própria. WhatsApp, Telegram, telefone e formulário — respondido de Ras Al Khaimah, EAU."
+  },
+  "nav": {
+    "home": "Início",
+    "products": "Produtos",
+    "manufacturing": "Fabricação",
+    "certifications": "Certificações",
+    "privateLabel": "Marca própria",
+    "about": "Sobre",
+    "contact": "Contato"
+  },
+  "header": {
+    "quote": "Solicitar orçamento",
+    "call": "Ligar",
+    "menu": "Menu",
+    "close": "Fechar",
+    "language": "Idioma"
+  },
+  "hero": {
+    "eyebrow": "Fabricante de lubrificantes · Ras Al Khaimah, EAU",
+    "title1": "Lubrificantes premium,",
+    "titleAccent": "fabricados nos EAU",
+    "title2": "exportados para o mundo todo",
+    "subhead": "A NovaCore Global FZE é a divisão de exportação de uma planta de lubrificantes com certificação ISO em Ras Al Khaimah. Fabricamos lubrificantes de motor, industriais e marítimos — e criamos marcas próprias para distribuidores no Golfo, Europa, CEI, África, América Latina e Ásia.",
+    "ctaQuote": "Solicitar orçamento",
+    "ctaDistributor": "Seja um distribuidor",
+    "scroll": "Role para explorar",
+    "stat1Value": "3",
+    "stat1Label": "Sistemas de gestão ISO",
+    "stat2Value": "6",
+    "stat2Label": "Regiões atendidas",
+    "stat3Value": "7",
+    "stat3Label": "Famílias de produtos",
+    "stat4Value": "100%",
+    "stat4Label": "Fabricado nos EAU"
+  },
+  "trust": {
+    "title": "Feito para compradores que verificam",
+    "marquee": "ISO 9001:2015 · ISO 14001:2015 · ISO 45001:2018 · Especificações API · Sequências ACEA · Formulações alinhadas a OEM · Acreditado pela UAF · Ras Al Khaimah, EAU",
+    "stats": {
+      "regionsValue": "6",
+      "regionsLabel": "Regiões de exportação",
+      "familiesValue": "7+",
+      "familiesLabel": "Famílias de lubrificantes",
+      "packsValue": "700ml–208L",
+      "packsLabel": "Embalagens e a granel",
+      "isoValue": "ISO 3",
+      "isoLabel": "Sistemas certificados ativos"
+    }
+  },
+  "products": {
+    "eyebrow": "Linha de produtos",
+    "title": "Um portfólio completo de lubrificantes",
+    "subtitle": "Formulados conforme especificações internacionais API, ACEA e OEM, misturados nos EAU e envasados de 700 ml a granel.",
+    "tdsNote": "Fichas de dados técnicos disponíveis mediante solicitação.",
+    "cta": "Solicitar o catálogo completo",
+    "ctaCardTitle": "Precisa de um grau específico?",
+    "ctaCardText": "Envie sua especificação — nós a combinamos a uma formulação ou desenvolvemos uma.",
+    "items": {
+      "motor": {
+        "name": "Óleos de motor",
+        "desc": "Óleos de motor sintéticos e semissintéticos para automóveis em graus de viscosidade modernos."
+      },
+      "diesel": {
+        "name": "Óleos diesel",
+        "desc": "Óleos de alta performance para frotas comerciais, construção e geração de energia."
+      },
+      "transmission": {
+        "name": "Transmissão e engrenagens",
+        "desc": "Fluidos de transmissão automática, óleos manuais e industriais para engrenagens, incluindo ATF."
+      },
+      "industrial": {
+        "name": "Industriais e hidráulicos",
+        "desc": "Óleos hidráulicos, de compressor e de barramento em graus ISO VG para planta e maquinário."
+      },
+      "marine": {
+        "name": "Lubrificantes marítimos",
+        "desc": "Óleos de pistão tronco, de sistema e de cilindro para motores marítimos e frotas navais."
+      },
+      "greases": {
+        "name": "Graxas",
+        "desc": "Graxas de complexo de lítio, sulfonato de cálcio e EP para uso automotivo e industrial."
+      },
+      "coolants": {
+        "name": "Fluidos de arrefecimento, freio e óleos base",
+        "desc": "Fluidos de arrefecimento, fluidos de freio e óleos base do grupo I–III para parceiros misturadores."
+      }
+    }
+  },
+  "manufacturing": {
+    "eyebrow": "Fabricação",
+    "title": "Do óleo base ao pallet lacrado, sob o mesmo teto",
+    "subtitle": "Uma planta integrada na zona franca de Al Hamra — mistura, ensaios, envase e logística de exportação.",
+    "capabilities": {
+      "facility": {
+        "title": "Planta de mistura",
+        "desc": "Mistura automatizada e linhas de envase de alta velocidade para embalagens de 700 ml a tambores de 208 L e a granel."
+      },
+      "lab": {
+        "title": "Laboratório próprio",
+        "desc": "Cada lote é testado quanto à viscosidade, ponto de fulgor e parâmetros-chave antes da liberação."
+      },
+      "additive": {
+        "title": "Tecnologia de aditivos",
+        "desc": "Sistemas de aditivos alinhados a OEM e seleção de óleo base para desempenho estável e conforme especificação."
+      },
+      "logistics": {
+        "title": "Logística de exportação",
+        "desc": "Localização em zona franca com documentação e envios marítimos e terrestres para todo o mundo."
+      }
+    },
+    "ringCaption": "Zona Industrial de Al Hamra, Ras Al Khaimah",
+    "galleryTitle": "Dentro da planta",
+    "gallerySubtitle": "Galpão de produção e laboratório de controle de qualidade em Ras Al Khaimah, EAU."
+  },
+  "certifications": {
+    "eyebrow": "Certificações",
+    "title": "Sistemas de gestão certificados de forma independente",
+    "subtitle": "Emitidos à nossa entidade fabricante do grupo e verificáveis pelo número do certificado — como os compradores profissionais esperam.",
+    "issued": "Emitido",
+    "validUntil": "Válido até",
+    "certNo": "Nº do certificado",
+    "scope": "Escopo",
+    "scopeText": "Fabricação, mistura e fornecimento de lubrificantes e produtos relacionados.",
+    "verifyTitle": "Verificação",
+    "verifyText": "Os certificados pertencem à {factory}, a entidade fabricante do grupo. Acreditado pela {body} ({note}) e verificável em {verifyAt}. A NovaCore Global FZE é sua divisão de exportação e comercial.",
+    "download": "Ver certificado"
+  },
+  "privateLabel": {
+    "eyebrow": "Marca própria e branca",
+    "title": "Lance sua própria marca de lubrificantes",
+    "subtitle": "A partir de um único parceiro com certificação ISO nos EAU — formulação, mistura, envase, design de rótulo e exportação.",
+    "steps": {
+      "s1": { "title": "Especificar", "desc": "Compartilhe graus, especificações, volumes e mercados-alvo." },
+      "s2": { "title": "Formular", "desc": "Combinamos ou desenvolvemos formulações e confirmamos com dados de laboratório." },
+      "s3": { "title": "Marca e envase", "desc": "Seu rótulo, sua embalagem, envasados em nossas linhas." },
+      "s4": { "title": "Exportar", "desc": "Documentação e transporte até seu centro de distribuição." }
+    },
+    "ctaPrimary": "Iniciar consulta de marca própria",
+    "ctaSecondary": "Falar no WhatsApp"
+  },
+  "exportMap": {
+    "eyebrow": "Alcance global",
+    "title": "Envios de Ras Al Khaimah para seis regiões",
+    "subtitle": "Uma base em zona franca no Golfo Arábico, posicionada para acesso rápido ao Oriente e ao Ocidente.",
+    "hub": "Ras Al Khaimah, EAU",
+    "regions": {
+      "gcc": { "name": "Golfo e Oriente Médio", "note": "Arábia Saudita, Omã, Catar, Kuwait, Bahrein" },
+      "europe": { "name": "Europa", "note": "Distribuidores e misturadores da UE" },
+      "cis": { "name": "Rússia e CEI", "note": "Mercados de língua russa" },
+      "africa": { "name": "África", "note": "Portos da África Oriental e Ocidental" },
+      "latam": { "name": "América Latina", "note": "América do Sul e Central" },
+      "asia": { "name": "Ásia", "note": "Sul e Sudeste Asiático" }
+    }
+  },
+  "contact": {
+    "eyebrow": "Contato",
+    "title": "Solicite um orçamento ou condições para distribuidores",
+    "subtitle": "Conte-nos o que você precisa. Normalmente respondemos em um dia útil de Ras Al Khaimah.",
+    "channels": {
+      "whatsapp": "WhatsApp",
+      "whatsappValue": "Converse com o setor de exportação",
+      "telegram": "Telegram",
+      "telegramValue": "Envie mensagem no Telegram",
+      "phone": "Telefone",
+      "phoneValue": "Ligue para a divisão de exportação",
+      "personLabel": "Contato de exportação"
+    },
+    "form": {
+      "name": "Nome completo",
+      "company": "Empresa",
+      "country": "País",
+      "email": "E-mail",
+      "phone": "Telefone",
+      "interest": "Produto de interesse",
+      "interestPlaceholder": "Selecione uma categoria",
+      "interestGeneral": "Geral / vários",
+      "message": "Mensagem",
+      "messagePlaceholder": "Volumes, graus-alvo, mercados, prazos…",
+      "submit": "Enviar solicitação",
+      "sending": "Enviando…",
+      "successTitle": "Solicitação recebida",
+      "successText": "Obrigado — nossa equipe de exportação responderá em breve. Para uma resposta imediata, fale conosco no WhatsApp.",
+      "errorTitle": "Não foi possível enviar",
+      "errorText": "Algo deu errado. Tente novamente ou fale conosco diretamente no WhatsApp.",
+      "whatsappFallback": "Continuar no WhatsApp",
+      "required": "Obrigatório",
+      "invalidEmail": "Insira um e-mail válido",
+      "consent": "Ao enviar, você concorda em ser contatado sobre sua solicitação."
+    }
+  },
+  "about": {
+    "eyebrow": "Sobre",
+    "title": "A divisão de exportação de um fabricante de lubrificantes dos EAU",
+    "lead": "A NovaCore Global FZE é a divisão de exportação e comercial da {factory}, uma planta de lubrificantes com certificação ISO em Ras Al Khaimah, Emirados Árabes Unidos.",
+    "structureTitle": "Estrutura do grupo",
+    "structureText": "A fabricação, os sistemas de qualidade e os certificados ISO pertencem à fábrica do grupo. A NovaCore Global FZE cuida da exportação, das parcerias de distribuição e dos programas de marca própria. Declaramos isso abertamente — os certificados levam o nome e os números da entidade fabricante.",
+    "whoTitle": "Quem atendemos",
+    "whoText": "Distribuidores, operadores de frotas, compradores industriais e proprietários de marcas que precisam de lubrificantes confiáveis e conformes à especificação, e de um parceiro capaz de fazer marca própria e exportar em escala.",
+    "whyTitle": "Por que Ras Al Khaimah",
+    "whyText": "Uma base industrial em zona franca no Golfo Arábico oferece logística marítima e terrestre eficiente, documentação de exportação simplificada e acesso rápido aos mercados orientais e ocidentais."
+  },
+  "footer": {
+    "tagline": "Lubrificantes fabricados nos EAU para os mercados globais.",
+    "explore": "Explorar",
+    "company": "Empresa",
+    "contact": "Contato",
+    "addressLabel": "Planta",
+    "relationship": "A NovaCore Global FZE é a divisão de exportação da {factory}.",
+    "rights": "Todos os direitos reservados.",
+    "languageLabel": "Idioma"
+  },
+  "common": {
+    "requestQuote": "Solicitar orçamento",
+    "viewProducts": "Ver produtos",
+    "learnMore": "Saiba mais",
+    "backHome": "Voltar ao início",
+    "specs": "Especificações",
+    "getInTouch": "Entre em contato"
+  }
+}
