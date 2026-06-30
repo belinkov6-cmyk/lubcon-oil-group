@@ -74,7 +74,7 @@ export default function HeroPremium() {
         <div className="absolute inset-0 bg-[rgba(7,5,2,.5)] lg:hidden" />
 
         {/* Canister label — counter-flipped in RTL so the text reads correctly */}
-        <span className="pointer-events-none absolute left-[82%] top-[67%] hidden max-w-[6.5rem] -translate-x-1/2 -translate-y-1/2 select-none text-balance text-center font-display text-[19px] font-extrabold uppercase leading-[1.02] tracking-[0.06em] text-gold-hi rtl:-scale-x-100 xl:block 2xl:max-w-[8rem] 2xl:text-[23px]">
+        <span className="pointer-events-none absolute left-[85%] top-[67%] hidden max-w-[6.5rem] -translate-x-1/2 -translate-y-1/2 select-none text-balance text-center font-display text-[19px] font-extrabold uppercase leading-[1.02] tracking-[0.06em] text-gold-hi rtl:-scale-x-100 xl:block 2xl:max-w-[8rem] 2xl:text-[23px]">
           {t('canisterLabel')}
           <span className="mt-1 block text-[10px] font-semibold tracking-[0.18em] text-gold-muted">
             PREMIUM OIL
