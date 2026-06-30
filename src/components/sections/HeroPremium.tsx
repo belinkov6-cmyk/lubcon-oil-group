@@ -53,7 +53,7 @@ export default function HeroPremium() {
             fill
             priority
             sizes="100vw"
-            className="object-cover object-[88%_42%]"
+            className="object-cover object-[82%_42%]"
             style={{
               maskImage: 'linear-gradient(to right, transparent 0%, rgba(0,0,0,.4) 16%, #000 38%)',
               WebkitMaskImage: 'linear-gradient(to right, transparent 0%, rgba(0,0,0,.4) 16%, #000 38%)',
@@ -73,13 +73,18 @@ export default function HeroPremium() {
         {/* Mobile: extra dark wash for text contrast */}
         <div className="absolute inset-0 bg-[rgba(7,5,2,.5)] lg:hidden" />
 
-        {/* Canister label — counter-flipped in RTL so the text reads correctly */}
-        <span className="pointer-events-none absolute left-[83%] top-[69%] hidden max-w-[6.5rem] -translate-x-1/2 -translate-y-1/2 select-none text-balance text-center font-display text-[22px] font-extrabold uppercase leading-[1.02] tracking-[0.06em] text-gold-hi rtl:-scale-x-100 xl:block 2xl:max-w-[8rem] 2xl:text-[26px]">
-          {t('canisterLabel')}
-          <span className="mt-1 block text-[12px] font-semibold tracking-[0.18em] text-gold-muted">
-            PREMIUM OIL
+        {/* Canister label — its wrapper mirrors the photo container's geometry and shares
+            the photo's object-position-x anchor (82%), so the label tracks the canister at
+            every viewport width. Placed after the overlays so it sits above the vignette;
+            counter-flipped in RTL so the text reads correctly. */}
+        <div className="pointer-events-none absolute inset-y-0 right-0 hidden w-full lg:w-[74%] xl:block">
+          <span className="absolute left-[82%] top-[69%] max-w-[6.5rem] -translate-x-1/2 -translate-y-1/2 select-none text-balance text-center font-display text-[22px] font-extrabold uppercase leading-[1.02] tracking-[0.06em] text-gold-hi rtl:-scale-x-100 2xl:max-w-[8rem] 2xl:text-[26px]">
+            {t('canisterLabel')}
+            <span className="mt-1 block text-[12px] font-semibold tracking-[0.18em] text-gold-muted">
+              PREMIUM OIL
+            </span>
           </span>
-        </span>
+        </div>
       </div>
 
       <div className="container-x relative flex min-h-[92svh] flex-col justify-center pb-16 pt-32 lg:min-h-screen lg:pt-36">
