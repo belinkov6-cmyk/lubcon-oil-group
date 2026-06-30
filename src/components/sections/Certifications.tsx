@@ -16,7 +16,7 @@ export default function Certifications({ bare = false }: { bare?: boolean }) {
         <div className="mt-12 grid gap-5 md:grid-cols-3">
           {certificates.map((c, i) => (
             <Reveal key={c.number} delay={i * 80}>
-              <article className="card relative h-full overflow-hidden p-7">
+              <article className="card relative flex h-full flex-col overflow-hidden p-7">
                 {/* Seal watermark */}
                 <svg
                   className="pointer-events-none absolute -end-6 -top-6 h-32 w-32 text-brass-3/40"
@@ -51,6 +51,19 @@ export default function Certifications({ bare = false }: { bare?: boolean }) {
                     <dd className="mt-1 text-text">{t('scopeText')}</dd>
                   </div>
                 </dl>
+
+                <a
+                  href={c.pdf}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-auto inline-flex w-fit items-center gap-2 rounded-pill border border-line bg-surface px-4 py-2 pt-2 text-sm font-semibold text-navy transition-colors hover:border-brass-3 hover:bg-white"
+                  style={{ marginTop: 'auto' }}
+                >
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+                  {t('download')} (PDF)
+                </a>
               </article>
             </Reveal>
           ))}

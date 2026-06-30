@@ -1,4 +1,4 @@
-# Deploying NovaCore Global to Vercel
+# Deploying Lubcon Oil Group to Vercel
 
 The project is build-verified and ready to publish. Vercel auto-detects Next.js — no extra config needed.
 

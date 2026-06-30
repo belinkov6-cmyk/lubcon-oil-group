@@ -1,6 +1,6 @@
 {
   "meta": {
-    "homeTitle": "NovaCore Global FZE — Fabricante y exportador de lubricantes, EAU",
+    "homeTitle": "Lubcon Oil Group — Fabricante y exportador de lubricantes, EAU",
     "homeDescription": "Fabricante de lubricantes con certificación ISO en Ras Al Khaimah, EAU. Aceites de motor, diésel, industriales y marinos, grasas y aceites base. Marca propia y marca blanca para distribuidores en todo el mundo.",
     "productsTitle": "Productos — Lubricantes de motor, industriales y marinos",
     "productsDescription": "Gama completa de lubricantes fabricados en EAU: aceites de motor, diésel, transmisión y engranajes, hidráulicos, marinos, grasas, refrigerantes y aceites base.",
@@ -10,7 +10,7 @@
     "certificationsDescription": "Sistemas de gestión verificados ISO 9001:2015, ISO 14001:2015 e ISO 45001:2018 con números de certificado y datos de acreditación.",
     "privateLabelTitle": "Lubricantes de marca propia y marca blanca",
     "privateLabelDescription": "Lance su propia marca de lubricantes desde una planta con certificación ISO en EAU. Formulación, mezcla, llenado, envasado y exportación con un solo socio.",
-    "aboutTitle": "Acerca de NovaCore Global FZE",
+    "aboutTitle": "Acerca de Lubcon Oil Group",
     "aboutDescription": "La división de exportación y comercial de un fabricante de lubricantes con certificación ISO en Ras Al Khaimah, EAU, que abastece a distribuidores en seis regiones.",
     "contactTitle": "Contacto y solicitud de presupuesto",
     "contactDescription": "Solicite un presupuesto, condiciones para distribuidores o una propuesta de marca propia. WhatsApp, Telegram, teléfono y formulario — respondido desde Ras Al Khaimah, EAU."
@@ -33,13 +33,30 @@
   },
   "hero": {
     "eyebrow": "Fabricante de lubricantes · Ras Al Khaimah, EAU",
-    "title1": "Lubricantes premium,",
-    "titleAccent": "fabricados en los EAU",
+    "title1": "Aceites de motor premium, ",
+    "titleAccent": "con su propia marca",
     "title2": "exportados a todo el mundo",
-    "subhead": "NovaCore Global FZE es la división de exportación de una planta de lubricantes con certificación ISO en Ras Al Khaimah. Fabricamos lubricantes de motor, industriales y marinos, y creamos marcas propias para distribuidores en el Golfo, Europa, la CEI, África, América Latina y Asia.",
+    "cycleCaption": "Su marca · Fabricado en los EAU",
+    "subhead": "Formulamos y envasamos aceites de motor premium según su especificación — su fórmula, su etiqueta, su envase — en una planta con certificación ISO en Ras Al Khaimah, EAU, listos para exportar a todo el mundo.",
     "ctaQuote": "Solicitar presupuesto",
-    "ctaDistributor": "Ser distribuidor",
+    "ctaDistributor": "Cree su marca",
     "scroll": "Desplácese para explorar",
+    "canisterLabel": "SU MARCA",
+    "cards": {
+      "c1": { "title": "Flexibilidad tecnológica", "desc": "Su fórmula, su envase, su etiqueta." },
+      "c2": { "title": "Calidad certificada", "desc": "ISO 9001 · 14001 · 45001, lotes analizados." },
+      "c3": { "title": "Logística global", "desc": "Exportación desde zona franca a seis regiones." }
+    },
+    "inquiry": {
+      "label": "Solicite un presupuesto en 1 minuto",
+      "product": "Producto",
+      "productPlaceholder": "Seleccione producto",
+      "volume": "Volumen / envase",
+      "volumePlaceholder": "ej. 5.000 L / mes",
+      "country": "País",
+      "countryPlaceholder": "Su país",
+      "submit": "Solicitar presupuesto"
+    },
     "stat1Value": "3",
     "stat1Label": "Sistemas de gestión ISO",
     "stat2Value": "6",
@@ -49,6 +66,18 @@
     "stat4Value": "100%",
     "stat4Label": "Fabricado en EAU"
   },
+  "promo": {
+    "badge": "Marca propia",
+    "title": "Lance su propia marca de aceite de motor",
+    "text": "Producción completa de marca propia con un único socio con certificación ISO en los EAU — su fórmula, su etiqueta, lista para exportar.",
+    "cta": "Obtener una propuesta",
+    "m1Value": "1.000 L",
+    "m1Label": "Pedido mín.",
+    "m2Value": "10–14",
+    "m2Label": "Días de plazo",
+    "m3Value": "Global",
+    "m3Label": "Exportación"
+  },
   "trust": {
     "title": "Hecho para compradores que verifican",
     "marquee": "ISO 9001:2015 · ISO 14001:2015 · ISO 45001:2018 · Especificaciones API · Secuencias ACEA · Formulaciones alineadas con OEM · Acreditado por UAF · Ras Al Khaimah, EAU",
@@ -57,7 +86,7 @@
       "regionsLabel": "Regiones de exportación",
       "familiesValue": "7+",
       "familiesLabel": "Familias de lubricantes",
-      "packsValue": "700ml–208L",
+      "packsValue": "1L–208L",
       "packsLabel": "Envases y a granel",
       "isoValue": "ISO 3",
       "isoLabel": "Sistemas certificados activos"
@@ -66,11 +95,16 @@
   "products": {
     "eyebrow": "Gama de productos",
     "title": "Una cartera completa de lubricantes",
-    "subtitle": "Formulados según especificaciones internacionales API, ACEA y OEM, mezclados en los EAU y envasados desde 700 ml hasta a granel.",
+    "subtitle": "Formulados según especificaciones internacionales API, ACEA y OEM, mezclados en los EAU y envasados desde 1 L hasta a granel.",
     "tdsNote": "Hojas de datos técnicos disponibles a pedido.",
     "cta": "Solicitar el catálogo completo",
     "ctaCardTitle": "¿Necesita un grado específico?",
     "ctaCardText": "Envíe su especificación — la igualamos a una formulación o desarrollamos una.",
+    "requestQuote": "Pedir precio",
+    "viewAll": "Ver todos los productos",
+    "badgeBest": "Más vendido",
+    "badgeHeavy": "Servicio pesado",
+    "badge2t": "2 tiempos",
     "items": {
       "motor": {
         "name": "Aceites de motor",
@@ -109,7 +143,7 @@
     "capabilities": {
       "facility": {
         "title": "Planta de mezcla",
-        "desc": "Mezcla automatizada y líneas de llenado de alta velocidad para envases de 700 ml a tambores de 208 L y a granel."
+        "desc": "Mezcla automatizada y líneas de llenado de alta velocidad para envases de 1 L a tambores de 208 L y a granel."
       },
       "lab": {
         "title": "Laboratorio propio",
@@ -126,7 +160,17 @@
     },
     "ringCaption": "Zona Industrial de Al Hamra, Ras Al Khaimah",
     "galleryTitle": "Dentro de la planta",
-    "gallerySubtitle": "Nave de producción y laboratorio de control de calidad en Ras Al Khaimah, EAU."
+    "gallerySubtitle": "Nave de producción y laboratorio de control de calidad en Ras Al Khaimah, EAU.",
+    "galleryLine": "Línea de mezcla y envasado",
+    "galleryFilling": "Envasado de alta velocidad"
+  },
+  "quality": {
+    "eyebrow": "Por qué Lubcon",
+    "title": "Protección diseñada a nanoescala",
+    "p1": "Tecnología de aditivos nanoSHIELD: menos fricción y desgaste",
+    "p2": "Cada lote analizado en laboratorio antes de su liberación",
+    "p3": "Formulado según especificaciones API, ACEA y OEM",
+    "p4": "Aceites base 100% de calidad virgen"
   },
   "certifications": {
     "eyebrow": "Certificaciones",
@@ -138,7 +182,7 @@
     "scope": "Alcance",
     "scopeText": "Fabricación, mezcla y suministro de lubricantes y productos relacionados.",
     "verifyTitle": "Verificación",
-    "verifyText": "Los certificados pertenecen a {factory}, la entidad fabricante del grupo. Acreditado por {body} ({note}) y verificable en {verifyAt}. NovaCore Global FZE es su división de exportación y comercial.",
+    "verifyText": "Los certificados pertenecen a {factory}, la entidad fabricante del grupo. Acreditado por {body} ({note}) y verificable en {verifyAt}. Lubcon Oil Group es su división de exportación y comercial.",
     "download": "Ver certificado"
   },
   "privateLabel": {
@@ -207,9 +251,9 @@
   "about": {
     "eyebrow": "Nosotros",
     "title": "La división de exportación de un fabricante de lubricantes de los EAU",
-    "lead": "NovaCore Global FZE es la división de exportación y comercial de {factory}, una planta de lubricantes con certificación ISO en Ras Al Khaimah, Emiratos Árabes Unidos.",
+    "lead": "Lubcon Oil Group es la división de exportación y comercial de {factory}, una planta de lubricantes con certificación ISO en Ras Al Khaimah, Emiratos Árabes Unidos.",
     "structureTitle": "Estructura del grupo",
-    "structureText": "La fabricación, los sistemas de calidad y los certificados ISO pertenecen a la fábrica del grupo. NovaCore Global FZE gestiona la exportación, las alianzas de distribución y los programas de marca propia. Lo declaramos abiertamente — los certificados llevan el nombre y los números de la entidad fabricante.",
+    "structureText": "La fabricación, los sistemas de calidad y los certificados ISO pertenecen a la fábrica del grupo. Lubcon Oil Group gestiona la exportación, las alianzas de distribución y los programas de marca propia. Lo declaramos abiertamente — los certificados llevan el nombre y los números de la entidad fabricante.",
     "whoTitle": "A quién servimos",
     "whoText": "Distribuidores, operadores de flotas, compradores industriales y propietarios de marcas que necesitan lubricantes fiables y conformes a especificación, y un socio capaz de hacer marca propia y exportar a escala.",
     "whyTitle": "Por qué Ras Al Khaimah",
@@ -221,7 +265,7 @@
     "company": "Empresa",
     "contact": "Contacto",
     "addressLabel": "Planta",
-    "relationship": "NovaCore Global FZE es la división de exportación de {factory}.",
+    "relationship": "Lubcon Oil Group es la división de exportación de {factory}.",
     "rights": "Todos los derechos reservados.",
     "languageLabel": "Idioma"
   },

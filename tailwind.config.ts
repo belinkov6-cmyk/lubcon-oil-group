@@ -23,6 +23,20 @@ const config: Config = {
           2: 'var(--brass-2)',
           3: 'var(--brass-3)',
         },
+        amber: {
+          DEFAULT: 'var(--amber)',
+          600: 'var(--amber-600)',
+          100: 'var(--amber-100)',
+        },
+        gold: {
+          DEFAULT: 'var(--gold)',
+          hi: 'var(--gold-hi)',
+          deep: 'var(--gold-deep)',
+        },
+        cream: 'var(--cream)',
+        'gold-muted': 'var(--gold-muted)',
+        'hero-bg0': 'var(--hero-bg0)',
+        'hero-bg1': 'var(--hero-bg1)',
         uae: {
           red: 'var(--red)',
           'red-600': 'var(--red-600)',

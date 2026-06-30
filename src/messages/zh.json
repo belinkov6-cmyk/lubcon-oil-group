@@ -1,0 +1,280 @@
+{
+  "meta": {
+    "homeTitle": "Lubcon Oil Group — 阿联酋润滑油制造与出口商",
+    "homeDescription": "位于阿联酋哈伊马角的 ISO 认证润滑油制造商。机油、柴油机油、工业及船用油、润滑脂和基础油。面向全球分销商提供自有品牌与贴牌服务。",
+    "productsTitle": "产品 — 发动机、工业及船用润滑油",
+    "productsDescription": "阿联酋制造的全系列润滑油：机油、柴油机油、变速箱与齿轮油、液压油、船用油、润滑脂、冷却液和基础油。",
+    "manufacturingTitle": "生产与质量控制",
+    "manufacturingDescription": "走进我们位于哈伊马角的工厂：调合、自有实验室、添加剂技术与出口物流，遵循 ISO 9001 / 14001 / 45001。",
+    "certificationsTitle": "认证 — ISO 9001 / 14001 / 45001",
+    "certificationsDescription": "经核验的 ISO 9001:2015、ISO 14001:2015 和 ISO 45001:2018 管理体系，附证书编号与认可信息。",
+    "privateLabelTitle": "自有品牌与贴牌润滑油",
+    "privateLabelDescription": "在阿联酋 ISO 认证工厂打造您自己的润滑油品牌。配方、调合、灌装、包装与出口，一站式合作伙伴。",
+    "aboutTitle": "关于 Lubcon Oil Group",
+    "aboutDescription": "阿联酋哈伊马角一家 ISO 认证润滑油制造商的出口与商务部门，向六大区域的分销商供货。",
+    "contactTitle": "联系与报价请求",
+    "contactDescription": "索取报价、分销条款或自有品牌方案。WhatsApp、Telegram、电话与表单 — 由哈伊马角团队回复。"
+  },
+  "nav": {
+    "home": "首页",
+    "products": "产品",
+    "manufacturing": "生产",
+    "certifications": "认证",
+    "privateLabel": "自有品牌",
+    "about": "关于我们",
+    "contact": "联系"
+  },
+  "header": {
+    "quote": "获取报价",
+    "call": "致电",
+    "menu": "菜单",
+    "close": "关闭",
+    "language": "语言"
+  },
+  "hero": {
+    "eyebrow": "润滑油制造商 · 阿联酋哈伊马角",
+    "title1": "高端机油，",
+    "titleAccent": "以您的品牌出品",
+    "title2": "出口全球",
+    "cycleCaption": "您的品牌 · 阿联酋制造",
+    "subhead": "我们按您的规格调合并灌装高品质机油 — 您的配方、您的标签、您的包装 — 在阿联酋哈伊马角的 ISO 认证工厂生产，随时出口全球。",
+    "ctaQuote": "获取报价",
+    "ctaDistributor": "打造您的品牌",
+    "scroll": "向下滚动探索",
+    "canisterLabel": "您的品牌",
+    "cards": {
+      "c1": { "title": "技术灵活性", "desc": "您的配方、您的包装、您的标签。" },
+      "c2": { "title": "认证品质", "desc": "ISO 9001 · 14001 · 45001，逐批实验室检测。" },
+      "c3": { "title": "全球物流", "desc": "自由区出口至全球六大区域。" }
+    },
+    "inquiry": {
+      "label": "1 分钟获取报价",
+      "product": "产品",
+      "productPlaceholder": "选择产品",
+      "volume": "数量 / 包装",
+      "volumePlaceholder": "例如 5,000 升 / 月",
+      "country": "国家",
+      "countryPlaceholder": "您的国家",
+      "submit": "获取报价"
+    },
+    "stat1Value": "3",
+    "stat1Label": "ISO 管理体系",
+    "stat2Value": "6",
+    "stat2Label": "供货区域",
+    "stat3Value": "7",
+    "stat3Label": "产品系列",
+    "stat4Value": "100%",
+    "stat4Label": "阿联酋制造"
+  },
+  "promo": {
+    "badge": "自有品牌",
+    "title": "打造您自己的机油品牌",
+    "text": "由一家阿联酋 ISO 认证合作伙伴提供完整的自有品牌生产 — 您的配方、您的标签，随时出口。",
+    "cta": "获取方案",
+    "m1Value": "1,000 升",
+    "m1Label": "最低起订",
+    "m2Value": "10–14",
+    "m2Label": "天交期",
+    "m3Value": "全球",
+    "m3Label": "出口范围"
+  },
+  "trust": {
+    "title": "为注重核验的买家而建",
+    "marquee": "ISO 9001:2015 · ISO 14001:2015 · ISO 45001:2018 · API 规格 · ACEA 序列 · 符合 OEM 配方 · UAF 认可 · 阿联酋哈伊马角",
+    "stats": {
+      "regionsValue": "6",
+      "regionsLabel": "服务出口区域",
+      "familiesValue": "7+",
+      "familiesLabel": "润滑油产品系列",
+      "packsValue": "1L–208L",
+      "packsLabel": "包装规格与散装",
+      "isoValue": "ISO 3",
+      "isoLabel": "已建立的认证体系"
+    }
+  },
+  "products": {
+    "eyebrow": "产品系列",
+    "title": "完整的润滑油产品组合",
+    "subtitle": "按 API、ACEA 和 OEM 国际规格配制，在阿联酋调合，包装规格从 1 升到散装。",
+    "tdsNote": "技术数据表 (TDS) 可应要求提供。",
+    "cta": "索取完整目录",
+    "ctaCardTitle": "需要特定黏度等级？",
+    "ctaCardText": "发送您的规格 — 我们为您匹配或开发配方。",
+    "requestQuote": "索取报价",
+    "viewAll": "查看全部产品",
+    "badgeBest": "畅销",
+    "badgeHeavy": "重负荷",
+    "badge2t": "二冲程",
+    "items": {
+      "motor": {
+        "name": "机油",
+        "desc": "面向乘用车的全合成与半合成机油，涵盖现代黏度等级。"
+      },
+      "diesel": {
+        "name": "柴油机油",
+        "desc": "适用于商用车队、工程机械与发电的重负荷机油。"
+      },
+      "transmission": {
+        "name": "变速箱与齿轮油",
+        "desc": "自动变速箱油、手动及工业齿轮油，含 ATF。"
+      },
+      "industrial": {
+        "name": "工业与液压油",
+        "desc": "面向设备与机械的 ISO VG 等级液压油、压缩机油与导轨油。"
+      },
+      "marine": {
+        "name": "船用润滑油",
+        "desc": "面向船舶发动机与航运船队的筒状活塞油、系统油与缸油。"
+      },
+      "greases": {
+        "name": "润滑脂",
+        "desc": "面向汽车与工业用途的复合锂基、磺酸钙基与 EP 润滑脂。"
+      },
+      "coolants": {
+        "name": "冷却液、刹车油与基础油",
+        "desc": "面向调合合作伙伴的发动机冷却液、刹车油及 I–III 类基础油。"
+      }
+    }
+  },
+  "manufacturing": {
+    "eyebrow": "生产",
+    "title": "从基础油到封装托盘，一站完成",
+    "subtitle": "位于哈伊马角阿尔哈姆拉自由区的一体化工厂 — 调合、检测、灌装与出口物流。",
+    "capabilities": {
+      "facility": {
+        "title": "调合工厂",
+        "desc": "自动调合与高速灌装线，包装从 1 升到 208 升铁桶及散装。"
+      },
+      "lab": {
+        "title": "自有实验室",
+        "desc": "每批产品在放行前均检测黏度、闪点及关键参数。"
+      },
+      "additive": {
+        "title": "添加剂技术",
+        "desc": "符合 OEM 的添加剂体系与基础油选型，确保稳定且达标的性能。"
+      },
+      "logistics": {
+        "title": "出口物流",
+        "desc": "自由区区位，提供单证及面向全球的海运与陆运。"
+      }
+    },
+    "ringCaption": "阿尔哈姆拉工业区，哈伊马角",
+    "galleryTitle": "走进工厂",
+    "gallerySubtitle": "阿联酋哈伊马角的生产车间与质量控制实验室。",
+    "galleryLine": "调合与灌装线",
+    "galleryFilling": "高速灌装"
+  },
+  "quality": {
+    "eyebrow": "为何选择 Lubcon",
+    "title": "纳米级防护工艺",
+    "p1": "nanoSHIELD 添加剂技术，降低摩擦与磨损",
+    "p2": "每批产品放行前均经实验室检测",
+    "p3": "按 API、ACEA 和 OEM 规格配制",
+    "p4": "100% 原生品质基础油"
+  },
+  "certifications": {
+    "eyebrow": "认证",
+    "title": "独立认证的管理体系",
+    "subtitle": "颁发给我们集团的生产实体，可凭证书编号核验 — 符合专业买家的期望。",
+    "issued": "颁发日期",
+    "validUntil": "有效期至",
+    "certNo": "证书编号",
+    "scope": "范围",
+    "scopeText": "润滑油及相关产品的生产、调合与供应。",
+    "verifyTitle": "核验",
+    "verifyText": "证书由集团生产实体 {factory} 持有。经 {body}（{note}）认可，可在 {verifyAt} 核验。Lubcon Oil Group 为其出口与商务部门。",
+    "download": "查看证书"
+  },
+  "privateLabel": {
+    "eyebrow": "自有品牌与贴牌",
+    "title": "打造您自己的润滑油品牌",
+    "subtitle": "由一家阿联酋 ISO 认证合作伙伴提供 — 配方、调合、灌装、标签设计与出口。",
+    "steps": {
+      "s1": { "title": "明确需求", "desc": "提供目标等级、规格、数量与市场。" },
+      "s2": { "title": "研制配方", "desc": "我们匹配或开发配方，并以实验室数据确认。" },
+      "s3": { "title": "品牌与灌装", "desc": "您的标签、您的包装，在我们的产线灌装。" },
+      "s4": { "title": "出口", "desc": "提供单证并运送至您的分销枢纽。" }
+    },
+    "ctaPrimary": "发起自有品牌咨询",
+    "ctaSecondary": "通过 WhatsApp 沟通"
+  },
+  "exportMap": {
+    "eyebrow": "全球覆盖",
+    "title": "从哈伊马角发往六大区域",
+    "subtitle": "位于阿拉伯湾的自由区基地，快速通达东西方市场。",
+    "hub": "阿联酋哈伊马角",
+    "regions": {
+      "gcc": { "name": "海湾与中东", "note": "沙特、阿曼、卡塔尔、科威特、巴林" },
+      "europe": { "name": "欧洲", "note": "欧盟分销商与调合商" },
+      "cis": { "name": "俄罗斯与独联体", "note": "俄语市场" },
+      "africa": { "name": "非洲", "note": "东非与西非港口" },
+      "latam": { "name": "拉丁美洲", "note": "南美与中美" },
+      "asia": { "name": "亚洲", "note": "南亚与东南亚" }
+    }
+  },
+  "contact": {
+    "eyebrow": "联系",
+    "title": "索取报价或分销条款",
+    "subtitle": "告诉我们您的需求。通常在一个工作日内由哈伊马角团队回复。",
+    "channels": {
+      "whatsapp": "WhatsApp",
+      "whatsappValue": "与出口部门在线沟通",
+      "telegram": "Telegram",
+      "telegramValue": "通过 Telegram 联系我们",
+      "phone": "电话",
+      "phoneValue": "致电出口部门",
+      "personLabel": "出口联系人"
+    },
+    "form": {
+      "name": "全名",
+      "company": "公司",
+      "country": "国家",
+      "email": "邮箱",
+      "phone": "电话",
+      "interest": "意向产品",
+      "interestPlaceholder": "选择类别",
+      "interestGeneral": "综合 / 多个",
+      "message": "留言",
+      "messagePlaceholder": "数量、目标等级、市场、时间安排……",
+      "submit": "发送请求",
+      "sending": "发送中……",
+      "successTitle": "已收到请求",
+      "successText": "谢谢 — 我们的出口部门将尽快回复。如需即时回应，请通过 WhatsApp 联系我们。",
+      "errorTitle": "无法发送",
+      "errorText": "出现问题。请重试，或直接通过 WhatsApp 联系我们。",
+      "whatsappFallback": "继续使用 WhatsApp",
+      "required": "必填",
+      "invalidEmail": "请输入有效邮箱",
+      "consent": "提交即表示您同意就您的咨询接受联系。"
+    }
+  },
+  "about": {
+    "eyebrow": "关于我们",
+    "title": "一家阿联酋润滑油制造商的出口部门",
+    "lead": "Lubcon Oil Group 是 {factory} 的出口与商务部门，后者是位于阿联酋哈伊马角的 ISO 认证润滑油工厂。",
+    "structureTitle": "集团架构",
+    "structureText": "生产、质量体系与 ISO 证书归属集团工厂。Lubcon Oil Group 负责出口、分销合作与自有品牌项目。我们对此关系公开说明 — 证书载有生产实体的名称与编号。",
+    "whoTitle": "我们服务的对象",
+    "whoText": "分销商、车队运营商、工业买家及品牌方 — 他们需要可靠、达标的润滑油，以及能够规模化贴牌与出口的合作伙伴。",
+    "whyTitle": "为何选择哈伊马角",
+    "whyText": "位于阿拉伯湾的自由区工业基地，提供高效的海陆物流、简化的出口单证，以及快速通达东西方市场的能力。"
+  },
+  "footer": {
+    "tagline": "阿联酋制造的润滑油，面向全球市场。",
+    "explore": "浏览",
+    "company": "公司",
+    "contact": "联系",
+    "addressLabel": "工厂",
+    "relationship": "Lubcon Oil Group 是 {factory} 的出口部门。",
+    "rights": "版权所有。",
+    "languageLabel": "语言"
+  },
+  "common": {
+    "requestQuote": "获取报价",
+    "viewProducts": "查看产品",
+    "learnMore": "了解更多",
+    "backHome": "返回首页",
+    "specs": "规格",
+    "getInTouch": "联系我们"
+  }
+}

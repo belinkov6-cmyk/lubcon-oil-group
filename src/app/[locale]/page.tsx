@@ -1,8 +1,11 @@
 import { setRequestLocale } from 'next-intl/server';
-import Hero from '@/components/sections/Hero';
+import HeroPremium from '@/components/sections/HeroPremium';
+import PromoBand from '@/components/sections/PromoBand';
 import TrustMarquee from '@/components/sections/TrustMarquee';
 import Products from '@/components/sections/Products';
+import QualityBand from '@/components/sections/QualityBand';
 import Manufacturing from '@/components/sections/Manufacturing';
+import Gallery from '@/components/sections/Gallery';
 import Certifications from '@/components/sections/Certifications';
 import PrivateLabel from '@/components/sections/PrivateLabel';
 import ExportMap from '@/components/sections/ExportMap';
@@ -20,10 +23,13 @@ export default async function HomePage({
   return (
     <>
       <FaqJsonLd />
-      <Hero />
+      <HeroPremium />
+      <PromoBand />
       <TrustMarquee />
       <Products />
+      <QualityBand />
       <Manufacturing />
+      <Gallery />
       <Certifications />
       <PrivateLabel />
       <ExportMap />

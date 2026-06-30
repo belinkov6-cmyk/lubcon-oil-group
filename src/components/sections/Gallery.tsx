@@ -5,16 +5,10 @@ import SectionHeading from '../SectionHeading';
 import Reveal from '../Reveal';
 
 const PHOTOS = [
-  {
-    src: '/manufacturing/laboratory.jpg',
-    captionKey: 'capabilities.lab.title',
-    span: 'sm:col-span-3',
-  },
-  {
-    src: '/manufacturing/facility.png',
-    captionKey: 'capabilities.facility.title',
-    span: 'sm:col-span-2',
-  },
+  { src: '/manufacturing/production-line.jpg', captionKey: 'galleryLine' },
+  { src: '/manufacturing/laboratory.jpg', captionKey: 'capabilities.lab.title' },
+  { src: '/manufacturing/filling.png', captionKey: 'galleryFilling' },
+  { src: '/manufacturing/facility.png', captionKey: 'capabilities.facility.title' },
 ] as const;
 
 export default function Gallery() {
@@ -29,10 +23,10 @@ export default function Gallery() {
           subtitle={t('gallerySubtitle')}
         />
 
-        <div className="mt-10 grid gap-5 sm:grid-cols-5">
+        <div className="mt-10 grid gap-5 sm:grid-cols-2">
           {PHOTOS.map((p, i) => (
-            <Reveal key={p.src} delay={i * 90} className={p.span}>
-              <figure className="group relative aspect-[16/11] overflow-hidden rounded-card border border-line shadow-soft">
+            <Reveal key={p.src} delay={(i % 2) * 90}>
+              <figure className="group relative aspect-[16/10] overflow-hidden rounded-card border border-line shadow-soft">
                 <Image
                   src={p.src}
                   alt={`${t(p.captionKey)} — ${company.factory}, ${company.city}`}

@@ -1,33 +1,52 @@
 import { Link } from '@/i18n/navigation';
 
-export default function Logo({ onClick }: { onClick?: () => void }) {
+export default function Logo({
+  onClick,
+  light = false,
+}: {
+  onClick?: () => void;
+  light?: boolean;
+}) {
   return (
     <Link
       href="/"
       onClick={onClick}
       className="group inline-flex items-center gap-2.5"
-      aria-label="NovaCore Global FZE — home"
+      aria-label="Lubcon Oil Group — home"
     >
-      <span className="relative inline-flex h-9 w-9 items-center justify-center rounded-[11px] bg-navy text-white shadow-soft">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-          <path
-            d="M12 2c3.6 4.2 6 7.6 6 11a6 6 0 1 1-12 0c0-3.4 2.4-6.8 6-11Z"
-            fill="url(#dropGrad)"
-          />
-          <defs>
-            <linearGradient id="dropGrad" x1="6" y1="2" x2="18" y2="19" gradientUnits="userSpaceOnUse">
-              <stop stopColor="#E8D4A6" />
-              <stop offset="1" stopColor="#B07D2B" />
-            </linearGradient>
-          </defs>
-        </svg>
-      </span>
+      <svg width="34" height="38" viewBox="0 0 36 40" fill="none" aria-hidden="true" className="shrink-0">
+        <defs>
+          <linearGradient id="lub-gold" x1="8" y1="12" x2="28" y2="38" gradientUnits="userSpaceOnUse">
+            <stop stopColor="#F0D38A" />
+            <stop offset="0.55" stopColor="#D7A93F" />
+            <stop offset="1" stopColor="#9C7A33" />
+          </linearGradient>
+        </defs>
+        {/* gold droplet */}
+        <path
+          d="M18 12 C23 19 27 24 27 29 a9 9 0 0 1 -18 0 C9 24 13 19 18 12 Z"
+          fill="url(#lub-gold)"
+        />
+        <path d="M14.5 27.5 a3.5 3.5 0 0 0 3.5 3.5" stroke="#fff" strokeOpacity="0.5" strokeWidth="1.4" strokeLinecap="round" fill="none" />
+        {/* red + blue flame tips */}
+        <path d="M18 13 C13 9 13.2 4.8 16 2 C15.2 6 15.4 10 18 13 Z" fill="#E2231A" />
+        <path d="M18 13 C23 9 22.8 4.8 20 2 C20.8 6 20.6 10 18 13 Z" fill="#1F2E6E" />
+      </svg>
+
       <span className="flex flex-col leading-none">
-        <span className="font-display text-[17px] font-extrabold tracking-tightest text-ink">
-          NovaCore
+        <span
+          className={`font-display text-[19px] font-extrabold tracking-tightest ${
+            light ? 'text-cream' : 'text-ink'
+          }`}
+        >
+          Lubcon
         </span>
-        <span className="text-[10px] font-semibold uppercase tracking-[0.22em] text-navy-600">
-          Global FZE
+        <span
+          className={`mt-0.5 text-[10px] font-semibold uppercase tracking-[0.24em] ${
+            light ? 'text-gold-hi' : 'text-gold-deep'
+          }`}
+        >
+          Oil Group
         </span>
       </span>
     </Link>

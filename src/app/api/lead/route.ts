@@ -49,7 +49,7 @@ export async function POST(req: Request) {
   const chatId = process.env.TELEGRAM_CHAT_ID;
 
   const text = [
-    '🛢️ *New NovaCore lead*',
+    '🛢️ *New Lubcon lead*',
     `*Name:* ${name}`,
     company && `*Company:* ${company}`,
     country && `*Country:* ${country}`,

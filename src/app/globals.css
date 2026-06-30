@@ -19,6 +19,21 @@
   --brass-2: #c99a45;
   --brass-3: #e8d4a6;
 
+  /* Amber / gold — primary accent for the rental-style light theme */
+  --amber: #f3b324;
+  --amber-600: #e09a12;
+  --amber-100: #fbe9c2;
+
+  /* Cinematic dark + gold (premium hero) */
+  --hero-bg0: #080603;
+  --hero-bg1: #15100a;
+  --gold: #c9a24b;
+  --gold-hi: #f0d38a;
+  --gold-deep: #9c7a33;
+  --cream: #f5efe3;
+  --gold-muted: #c8bca6;
+  --gold-line: rgba(201, 162, 75, 0.45);
+
   /* UAE flag red (sparing accent) */
   --red: #ce1126;
   --red-600: #a90e1f;
@@ -67,6 +82,60 @@ body {
   }
 }
 
+/* Hero production-cycle animations (gated by prefers-reduced-motion below) */
+@keyframes pipeflow {
+  to {
+    stroke-dashoffset: -180;
+  }
+}
+@keyframes nodepulse {
+  0%,
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  35% {
+    opacity: 0.7;
+  }
+  70% {
+    opacity: 0;
+    transform: scale(1.7);
+  }
+}
+@keyframes liquidlevel {
+  0%,
+  100% {
+    transform: scaleY(0.42);
+  }
+  50% {
+    transform: scaleY(0.86);
+  }
+}
+@keyframes flare {
+  0%,
+  100% {
+    transform: scaleY(1) scaleX(0.96);
+    opacity: 0.85;
+  }
+  50% {
+    transform: scaleY(1.18) scaleX(1.04);
+    opacity: 1;
+  }
+}
+@keyframes steam {
+  0% {
+    opacity: 0;
+    transform: translateY(0) scale(0.8);
+  }
+  40% {
+    opacity: 0.45;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-26px) scale(1.3);
+  }
+}
+
 @layer components {
   .container-x {
     @apply mx-auto w-full max-w-content px-5 sm:px-8;
@@ -100,6 +169,35 @@ body {
   .btn-ghost {
     @apply btn border border-line bg-white/70 text-ink px-6 py-3 hover:bg-surface hover:border-brass-3;
   }
+  .btn-amber {
+    @apply btn px-6 py-3 font-bold text-ink;
+    background: linear-gradient(135deg, var(--amber), var(--amber-600));
+    box-shadow: 0 8px 22px rgba(224, 154, 18, 0.28);
+  }
+  .btn-amber:hover {
+    filter: brightness(1.04);
+    box-shadow: 0 10px 26px rgba(224, 154, 18, 0.34);
+  }
+  .btn-gold {
+    @apply btn px-7 py-3.5 font-bold;
+    color: #1b1206;
+    background: linear-gradient(135deg, var(--gold-hi), var(--gold));
+    box-shadow: 0 10px 30px rgba(201, 162, 75, 0.3);
+  }
+  .btn-gold:hover {
+    filter: brightness(1.05);
+    transform: translateY(-1px);
+  }
+  .btn-gold-outline {
+    @apply btn px-7 py-3.5 font-semibold;
+    color: var(--gold-hi);
+    border: 1px solid var(--gold-line);
+    background: rgba(245, 239, 227, 0.04);
+  }
+  .btn-gold-outline:hover {
+    border-color: var(--gold-hi);
+    background: rgba(201, 162, 75, 0.1);
+  }
 
   .card {
     @apply rounded-card border border-line bg-white shadow-soft;
@@ -120,6 +218,12 @@ body {
   }
   .brass-gradient-text {
     background: linear-gradient(135deg, var(--brass), var(--brass-2));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .gold-gradient-text {
+    background: linear-gradient(120deg, var(--gold-hi) 0%, var(--gold) 45%, var(--gold-deep) 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;

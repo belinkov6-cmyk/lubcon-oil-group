@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
+import { createElement, useEffect, useRef, useState } from 'react';
 
 export default function Reveal({
   children,
@@ -34,14 +34,15 @@ export default function Reveal({
     return () => io.disconnect();
   }, []);
 
-  const Comp = Tag as React.ElementType;
-  return (
-    <Comp
-      ref={ref}
-      style={delay ? { transitionDelay: `${delay}ms` } : undefined}
-      className={`reveal ${shown ? 'is-in' : ''} ${className}`}
-    >
-      {children}
-    </Comp>
+  // Use createElement so the polymorphic `as` tag isn't affected by react-three-fiber's
+  // global JSX.IntrinsicElements augmentation (which otherwise breaks children typing).
+  return createElement(
+    Tag,
+    {
+      ref,
+      style: delay ? { transitionDelay: `${delay}ms` } : undefined,
+      className: `reveal ${shown ? 'is-in' : ''} ${className}`,
+    },
+    children
   );
 }

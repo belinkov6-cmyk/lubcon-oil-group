@@ -1,6 +1,6 @@
 {
   "meta": {
-    "homeTitle": "NovaCore Global FZE — Lubricant Manufacturer & Exporter, UAE",
+    "homeTitle": "Lubcon Oil Group — Lubricant Manufacturer & Exporter, UAE",
     "homeDescription": "ISO-certified lubricant manufacturer in Ras Al Khaimah, UAE. Motor, diesel, industrial and marine oils, greases and base oils. Private label and white label for distributors worldwide.",
     "productsTitle": "Products — Engine, Industrial & Marine Lubricants",
     "productsDescription": "Full range of UAE-manufactured lubricants: motor oils, diesel engine oils, transmission and gear oils, hydraulic, marine, greases, coolants and base oils.",
@@ -10,7 +10,7 @@
     "certificationsDescription": "Verified ISO 9001:2015, ISO 14001:2015 and ISO 45001:2018 management systems with certificate numbers and accreditation details.",
     "privateLabelTitle": "Private Label & White Label Lubricants",
     "privateLabelDescription": "Launch your own lubricant brand from a UAE ISO-certified plant. Formulation, blending, filling, packaging and export in one partner.",
-    "aboutTitle": "About NovaCore Global FZE",
+    "aboutTitle": "About Lubcon Oil Group",
     "aboutDescription": "The export and commercial division of an ISO-certified lubricant manufacturer in Ras Al Khaimah, UAE, supplying distributors across six regions.",
     "contactTitle": "Contact & Request a Quote",
     "contactDescription": "Request a quote, distributor terms or private-label proposal. WhatsApp, Telegram, phone and form — answered from Ras Al Khaimah, UAE."
@@ -33,13 +33,30 @@
   },
   "hero": {
     "eyebrow": "Lubricant manufacturer · Ras Al Khaimah, UAE",
-    "title1": "Premium lubricants,",
-    "titleAccent": "engineered in the UAE",
+    "title1": "Premium motor oils, ",
+    "titleAccent": "made under your brand",
     "title2": "exported worldwide",
-    "subhead": "NovaCore Global FZE is the export division of an ISO-certified lubricant plant in Ras Al Khaimah. We manufacture engine, industrial and marine lubricants — and build private-label brands for distributors across the GCC, Europe, CIS, Africa, Latin America and Asia.",
+    "cycleCaption": "Your brand · Made in the UAE",
+    "subhead": "We blend and bottle premium-quality motor oils to your specification — your formula, your label, your packaging — at an ISO-certified plant in Ras Al Khaimah, UAE, ready to export worldwide.",
     "ctaQuote": "Request a Quote",
-    "ctaDistributor": "Become a Distributor",
+    "ctaDistributor": "Build your brand",
     "scroll": "Scroll to explore",
+    "canisterLabel": "YOUR BRAND",
+    "cards": {
+      "c1": { "title": "Technological flexibility", "desc": "Your formulation, your packaging, your label." },
+      "c2": { "title": "Certified quality", "desc": "ISO 9001 · 14001 · 45001, lab-tested batches." },
+      "c3": { "title": "Global logistics", "desc": "Free-zone export to six regions worldwide." }
+    },
+    "inquiry": {
+      "label": "Request a quote in 1 minute",
+      "product": "Product",
+      "productPlaceholder": "Select product",
+      "volume": "Volume / packaging",
+      "volumePlaceholder": "e.g. 5,000 L / month",
+      "country": "Country",
+      "countryPlaceholder": "Your country",
+      "submit": "Get a Quote"
+    },
     "stat1Value": "3",
     "stat1Label": "ISO management systems",
     "stat2Value": "6",
@@ -49,6 +66,18 @@
     "stat4Value": "100%",
     "stat4Label": "UAE-manufactured"
   },
+  "promo": {
+    "badge": "Private label",
+    "title": "Launch your own motor-oil brand",
+    "text": "Full private-label production from one ISO-certified UAE partner — your formula, your label, export-ready.",
+    "cta": "Get a proposal",
+    "m1Value": "1,000 L",
+    "m1Label": "Min. order",
+    "m2Value": "10–14",
+    "m2Label": "Days lead time",
+    "m3Value": "Global",
+    "m3Label": "Export reach"
+  },
   "trust": {
     "title": "Built for buyers who verify",
     "marquee": "ISO 9001:2015 · ISO 14001:2015 · ISO 45001:2018 · API specifications · ACEA sequences · OEM-aligned formulations · UAF accredited · Ras Al Khaimah, UAE",
@@ -57,7 +86,7 @@
       "regionsLabel": "Export regions served",
       "familiesValue": "7+",
       "familiesLabel": "Lubricant product families",
-      "packsValue": "700ml–208L",
+      "packsValue": "1L–208L",
       "packsLabel": "Pack sizes & bulk",
       "isoValue": "ISO 3",
       "isoLabel": "Certified systems in place"
@@ -66,11 +95,16 @@
   "products": {
     "eyebrow": "Product range",
     "title": "A complete lubricant portfolio",
-    "subtitle": "Formulated to international API, ACEA and OEM specifications, blended in the UAE and packed from 700 ml to bulk.",
+    "subtitle": "Formulated to international API, ACEA and OEM specifications, blended in the UAE and packed from 1 L to bulk.",
     "tdsNote": "Technical data sheets available on request.",
     "cta": "Request the full catalogue",
     "ctaCardTitle": "Need a specific grade?",
     "ctaCardText": "Send your specification — we match it to a formulation or develop one.",
+    "requestQuote": "Request quote",
+    "viewAll": "View all products",
+    "badgeBest": "Best seller",
+    "badgeHeavy": "Heavy duty",
+    "badge2t": "2-stroke",
     "items": {
       "motor": {
         "name": "Motor Oils",
@@ -109,7 +143,7 @@
     "capabilities": {
       "facility": {
         "title": "Blending facility",
-        "desc": "Automated blending and high-speed filling lines for packs from 700 ml to 208 L drums and bulk."
+        "desc": "Automated blending and high-speed filling lines for packs from 1 L to 208 L drums and bulk."
       },
       "lab": {
         "title": "In-house laboratory",
@@ -126,7 +160,17 @@
     },
     "ringCaption": "Al Hamra Industrial Zone, Ras Al Khaimah",
     "galleryTitle": "Inside the facility",
-    "gallerySubtitle": "Production hall and quality-control laboratory in Ras Al Khaimah, UAE."
+    "gallerySubtitle": "Production hall and quality-control laboratory in Ras Al Khaimah, UAE.",
+    "galleryLine": "Blending & filling line",
+    "galleryFilling": "High-speed bottling"
+  },
+  "quality": {
+    "eyebrow": "Why Lubcon",
+    "title": "Protection engineered at nano scale",
+    "p1": "nanoSHIELD additive technology for lower friction and wear",
+    "p2": "Every batch lab-tested before release",
+    "p3": "Formulated to API, ACEA and OEM specifications",
+    "p4": "100% virgin-quality base oils"
   },
   "certifications": {
     "eyebrow": "Certifications",
@@ -138,7 +182,7 @@
     "scope": "Scope",
     "scopeText": "Manufacturing, blending and supply of lubricants and related products.",
     "verifyTitle": "Verification",
-    "verifyText": "Certificates are held by {factory}, the group manufacturing entity. Accredited by {body} ({note}) and verifiable at {verifyAt}. NovaCore Global FZE is its export and commercial division.",
+    "verifyText": "Certificates are held by {factory}, the group manufacturing entity. Accredited by {body} ({note}) and verifiable at {verifyAt}. Lubcon Oil Group is its export and commercial division.",
     "download": "View certificate"
   },
   "privateLabel": {
@@ -207,9 +251,9 @@
   "about": {
     "eyebrow": "About",
     "title": "The export arm of a UAE lubricant manufacturer",
-    "lead": "NovaCore Global FZE is the export and commercial division of {factory}, an ISO-certified lubricant plant in Ras Al Khaimah, United Arab Emirates.",
+    "lead": "Lubcon Oil Group is the export and commercial division of {factory}, an ISO-certified lubricant plant in Ras Al Khaimah, United Arab Emirates.",
     "structureTitle": "Group structure",
-    "structureText": "Manufacturing, quality systems and ISO certificates belong to the group factory. NovaCore Global FZE handles export, distribution partnerships and private-label programs. We state this relationship openly — the certificates carry the manufacturing entity's name and numbers.",
+    "structureText": "Manufacturing, quality systems and ISO certificates belong to the group factory. Lubcon Oil Group handles export, distribution partnerships and private-label programs. We state this relationship openly — the certificates carry the manufacturing entity's name and numbers.",
     "whoTitle": "Who we serve",
     "whoText": "Distributors, fleet operators, industrial buyers and brand owners who need reliable, specification-grade lubricants and a partner that can private-label and export at scale.",
     "whyTitle": "Why Ras Al Khaimah",
@@ -221,7 +265,7 @@
     "company": "Company",
     "contact": "Contact",
     "addressLabel": "Facility",
-    "relationship": "NovaCore Global FZE is the export division of {factory}.",
+    "relationship": "Lubcon Oil Group is the export division of {factory}.",
     "rights": "All rights reserved.",
     "languageLabel": "Language"
   },

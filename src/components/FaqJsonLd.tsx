@@ -2,7 +2,7 @@ import { company, certificates } from '@/lib/site';
 
 const FAQ: { q: string; a: string }[] = [
   {
-    q: 'Who is NovaCore Global FZE?',
+    q: 'Who is Lubcon Oil Group?',
     a: `${company.name} is the export and commercial division of an ISO-certified lubricant manufacturer in Ras Al Khaimah, UAE, supplying distributors, fleet operators and brand owners worldwide.`,
   },
   {

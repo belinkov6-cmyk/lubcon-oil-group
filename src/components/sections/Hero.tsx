@@ -1,6 +1,6 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
-import FlagMark from '../FlagMark';
+import HeroVisual3D from '../hero/HeroVisual3D';
 
 export default function Hero() {
   const t = useTranslations('hero');
@@ -35,10 +35,9 @@ export default function Hero() {
           </span>
 
           {/* LCP element — rendered immediately, no entrance animation */}
-          <h1 className="mt-5 h-display text-[2.6rem] leading-[1.04] sm:text-6xl lg:text-[4.1rem]">
-            {t('title1')}{' '}
-            <span className="accent-serif">{t('titleAccent')}</span>,{' '}
-            {t('title2')}.
+          <h1 className="mt-5 h-display text-[3rem] leading-[1.02] sm:text-6xl lg:text-[4.5rem]">
+            {t('title1')}
+            <span className="accent-serif">{t('titleAccent')}</span>.
           </h1>
 
           <p
@@ -81,9 +80,9 @@ export default function Hero() {
           </dl>
         </div>
 
-        {/* Visual: stacked product / oil-flow card */}
+        {/* Visual: 3D premium oil bottle (private-label) */}
         <div className="relative hidden opacity-0 animate-fadeup lg:block" style={{ animationDelay: '160ms' }}>
-          <HeroVisual />
+          <HeroVisual3D caption={t('cycleCaption')} />
         </div>
       </div>
 
@@ -92,64 +91,5 @@ export default function Hero() {
         <span className="h-8 w-px animate-floaty bg-gradient-to-b from-brass to-transparent" aria-hidden="true" />
       </div>
     </section>
-  );
-}
-
-function HeroVisual() {
-  return (
-    <div className="relative mx-auto aspect-[4/5] w-full max-w-md">
-      <div className="absolute inset-0 rounded-[26px] border border-line bg-gradient-to-br from-white to-surface shadow-lift" />
-      {/* Flowing oil arcs */}
-      <svg
-        viewBox="0 0 400 500"
-        className="absolute inset-0 h-full w-full"
-        fill="none"
-        aria-hidden="true"
-      >
-        <defs>
-          <linearGradient id="oil1" x1="0" y1="0" x2="400" y2="500" gradientUnits="userSpaceOnUse">
-            <stop stopColor="#E8D4A6" />
-            <stop offset="1" stopColor="#B07D2B" />
-          </linearGradient>
-          <linearGradient id="oil2" x1="0" y1="0" x2="400" y2="500" gradientUnits="userSpaceOnUse">
-            <stop stopColor="#2BA567" />
-            <stop offset="1" stopColor="#0B6B3A" />
-          </linearGradient>
-        </defs>
-        {[0, 1, 2, 3, 4].map((i) => (
-          <path
-            key={i}
-            d={`M-20 ${120 + i * 70} C 120 ${60 + i * 70}, 260 ${200 + i * 60}, 440 ${100 + i * 70}`}
-            stroke={i % 2 ? 'url(#oil2)' : 'url(#oil1)'}
-            strokeWidth="2"
-            strokeDasharray="6 10"
-            opacity={0.5 - i * 0.05}
-            className="animate-dash"
-            style={{ animationDelay: `${i * 0.4}s` }}
-          />
-        ))}
-      </svg>
-
-      {/* Concentric rings */}
-      <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
-        {[200, 150, 100].map((s, i) => (
-          <div
-            key={s}
-            className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full border border-brass-3"
-            style={{ width: s, height: s, opacity: 0.6 - i * 0.12 }}
-          />
-        ))}
-        <div className="relative flex h-24 w-24 items-center justify-center rounded-full bg-navy text-white shadow-brass">
-          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-            <path d="M12 2c3.6 4.2 6 7.6 6 11a6 6 0 1 1-12 0c0-3.4 2.4-6.8 6-11Z" fill="url(#oil1)" />
-          </svg>
-        </div>
-      </div>
-
-      <div className="absolute bottom-5 left-1/2 flex -translate-x-1/2 items-center gap-2 rounded-pill border border-line bg-white/80 px-4 py-1.5 text-xs font-semibold text-navy backdrop-blur">
-        <FlagMark width={18} />
-        Made in Ras Al Khaimah · UAE
-      </div>
-    </div>
   );
 }

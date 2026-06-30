@@ -1,75 +1,84 @@
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
-import { productKeys, productSpecs } from '@/lib/site';
+import { catalog } from '@/lib/site';
 import SectionHeading from '../SectionHeading';
 import Reveal from '../Reveal';
-import ProductIcon from '../ProductIcon';
+
+const BADGE_STYLE: Record<string, string> = {
+  best: 'bg-amber text-ink',
+  heavy: 'bg-navy text-white',
+  twostroke: 'bg-uae-red text-white',
+};
+const BADGE_KEY: Record<string, string> = {
+  best: 'badgeBest',
+  heavy: 'badgeHeavy',
+  twostroke: 'badge2t',
+};
 
 export default function Products({ bare = false }: { bare?: boolean }) {
   const t = useTranslations('products');
 
   return (
-    <section id="products" className={bare ? 'bg-surface py-16' : 'bg-surface py-20 sm:py-28'}>
+    <section id="products" className={bare ? 'bg-surface py-16' : 'bg-surface py-20 sm:py-24'}>
       <div className="container-x">
         {!bare && (
           <SectionHeading eyebrow={t('eyebrow')} title={t('title')} subtitle={t('subtitle')} />
         )}
 
-        <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {productKeys.map((key, i) => (
-            <Reveal key={key} delay={(i % 3) * 70}>
-              <article className="card group h-full p-6 transition-all duration-300 hover:-translate-y-1 hover:border-brass-3 hover:shadow-lift">
-                <div className="flex items-start justify-between">
-                  <span className="inline-flex h-12 w-12 items-center justify-center rounded-[14px] bg-surface text-navy transition-colors group-hover:bg-navy group-hover:text-white">
-                    <ProductIcon name={key} />
-                  </span>
-                  <span className="font-display text-sm font-bold text-brass-3 group-hover:text-brass">
-                    {String(i + 1).padStart(2, '0')}
-                  </span>
+        <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          {catalog.map((p, i) => (
+            <Reveal key={p.slug} delay={(i % 4) * 60}>
+              <article className="group flex h-full flex-col overflow-hidden rounded-card border border-line bg-white shadow-soft transition-all duration-300 hover:-translate-y-1 hover:shadow-lift">
+                <div className="relative aspect-square bg-gradient-to-b from-white to-surface">
+                  {p.badge && (
+                    <span
+                      className={`absolute start-3 top-3 z-10 rounded-pill px-3 py-1 text-[10px] font-bold uppercase tracking-wide ${BADGE_STYLE[p.badge]}`}
+                    >
+                      {t(BADGE_KEY[p.badge])}
+                    </span>
+                  )}
+                  <Image
+                    src={`/products/${p.slug}.jpg`}
+                    alt={`Lubcon ${p.name} — ${p.specs.join(' ')}`}
+                    fill
+                    sizes="(max-width: 640px) 50vw, (max-width: 1024px) 25vw, 280px"
+                    className="object-contain p-3 transition-transform duration-300 group-hover:scale-105"
+                  />
                 </div>
-                <h3 className="mt-5 font-display text-lg font-bold text-ink">
-                  {t(`items.${key}.name`)}
-                </h3>
-                <p className="mt-2 text-sm leading-relaxed text-muted">
-                  {t(`items.${key}.desc`)}
-                </p>
-                <ul className="mt-4 flex flex-wrap gap-1.5">
-                  {productSpecs[key].map((spec) => (
-                    <li key={spec} className="chip">
-                      {spec}
-                    </li>
-                  ))}
-                </ul>
+
+                <div className="flex flex-1 flex-col p-5">
+                  <span className="text-[11px] font-semibold uppercase tracking-wide text-amber-600">
+                    {t(`items.${p.category}.name`)}
+                  </span>
+                  <h3 className="mt-1 font-display text-lg font-bold text-ink">{p.name}</h3>
+
+                  <ul className="mt-3 flex flex-wrap gap-1.5">
+                    {p.specs.map((s) => (
+                      <li key={s} className="chip">
+                        {s}
+                      </li>
+                    ))}
+                  </ul>
+
+                  <div className="mt-auto flex items-center justify-between gap-2 pt-5">
+                    <span className="text-sm font-semibold text-muted">{p.size}</span>
+                    <Link href="/contact" className="btn-amber px-4 py-2 text-sm">
+                      {t('requestQuote')}
+                    </Link>
+                  </div>
+                </div>
               </article>
             </Reveal>
           ))}
-
-          {/* CTA card */}
-          <Reveal delay={140}>
-            <article className="group flex h-full flex-col justify-between rounded-card border border-navy bg-navy p-6 text-white shadow-lift">
-              <div>
-                <span className="inline-flex h-12 w-12 items-center justify-center rounded-[14px] bg-white/10 text-brass-3">
-                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                    <path d="M12 5v14M5 12h14" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
-                  </svg>
-                </span>
-                <h3 className="mt-5 font-display text-lg font-bold">{t('ctaCardTitle')}</h3>
-                <p className="mt-2 text-sm leading-relaxed text-white/70">{t('ctaCardText')}</p>
-              </div>
-              <Link
-                href="/contact"
-                className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-brass-3 transition-colors hover:text-white"
-              >
-                {t('cta')}
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                  <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
-              </Link>
-            </article>
-          </Reveal>
         </div>
 
-        <p className="mt-6 text-sm text-muted">{t('tdsNote')}</p>
+        <div className="mt-8 flex flex-col items-center gap-2">
+          <Link href="/products" className="btn-ghost">
+            {t('viewAll')}
+          </Link>
+          <p className="text-sm text-muted">{t('tdsNote')}</p>
+        </div>
       </div>
     </section>
   );

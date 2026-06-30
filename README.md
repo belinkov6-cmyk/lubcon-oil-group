@@ -1,6 +1,6 @@
-# NovaCore Global FZE — Website
+# Lubcon Oil Group — Website
 
-Premium B2B marketing site for **NovaCore Global FZE**, the export division of an ISO-certified
+Premium B2B marketing site for **Lubcon Oil Group**, the export division of an ISO-certified
 lubricant manufacturer (Lubcon Oil Based Lubricanting Manufacturing L.L.C) in Ras Al Khaimah, UAE.
 
 Built light, fast, responsive and fully internationalized (incl. Arabic RTL) for the GCC, Europe
@@ -66,7 +66,7 @@ All company facts (contacts, address, certificate numbers, products, regions) li
 
 The ISO 9001/14001/45001 certificates are presented honestly as held by the **group manufacturing
 entity** (Lubcon), with certificate numbers and a verification note — not falsely attributed to
-NovaCore.
+Lubcon.
 
 ## SEO / GEO
 

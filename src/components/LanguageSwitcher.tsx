@@ -5,7 +5,22 @@ import { usePathname, useRouter } from '@/i18n/navigation';
 import { locales, localeNames, type Locale } from '@/i18n/routing';
 import { useParams } from 'next/navigation';
 
-export default function LanguageSwitcher({ label }: { label: string }) {
+const FLAGS: Record<Locale, string> = {
+  en: '🇬🇧',
+  ar: '🇦🇪',
+  zh: '🇨🇳',
+  ru: '🇷🇺',
+  es: '🇪🇸',
+  pt: '🇵🇹',
+};
+
+export default function LanguageSwitcher({
+  label,
+  light = false,
+}: {
+  label: string;
+  light?: boolean;
+}) {
   const [open, setOpen] = useState(false);
   const router = useRouter();
   const pathname = usePathname();
@@ -34,17 +49,17 @@ export default function LanguageSwitcher({ label }: { label: string }) {
         aria-haspopup="listbox"
         aria-expanded={open}
         aria-label={label}
-        className="inline-flex items-center gap-1.5 rounded-pill border border-line bg-white/70 px-3 py-2 text-sm font-medium text-ink transition-colors hover:border-brass-3 hover:bg-surface"
+        className={`inline-flex items-center gap-1.5 rounded-pill border px-3 py-2 text-sm font-medium transition-colors ${
+          light
+            ? 'border-white/25 bg-white/10 text-cream hover:bg-white/20'
+            : 'border-line bg-white/70 text-ink hover:border-brass-3 hover:bg-surface'
+        }`}
       >
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-          <circle cx="12" cy="12" r="9" stroke="currentColor" strokeWidth="1.6" />
-          <path
-            d="M3 12h18M12 3c2.5 2.5 2.5 15 0 18M12 3c-2.5 2.5-2.5 15 0 18"
-            stroke="currentColor"
-            strokeWidth="1.6"
-          />
-        </svg>
+        <span className="text-base leading-none">{FLAGS[current]}</span>
         <span className="uppercase">{current}</span>
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" aria-hidden="true" className="opacity-70">
+          <path d="M6 9l6 6 6-6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
       </button>
       {open && (
         <ul
@@ -58,12 +73,13 @@ export default function LanguageSwitcher({ label }: { label: string }) {
                 role="option"
                 aria-selected={l === current}
                 onClick={() => change(l)}
-                className={`flex w-full items-center justify-between px-4 py-2 text-sm transition-colors hover:bg-surface ${
+                className={`flex w-full items-center gap-2.5 px-4 py-2 text-sm transition-colors hover:bg-surface ${
                   l === current ? 'font-semibold text-navy' : 'text-text'
                 }`}
               >
+                <span className="text-base leading-none">{FLAGS[l]}</span>
                 {localeNames[l]}
-                <span className="text-xs uppercase text-muted">{l}</span>
+                <span className="ms-auto text-xs uppercase text-muted">{l}</span>
               </button>
             </li>
           ))}
