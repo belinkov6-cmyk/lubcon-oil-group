@@ -8,7 +8,7 @@ export default function CtaBand() {
   const tc = useTranslations('contact');
 
   return (
-    <section className="bg-white py-16">
+    <section className="py-16">
       <div className="container-x">
         <Reveal>
           <div className="relative overflow-hidden rounded-xl2 border border-line bg-navy px-6 py-12 text-center text-white sm:px-12">

@@ -31,23 +31,23 @@ export default function ExportMap() {
   const t = useTranslations('exportMap');
 
   return (
-    <section className="bg-white py-20 sm:py-28">
+    <section className="py-20 sm:py-28">
       <div className="container-x">
         <SectionHeading eyebrow={t('eyebrow')} title={t('title')} subtitle={t('subtitle')} center />
 
         <div className="mt-14 grid items-center gap-10 lg:grid-cols-[1.4fr_0.9fr]">
           {/* Map */}
           <Reveal>
-            <div className="relative overflow-hidden rounded-card border border-line bg-gradient-to-br from-surface to-white p-4 shadow-soft">
+            <div className="relative overflow-hidden rounded-card border border-line bg-[rgba(22,16,9,0.5)] p-4">
               <svg viewBox="0 0 1000 520" className="h-auto w-full" role="img" aria-label={t('title')}>
                 <defs>
                   <linearGradient id="arcGrad" x1="0" y1="0" x2="1" y2="0">
-                    <stop offset="0" stopColor="#C99A45" />
-                    <stop offset="1" stopColor="#128A4E" />
+                    <stop offset="0" stopColor="#e7c173" />
+                    <stop offset="1" stopColor="#9c7a33" />
                   </linearGradient>
                   <radialGradient id="hubGlow">
-                    <stop offset="0" stopColor="rgba(206,17,38,.30)" />
-                    <stop offset="1" stopColor="rgba(206,17,38,0)" />
+                    <stop offset="0" stopColor="rgba(231,193,115,.35)" />
+                    <stop offset="1" stopColor="rgba(231,193,115,0)" />
                   </radialGradient>
                 </defs>
 
@@ -60,7 +60,7 @@ export default function ExportMap() {
                 ))}
 
                 {/* Stylized continents (abstract, low opacity) */}
-                <g fill="#0B6B3A" opacity="0.08">
+                <g fill="#c9a24b" opacity="0.1">
                   <path d="M180 120c40-20 120-30 170-10s40 60 10 90-20 70-70 80-130-10-160-60 10-80 50-100Z" />
                   <path d="M250 320c40-10 90 0 120 40s10 90-30 110-110 10-140-40 10-100 50-110Z" />
                   <path d="M440 90c60-25 150-20 200 10s50 80 10 110-30 60-90 60-140-30-160-90 -20-70 40-100Z" />
@@ -86,8 +86,8 @@ export default function ExportMap() {
                 {/* Region endpoints */}
                 {regionKeys.map((key) => (
                   <g key={`p-${key}`}>
-                    <circle cx={POINTS[key].x} cy={POINTS[key].y} r="5" fill="#128A4E" />
-                    <circle cx={POINTS[key].x} cy={POINTS[key].y} r="5" fill="none" stroke="#128A4E" strokeWidth="1.5" opacity="0.4">
+                    <circle cx={POINTS[key].x} cy={POINTS[key].y} r="5" fill="#d8b25c" />
+                    <circle cx={POINTS[key].x} cy={POINTS[key].y} r="5" fill="none" stroke="#d8b25c" strokeWidth="1.5" opacity="0.4">
                       <animate attributeName="r" values="5;12;5" dur="3s" repeatCount="indefinite" />
                       <animate attributeName="opacity" values="0.5;0;0.5" dur="3s" repeatCount="indefinite" />
                     </circle>
@@ -96,15 +96,15 @@ export default function ExportMap() {
 
                 {/* Hub */}
                 <circle cx={HUB.x} cy={HUB.y} r="60" fill="url(#hubGlow)" />
-                <circle cx={HUB.x} cy={HUB.y} r="9" fill="#CE1126" />
-                <circle cx={HUB.x} cy={HUB.y} r="9" fill="none" stroke="#CE1126" strokeWidth="2">
+                <circle cx={HUB.x} cy={HUB.y} r="9" fill="#f0d38a" />
+                <circle cx={HUB.x} cy={HUB.y} r="9" fill="none" stroke="#f0d38a" strokeWidth="2">
                   <animate attributeName="r" values="9;22;9" dur="2.4s" repeatCount="indefinite" />
                   <animate attributeName="opacity" values="0.8;0;0.8" dur="2.4s" repeatCount="indefinite" />
                 </circle>
               </svg>
 
-              <span className="absolute left-1/2 top-4 -translate-x-1/2 rounded-pill border border-line bg-white/90 px-3 py-1 text-xs font-semibold text-navy shadow-soft backdrop-blur">
-                <span className="text-uae-red">★</span> {t('hub')}
+              <span className="absolute left-1/2 top-4 -translate-x-1/2 rounded-pill border border-line bg-[rgba(22,16,9,0.85)] px-3 py-1 text-xs font-semibold text-gold-hi backdrop-blur">
+                <span className="text-gold-hi">★</span> {t('hub')}
               </span>
             </div>
           </Reveal>
@@ -115,7 +115,7 @@ export default function ExportMap() {
               {regionKeys.map((key) => (
                 <li
                   key={key}
-                  className="group flex items-start gap-3 rounded-card border border-line bg-white p-4 transition-colors hover:border-brass-3 hover:bg-surface"
+                  className="group flex items-start gap-3 rounded-card border border-line bg-[rgba(22,16,9,0.45)] p-4 transition-colors hover:border-gold hover:bg-[rgba(22,16,9,0.6)]"
                 >
                   <span className="mt-1 inline-flex h-2.5 w-2.5 shrink-0 rounded-full bg-navy-600 ring-4 ring-navy-600/10" aria-hidden="true" />
                   <div>

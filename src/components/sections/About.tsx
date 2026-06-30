@@ -12,7 +12,7 @@ export default function About() {
   ];
 
   return (
-    <section className="bg-white py-16 sm:py-20">
+    <section className="py-16 sm:py-20">
       <div className="container-x">
         <Reveal>
           <p className="max-w-3xl text-lg leading-relaxed text-text sm:text-xl">

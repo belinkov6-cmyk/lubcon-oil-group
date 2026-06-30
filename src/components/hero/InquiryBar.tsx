@@ -19,7 +19,7 @@ export default function InquiryBar({ onBand = false }: { onBand?: boolean }) {
   }
 
   const fieldCls = onBand
-    ? 'w-full rounded-pill border border-black/10 bg-white px-4 py-3 text-sm text-ink outline-none placeholder:text-muted/70 focus:border-ink focus:ring-2 focus:ring-black/15'
+    ? 'w-full rounded-pill border border-black/10 bg-white px-4 py-3 text-sm text-[#1c1206] outline-none placeholder:text-[#8a7a55] focus:border-[#1c1206] focus:ring-2 focus:ring-black/15'
     : 'w-full rounded-pill border border-line bg-surface px-4 py-3 text-sm text-ink outline-none placeholder:text-muted/70 focus:border-amber focus:ring-2 focus:ring-amber-100';
 
   return (
@@ -71,7 +71,7 @@ export default function InquiryBar({ onBand = false }: { onBand?: boolean }) {
         type="submit"
         className={
           onBand
-            ? 'btn h-[46px] rounded-pill bg-ink px-6 text-sm font-bold text-white shadow-soft transition-colors hover:bg-navy sm:self-end'
+            ? 'btn h-[46px] rounded-pill bg-[#1b1206] px-6 text-sm font-bold text-white shadow-soft transition-colors hover:bg-[#2e2009] sm:self-end'
             : 'btn-amber h-[46px] px-6 text-sm sm:self-end'
         }
       >
@@ -92,7 +92,7 @@ function Field({
 }) {
   return (
     <label className="flex flex-col gap-1.5">
-      <span className={`px-1 text-xs font-semibold ${onBand ? 'text-ink' : 'text-muted'}`}>
+      <span className={`px-1 text-xs font-semibold ${onBand ? 'text-[#3a2a0a]' : 'text-muted'}`}>
         {label}
       </span>
       {children}

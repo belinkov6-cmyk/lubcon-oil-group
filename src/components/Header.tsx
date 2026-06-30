@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
-import { Link, usePathname } from '@/i18n/navigation';
+import { Link } from '@/i18n/navigation';
 import { company } from '@/lib/site';
 import Logo from './Logo';
 import LanguageSwitcher from './LanguageSwitcher';
@@ -19,9 +19,8 @@ export default function Header({ locale }: { locale: string }) {
   const th = useTranslations('header');
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
-  const pathname = usePathname();
-  // The home page has a dark cinematic hero — render the header light while over it.
-  const dark = pathname === '/' && !scrolled;
+  // The whole page sits on a dark backdrop, so the header is always light-on-dark.
+  const dark = true;
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 12);
@@ -41,7 +40,7 @@ export default function Header({ locale }: { locale: string }) {
     <header
       className={`sticky top-0 z-50 transition-all duration-300 ${
         scrolled
-          ? 'border-b border-line bg-white/85 backdrop-blur-md shadow-soft'
+          ? 'border-b border-line bg-[rgba(14,10,5,0.9)] backdrop-blur-md shadow-[0_8px_24px_rgba(0,0,0,.4)]'
           : 'border-b border-transparent bg-transparent'
       }`}
     >
@@ -109,7 +108,7 @@ export default function Header({ locale }: { locale: string }) {
           onClick={() => setOpen(false)}
         />
         <div
-          className={`absolute end-0 top-0 flex h-full w-[84%] max-w-sm flex-col bg-white shadow-lift transition-transform duration-300 ${
+          className={`absolute end-0 top-0 flex h-full w-[84%] max-w-sm flex-col bg-[rgba(12,8,4,0.98)] shadow-lift backdrop-blur transition-transform duration-300 ${
             open ? 'translate-x-0' : 'rtl:-translate-x-full ltr:translate-x-full'
           }`}
         >

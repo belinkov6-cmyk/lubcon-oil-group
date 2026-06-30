@@ -24,6 +24,8 @@ export default async function HomePage({
     <>
       <FaqJsonLd />
       <HeroPremium />
+      {/* Soft fade hides the seam between the hero photo and the page gradient */}
+      <div className="page-fade" aria-hidden="true" />
       <PromoBand />
       <TrustMarquee />
       <Products />

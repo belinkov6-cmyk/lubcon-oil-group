@@ -9,7 +9,7 @@ export default function QualityBand() {
   const points = [t('p1'), t('p2'), t('p3'), t('p4')];
 
   return (
-    <section className="bg-gradient-to-br from-ink to-navy-700 py-20 text-white sm:py-24">
+    <section className="py-20 text-white sm:py-24">
       <div className="container-x grid items-center gap-12 lg:grid-cols-2">
         <Reveal>
           <span className="eyebrow text-amber">

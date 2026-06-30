@@ -10,7 +10,7 @@ export default function FloatingContact() {
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Telegram"
-        className="inline-flex h-12 w-12 items-center justify-center rounded-pill border border-line bg-white text-navy-600 shadow-lift transition-transform hover:-translate-y-0.5"
+        className="inline-flex h-12 w-12 items-center justify-center rounded-pill border border-line bg-[rgba(22,16,9,0.9)] text-gold-hi shadow-lift backdrop-blur transition-transform hover:-translate-y-0.5"
       >
         <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
           <path d="M21.9 4.3 18.7 19.4c-.2 1-.9 1.3-1.7.8l-4.6-3.4-2.2 2.1c-.2.2-.5.4-.9.4l.3-4.6 8.5-7.7c.4-.3-.1-.5-.6-.2L7.5 13.4l-4.5-1.4c-1-.3-1-1 .2-1.4l17.5-6.7c.8-.3 1.5.2 1.2 1.4Z" />

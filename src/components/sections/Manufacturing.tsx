@@ -29,7 +29,7 @@ export default function Manufacturing({ bare = false }: { bare?: boolean }) {
   const t = useTranslations('manufacturing');
 
   return (
-    <section id="manufacturing" className={bare ? 'bg-white py-16' : 'bg-white py-20 sm:py-28'}>
+    <section id="manufacturing" className={bare ? 'py-16' : 'py-20 sm:py-28'}>
       <div className="container-x">
         {!bare && (
           <SectionHeading eyebrow={t('eyebrow')} title={t('title')} subtitle={t('subtitle')} />

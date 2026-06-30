@@ -3,25 +3,27 @@
 @tailwind utilities;
 
 :root {
-  /* Base surfaces — light, faint UAE-green tint */
-  --bg: #ffffff;
-  --surface: #f2f8f4;
-  --surface-2: #e2efe8;
+  /* Dark-gold theme — one continuous background across the page.
+     Light-theme token names are kept but repointed to dark-gold values so all
+     existing text-ink / text-navy / text-muted / border-line classes recolor. */
+  --bg: #120d08;
+  --surface: transparent; /* sections become transparent -> body gradient shows through */
+  --surface-2: rgba(201, 162, 75, 0.07);
 
-  /* Primary brand = UAE flag green */
-  --navy: #0b6b3a;
-  --navy-700: #07512c;
-  --navy-600: #128a4e;
-  --navy-500: #2ba567;
+  /* "navy" now drives the gold accent (links, eyebrows, icons) */
+  --navy: #c9a24b;
+  --navy-700: #e7c173;
+  --navy-600: #d8b25c;
+  --navy-500: #e7c173;
 
   /* Premium gold accent */
   --brass: #b07d2b;
   --brass-2: #c99a45;
   --brass-3: #e8d4a6;
 
-  /* Amber / gold — primary accent for the rental-style light theme */
-  --amber: #f3b324;
-  --amber-600: #e09a12;
+  /* Warm gold accent (promo band, product buttons) — not acidic */
+  --amber: #e8b84b;
+  --amber-600: #cf9a2e;
   --amber-100: #fbe9c2;
 
   /* Cinematic dark + gold (premium hero) */
@@ -39,16 +41,33 @@
   --red-600: #a90e1f;
   --red-100: #f7dadd;
 
-  /* Text — UAE flag black for headings */
-  --ink: #0b120e;
-  --text: #283730;
-  --muted: #5d7268;
+  /* Text — cream headings, warm light body, muted gold for secondary */
+  --ink: #f5efe3;
+  --text: #e7dcc9;
+  --muted: #c8bca6;
 
-  --line: rgba(10, 81, 50, 0.12);
+  --line: rgba(201, 162, 75, 0.26);
 }
 
 * {
   border-color: var(--line);
+}
+
+/* --- Dark-theme surface overrides (plain CSS so they win over utilities) --- */
+/* Generic cards (certifications, capabilities, contact, etc.) -> dark translucent */
+.card {
+  background-color: rgba(22, 16, 9, 0.45);
+}
+/* Former dark tiles/bands (icon tiles, CTA boxes) -> dark bronze */
+.bg-navy {
+  background-color: rgba(24, 18, 10, 0.6) !important;
+}
+/* Seamless hero -> page: a short fade at the very top of the content below the hero */
+.page-fade {
+  height: 120px;
+  margin-top: -1px;
+  background: linear-gradient(180deg, #0a0703 0%, transparent 100%);
+  pointer-events: none;
 }
 
 html {
@@ -56,7 +75,19 @@ html {
 }
 
 body {
-  background: var(--bg);
+  /* One continuous, soft dark-gold backdrop from below the hero to the footer.
+     Adjacent stops are close in lightness so transitions read as haze, not bands. */
+  background:
+    radial-gradient(110% 45% at 0% 0%, rgba(201, 162, 75, 0.08), transparent 60%),
+    linear-gradient(
+      180deg,
+      #100b07 0%,
+      #15100a 22%,
+      #1b150d 48%,
+      #18120b 74%,
+      #120d08 100%
+    );
+  background-attachment: scroll;
   color: var(--text);
   font-family: var(--font-sans), system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -170,7 +201,8 @@ body {
     @apply btn border border-line bg-white/70 text-ink px-6 py-3 hover:bg-surface hover:border-brass-3;
   }
   .btn-amber {
-    @apply btn px-6 py-3 font-bold text-ink;
+    @apply btn px-6 py-3 font-bold;
+    color: #1b1206;
     background: linear-gradient(135deg, var(--amber), var(--amber-600));
     box-shadow: 0 8px 22px rgba(224, 154, 18, 0.28);
   }
