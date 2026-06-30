@@ -6,7 +6,7 @@ export default function PromoBand() {
   const t = useTranslations('hero.inquiry');
 
   return (
-    <section className="-mt-[3vh] pb-8 sm:-mt-[2vh]">
+    <section className="mt-[6vh] pb-8">
       <div className="container-x">
         <Reveal>
           {/* Quote calculator on the amber band, sized to the form */}
