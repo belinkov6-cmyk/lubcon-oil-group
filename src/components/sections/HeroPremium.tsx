@@ -105,7 +105,7 @@ export default function HeroPremium() {
 
           <h1 className="mt-6 font-display font-extrabold uppercase leading-[1.05] tracking-tightest text-[color:var(--hero-text)] [font-size:clamp(1.875rem,4vw,3.5rem)]">
             <span
-              className="box-decoration-clone inline rounded-md px-2 py-0.5"
+              className="box-decoration-clone inline rounded-md py-0.5"
               style={{ background: 'var(--hero-title-back)' }}
             >
               <span className="gold-gradient-text">{t('title1').replace(/,\s*$/, '')}</span>
