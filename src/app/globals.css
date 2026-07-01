@@ -67,6 +67,11 @@
   border-color: var(--line);
 }
 
+/* Russian headings use Montserrat (Bricolage display font lacks Cyrillic) */
+html[lang='ru'] {
+  --font-display: var(--font-display-ru);
+}
+
 /* iOS-style wheel picker: hide the scrollbar but keep it scrollable */
 .wheel-scroll {
   scrollbar-width: none;

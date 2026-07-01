@@ -4,7 +4,7 @@ import { setRequestLocale, getMessages } from 'next-intl/server';
 import { getTranslations } from 'next-intl/server';
 import { NextIntlClientProvider } from 'next-intl';
 import { routing, rtlLocales, type Locale } from '@/i18n/routing';
-import { fontSans, fontDisplay, fontSerif } from '../fonts';
+import { fontSans, fontDisplay, fontDisplayRu, fontSerif } from '../fonts';
 import { SITE_URL, company } from '@/lib/site';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -74,7 +74,7 @@ export default async function LocaleLayout({ children, params }: Props) {
       lang={locale}
       dir={dir}
       data-theme="light"
-      className={`${fontSans.variable} ${fontDisplay.variable} ${fontSerif.variable}`}
+      className={`${fontSans.variable} ${fontDisplay.variable} ${fontDisplayRu.variable} ${fontSerif.variable}`}
       suppressHydrationWarning
     >
       <body>
