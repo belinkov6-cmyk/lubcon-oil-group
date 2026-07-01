@@ -10,9 +10,9 @@ const PAD = ((VISIBLE - 1) / 2) * ITEM_H; // top/bottom spacer so ends can cente
 
 /**
  * iOS-style wheel picker (like the Clock/alarm drum). The trigger looks like a
- * form field; clicking it drops a wheel you spin to pick a value that snaps to
- * the centre. Touch/trackpad use native momentum scrolling; mouse dragging gets
- * its own inertia + snap; a row can also be tapped. The centred row commits.
+ * form field; clicking it drops a wheel. Spin it with touch (native momentum)
+ * or the mouse wheel — one notch = one row. Clicking ANY visible row selects it
+ * and closes; clicking outside also closes.
  */
 export default function WheelPicker({
   options,
@@ -37,8 +37,6 @@ export default function WheelPicker({
   const scrollRef = useRef<HTMLDivElement>(null);
   const rafRef = useRef<number | null>(null);
   const settleTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
-  const inertiaRaf = useRef<number | null>(null);
-  const drag = useRef<{ startY: number; startTop: number; lastY: number; lastT: number; v: number; moved: boolean } | null>(null);
   const lastWheelT = useRef(0);
   const wheelIdx = useRef(0);
 
@@ -59,7 +57,7 @@ export default function WheelPicker({
       const ratio = (itemCenter - center) / ITEM_H;
       const angle = Math.max(-72, Math.min(72, ratio * 20));
       item.style.transform = `rotateX(${angle}deg)`;
-      item.style.opacity = String(Math.max(0.16, 1 - Math.abs(ratio) * 0.32));
+      item.style.opacity = String(Math.max(0.18, 1 - Math.abs(ratio) * 0.3));
     });
   }
 
@@ -70,88 +68,18 @@ export default function WheelPicker({
     if (opt && opt.value !== value) onChange(opt.value);
   }
 
-  function stopInertia() {
-    if (inertiaRaf.current) cancelAnimationFrame(inertiaRaf.current);
-    inertiaRaf.current = null;
-  }
-
-  // Snap to the nearest row (smoothly) then commit.
-  function snapToNearest() {
-    const el = scrollRef.current;
-    if (!el) return;
-    const idx = clampIdx(Math.round(el.scrollTop / ITEM_H));
-    el.scrollTo({ top: idx * ITEM_H, behavior: 'smooth' });
-    commitCentered();
-  }
-
   function onScroll() {
     if (rafRef.current) cancelAnimationFrame(rafRef.current);
     rafRef.current = requestAnimationFrame(paint);
-    // Native (touch / trackpad / wheel) settles on its own; commit once it rests.
-    if (inertiaRaf.current) return; // mouse inertia handles its own settle
     if (settleTimer.current) clearTimeout(settleTimer.current);
-    settleTimer.current = setTimeout(commitCentered, 90);
+    settleTimer.current = setTimeout(commitCentered, 90); // native (touch) settle
   }
 
-  // ---- Mouse drag with inertia (touch/pen use native scrolling) ----
-  function onPointerDown(e: React.PointerEvent) {
-    if (e.pointerType !== 'mouse' || !scrollRef.current) return;
-    stopInertia();
-    drag.current = {
-      startY: e.clientY,
-      startTop: scrollRef.current.scrollTop,
-      lastY: e.clientY,
-      lastT: performance.now(),
-      v: 0,
-      moved: false,
-    };
-    scrollRef.current.setPointerCapture(e.pointerId);
-  }
-  function onPointerMove(e: React.PointerEvent) {
-    const d = drag.current;
-    const el = scrollRef.current;
-    if (!d || !el) return;
-    if (Math.abs(e.clientY - d.startY) > 3) d.moved = true;
-    el.scrollTop = d.startTop - (e.clientY - d.startY);
-    const now = performance.now();
-    const dt = now - d.lastT || 16;
-    d.v = (e.clientY - d.lastY) / dt; // px per ms of pointer
-    d.lastY = e.clientY;
-    d.lastT = now;
-  }
-  function onPointerUp() {
-    const d = drag.current;
-    drag.current = null;
-    if (!d) return;
-    let v = -d.v * 16; // convert to scrollTop px per frame, invert direction
-    if (Math.abs(v) < 0.4) {
-      snapToNearest();
-      return;
-    }
-    let last = performance.now();
-    const step = (t: number) => {
-      const el = scrollRef.current;
-      if (!el) return;
-      const dt = t - last;
-      last = t;
-      el.scrollTop += v * (dt / 16);
-      v *= Math.pow(0.94, dt / 16); // friction
-      if (Math.abs(v) > 0.25) {
-        inertiaRaf.current = requestAnimationFrame(step);
-      } else {
-        inertiaRaf.current = null;
-        snapToNearest();
-      }
-    };
-    inertiaRaf.current = requestAnimationFrame(step);
-  }
-
+  // Select a row (from a click/tap) and close.
   function pick(i: number) {
     onChange(options[i].value);
     setOpen(false);
   }
-
-  const movedRef = useRef(false);
 
   useLayoutEffect(() => {
     if (!open) return;
@@ -195,7 +123,6 @@ export default function WheelPicker({
       document.removeEventListener('pointerdown', onDown);
       document.removeEventListener('keydown', onKey);
       el?.removeEventListener('wheel', onWheel);
-      stopInertia();
       if (settleTimer.current) clearTimeout(settleTimer.current);
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -237,52 +164,41 @@ export default function WheelPicker({
           <div className="relative" style={{ height: VISIBLE * ITEM_H }}>
             {/* Centre selection band */}
             <div
-              className="pointer-events-none absolute inset-x-2 top-1/2 -translate-y-1/2 rounded-lg border-y border-black/15 bg-[rgba(184,134,11,0.10)]"
+              className="pointer-events-none absolute inset-x-2 top-1/2 z-20 -translate-y-1/2 rounded-lg border-y border-black/15 bg-[rgba(184,134,11,0.10)]"
               style={{ height: ITEM_H }}
               aria-hidden="true"
             />
-            {/* Top/bottom fade */}
+            {/* Top/bottom fade (doesn't block clicks) */}
             <div
               className="pointer-events-none absolute inset-0 z-10"
               style={{
                 background:
-                  'linear-gradient(to bottom, #fff 0%, rgba(255,255,255,0) 34%, rgba(255,255,255,0) 66%, #fff 100%)',
+                  'linear-gradient(to bottom, #fff 0%, rgba(255,255,255,0) 32%, rgba(255,255,255,0) 68%, #fff 100%)',
               }}
               aria-hidden="true"
             />
             <div
               ref={scrollRef}
               onScroll={onScroll}
-              onPointerDown={(e) => {
-                movedRef.current = false;
-                onPointerDown(e);
-              }}
-              onPointerMove={(e) => {
-                if (drag.current && Math.abs(e.clientY - drag.current.startY) > 3) movedRef.current = true;
-                onPointerMove(e);
-              }}
-              onPointerUp={onPointerUp}
-              className="wheel-scroll h-full touch-pan-y overflow-y-scroll"
+              className="wheel-scroll relative z-0 h-full touch-pan-y overflow-y-scroll"
               style={{ scrollSnapType: 'y mandatory', perspective: '800px' }}
               role="listbox"
               aria-label={ariaLabel}
             >
               <div style={{ height: PAD }} aria-hidden="true" />
               {options.map((o, i) => (
-                <div
+                <button
                   key={o.value}
+                  type="button"
                   data-wheel-item
                   role="option"
                   aria-selected={o.value === value}
-                  onClick={() => {
-                    if (movedRef.current) return; // was a drag, not a tap
-                    pick(i);
-                  }}
-                  className="flex cursor-pointer items-center justify-center px-3 text-center text-[15px] font-medium text-[#1c1206] [backface-visibility:hidden] [will-change:transform]"
+                  onClick={() => pick(i)}
+                  className="flex w-full cursor-pointer items-center justify-center rounded-md px-3 text-center text-[15px] font-medium text-[#1c1206] transition-colors [backface-visibility:hidden] [will-change:transform] hover:bg-black/[0.04]"
                   style={{ height: ITEM_H, scrollSnapAlign: 'center' }}
                 >
                   <span className="truncate">{o.label}</span>
-                </div>
+                </button>
               ))}
               <div style={{ height: PAD }} aria-hidden="true" />
             </div>
