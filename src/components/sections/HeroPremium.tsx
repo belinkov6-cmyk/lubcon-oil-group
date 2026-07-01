@@ -103,13 +103,14 @@ export default function HeroPremium() {
             {t('eyebrow')}
           </span>
 
-          <h1 className="mt-6 font-display font-extrabold uppercase leading-[1.05] tracking-tightest text-[color:var(--hero-text)] [font-size:clamp(1.875rem,4vw,3.5rem)]">
-            <span
-              className="box-decoration-clone inline rounded-md py-0.5"
-              style={{ background: 'var(--hero-title-back)' }}
-            >
-              <span className="gold-gradient-text">{t('title1').replace(/,\s*$/, '')}</span>
-            </span>
+          {/* Single backing plate on the whole headline block (not per-line) so the
+              semi-transparent layers never overlap into a bright stripe; covers both
+              the title and the accent line. Transparent on desktop (lg+). */}
+          <h1
+            className="mt-6 -ml-3 w-fit rounded-lg px-3 py-2 font-display font-extrabold uppercase leading-[1.05] tracking-tightest text-[color:var(--hero-text)] [font-size:clamp(1.875rem,4vw,3.5rem)] lg:ml-0 lg:w-auto lg:rounded-none lg:px-0 lg:py-0"
+            style={{ background: 'var(--hero-title-back)' }}
+          >
+            <span className="gold-gradient-text">{t('title1').replace(/,\s*$/, '')}</span>
             <br />
             <span className="text-[0.78em]">{t('titleAccent')}</span>
           </h1>
