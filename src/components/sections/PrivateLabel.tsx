@@ -9,7 +9,7 @@ export default function PrivateLabel({ bare = false }: { bare?: boolean }) {
   const t = useTranslations('privateLabel');
 
   return (
-    <section id="private-label" className="relative overflow-hidden py-20 text-white sm:py-28">
+    <section id="private-label" className="relative overflow-hidden py-20 text-ink sm:py-28">
       <div className="pointer-events-none absolute inset-0 grid-bg opacity-[0.08]" aria-hidden="true" />
       <div
         className="pointer-events-none absolute -bottom-24 start-1/2 h-[400px] w-[700px] -translate-x-1/2 rounded-full blur-3xl"
@@ -20,28 +20,28 @@ export default function PrivateLabel({ bare = false }: { bare?: boolean }) {
       <div className="container-x relative">
         {!bare && (
           <Reveal className="max-w-2xl">
-            <span className="eyebrow text-brass-3">
-              <span className="h-px w-6 bg-brass-3" aria-hidden="true" />
+            <span className="eyebrow text-navy-600">
+              <span className="h-px w-6 bg-navy-600" aria-hidden="true" />
               {t('eyebrow')}
             </span>
-            <h2 className="mt-3 h-display text-3xl leading-[1.1] text-white sm:text-4xl md:text-[2.6rem]">
+            <h2 className="mt-3 h-display text-3xl leading-[1.1] text-ink sm:text-4xl md:text-[2.6rem]">
               {t('title')}
             </h2>
-            <p className="mt-4 text-base leading-relaxed text-white/70 sm:text-lg">{t('subtitle')}</p>
+            <p className="mt-4 text-base leading-relaxed text-muted sm:text-lg">{t('subtitle')}</p>
           </Reveal>
         )}
 
         <ol className={`grid gap-5 sm:grid-cols-2 lg:grid-cols-4 ${bare ? '' : 'mt-12'}`}>
           {STEPS.map((s, i) => (
             <Reveal key={s} delay={i * 80} as="li">
-              <div className="relative h-full rounded-card border border-white/10 bg-white/[0.04] p-6 backdrop-blur-sm">
-                <span className="flex h-12 w-12 items-center justify-center rounded-full border border-brass-3 font-display text-lg font-bold text-brass-3">
+              <div className="panel-dark relative h-full rounded-card border border-line bg-white/[0.04] p-6 backdrop-blur-sm">
+                <span className="flex h-12 w-12 items-center justify-center rounded-full border border-navy-600 font-display text-lg font-bold text-navy-600">
                   {i + 1}
                 </span>
-                <h3 className="mt-5 font-display text-lg font-bold text-white">
+                <h3 className="mt-5 font-display text-lg font-bold text-ink">
                   {t(`steps.${s}.title`)}
                 </h3>
-                <p className="mt-2 text-sm leading-relaxed text-white/65">
+                <p className="mt-2 text-sm leading-relaxed text-muted">
                   {t(`steps.${s}.desc`)}
                 </p>
               </div>
@@ -58,7 +58,7 @@ export default function PrivateLabel({ bare = false }: { bare?: boolean }) {
               href={company.whatsapp}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn border border-white/20 bg-white/5 px-6 py-3 text-white hover:bg-white/10"
+              className="btn border border-line bg-[var(--surface-2)] px-6 py-3 text-ink hover:bg-white/10"
             >
               {t('ctaSecondary')}
             </a>

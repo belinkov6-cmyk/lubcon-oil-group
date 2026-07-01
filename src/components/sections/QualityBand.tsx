@@ -9,14 +9,14 @@ export default function QualityBand() {
   const points = [t('p1'), t('p2'), t('p3'), t('p4')];
 
   return (
-    <section className="py-20 text-white sm:py-24">
+    <section className="py-20 text-ink sm:py-24">
       <div className="container-x grid items-center gap-12 lg:grid-cols-2">
         <Reveal>
           <span className="eyebrow text-amber">
             <span className="h-px w-6 bg-amber" aria-hidden="true" />
             {t('eyebrow')}
           </span>
-          <h2 className="mt-4 h-display text-3xl leading-[1.1] text-white sm:text-4xl">
+          <h2 className="mt-4 h-display text-3xl leading-[1.1] text-ink sm:text-4xl">
             {t('title')}
           </h2>
 
@@ -28,7 +28,7 @@ export default function QualityBand() {
                     <path d="M5 13l4 4L19 7" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
                 </span>
-                <span className="text-base leading-relaxed text-white/85">{p}</span>
+                <span className="text-base leading-relaxed text-text">{p}</span>
               </li>
             ))}
           </ul>
