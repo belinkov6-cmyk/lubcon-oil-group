@@ -15,7 +15,7 @@ export default function Gallery() {
   const t = useTranslations('manufacturing');
 
   return (
-    <section className="bg-surface py-16 sm:py-20">
+    <section className="bg-surface py-10 sm:py-20">
       <div className="container-x">
         <SectionHeading
           eyebrow={t('eyebrow')}

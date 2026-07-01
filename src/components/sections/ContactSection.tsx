@@ -38,7 +38,7 @@ export default function ContactSection({ bare = false }: { bare?: boolean }) {
   ];
 
   return (
-    <section id="contact" className={bare ? 'bg-surface py-16' : 'bg-surface py-20 sm:py-28'}>
+    <section id="contact" className={bare ? 'bg-surface py-16' : 'bg-surface py-12 sm:py-28'}>
       <div className="container-x">
         {!bare && (
           <SectionHeading eyebrow={t('eyebrow')} title={t('title')} subtitle={t('subtitle')} />

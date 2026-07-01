@@ -20,7 +20,7 @@ export default function Products({ bare = false }: { bare?: boolean }) {
   const t = useTranslations('products');
 
   return (
-    <section id="products" className={bare ? 'bg-surface py-16' : 'bg-surface py-20 sm:py-24'}>
+    <section id="products" className={bare ? 'bg-surface py-16' : 'bg-surface py-12 sm:py-24'}>
       <div className="container-x">
         {!bare && (
           <SectionHeading eyebrow={t('eyebrow')} title={t('title')} subtitle={t('subtitle')} />
