@@ -1,7 +1,7 @@
 {
   "meta": {
     "homeTitle": "Lubcon Oil Group — Schmierstoffhersteller & Exporteur, UAE",
-    "homeDescription": "ISO-zertifizierter Schmierstoffhersteller in Ras Al Khaimah, UAE. Motoren-, Diesel-, Industrie- und Marineöle, Fette und Grundöle. Private Label und White Label für Distributoren weltweit.",
+    "homeDescription": "ISO-zertifizierter Schmierstoffhersteller in Ras Al Khaimah, UAE. Motoren-, Diesel-, Industrie- und Marineöle, Fette und Grundöle. Private- und White-Label-Fertigung für Distributoren weltweit.",
     "productsTitle": "Produkte — Motoren-, Industrie- & Marineschmierstoffe",
     "productsDescription": "Vollständiges Sortiment in den UAE hergestellter Schmierstoffe: Motorenöle, Dieselmotorenöle, Getriebeöle, Hydrauliköle, Marineöle, Fette, Kühlmittel und Grundöle.",
     "manufacturingTitle": "Produktion & Qualitätskontrolle",
@@ -13,7 +13,7 @@
     "aboutTitle": "Über Lubcon Oil Group",
     "aboutDescription": "Der Export- und Handelsbereich eines ISO-zertifizierten Schmierstoffherstellers in Ras Al Khaimah, UAE, der Distributoren in sechs Regionen beliefert.",
     "contactTitle": "Kontakt & Angebot anfragen",
-    "contactDescription": "Fordern Sie ein Angebot, Distributorkonditionen oder einen Private-Label-Vorschlag an. WhatsApp, Telegram, Telefon und Formular — beantwortet aus Ras Al Khaimah, UAE."
+    "contactDescription": "Fordern Sie ein Angebot, Konditionen für Distributoren oder einen Private-Label-Vorschlag an. WhatsApp, Telegram, Telefon und Formular — Antwort aus Ras Al Khaimah, UAE."
   },
   "nav": {
     "home": "Start",
@@ -40,7 +40,7 @@
     "subhead": "Wir mischen und füllen Premium-Motorenöle nach Ihren Vorgaben ab — Ihre Formulierung, Ihr Etikett, Ihre Verpackung — in einem ISO-zertifizierten Werk in Ras Al Khaimah, UAE, bereit für den weltweiten Export.",
     "ctaQuote": "Angebot anfragen",
     "ctaDistributor": "Ihre Marke aufbauen",
-    "scroll": "Scrollen zum Entdecken",
+    "scroll": "Zum Entdecken scrollen",
     "canisterLabel": "IHRE MARKE",
     "cards": {
       "c1": {
@@ -90,7 +90,7 @@
     "m3Label": "Exportreichweite"
   },
   "trust": {
-    "title": "Gemacht für Einkäufer, die prüfen",
+    "title": "Gemacht für Einkäufer, die genau prüfen",
     "marquee": "ISO 9001:2015 · ISO 14001:2015 · ISO 45001:2018 · API-Spezifikationen · ACEA-Sequenzen · OEM-konforme Formulierungen · UAF-akkreditiert · Ras Al Khaimah, UAE",
     "stats": {
       "regionsValue": "6",
@@ -100,13 +100,13 @@
       "packsValue": "1L–208L",
       "packsLabel": "Gebindegrößen & Bulk",
       "isoValue": "ISO 3",
-      "isoLabel": "Zertifizierte Systeme vorhanden"
+      "isoLabel": "Zertifizierte Managementsysteme"
     }
   },
   "products": {
     "eyebrow": "Produktsortiment",
     "title": "Ein vollständiges Schmierstoff-Portfolio",
-    "subtitle": "Formuliert nach internationalen API-, ACEA- und OEM-Spezifikationen, in den UAE gemischt und von 1 L bis Bulk abgefüllt.",
+    "subtitle": "Formuliert nach internationalen API-, ACEA- und OEM-Spezifikationen, in den UAE gemischt und von 1 L bis hin zu Bulk-Gebinden abgefüllt.",
     "tdsNote": "Technische Datenblätter auf Anfrage erhältlich.",
     "cta": "Vollständigen Katalog anfragen",
     "ctaCardTitle": "Benötigen Sie eine bestimmte Sorte?",
@@ -135,7 +135,7 @@
       },
       "marine": {
         "name": "Marineschmierstoffe",
-        "desc": "Trunk-Kolben-, System- und Zylinderöle für Schiffsmotoren und Schiffsflotten."
+        "desc": "Trunkkolben-, System- und Zylinderöle für Schiffsmotoren und Handelsflotten."
       },
       "greases": {
         "name": "Fette",
@@ -143,13 +143,13 @@
       },
       "coolants": {
         "name": "Kühlmittel, Bremsflüssigkeiten & Grundöle",
-        "desc": "Motorkühlmittel, Bremsflüssigkeiten und Grundöle der Gruppen I–III für Mischpartner."
+        "desc": "Motorkühlmittel, Bremsflüssigkeiten und Grundöle der Gruppen I–III für Mischbetriebe."
       }
     }
   },
   "manufacturing": {
     "eyebrow": "Produktion",
-    "title": "Vom Grundöl bis zur versiegelten Palette, unter einem Dach",
+    "title": "Vom Grundöl bis zur versiegelten Palette — alles unter einem Dach",
     "subtitle": "Ein integriertes Werk in der Al Hamra Free Zone — Mischung, Prüfung, Abfüllung und Exportlogistik.",
     "capabilities": {
       "facility": {
@@ -181,7 +181,7 @@
     "p1": "nanoSHIELD-Additivtechnologie für weniger Reibung und Verschleiß",
     "p2": "Jede Charge vor Freigabe laborgeprüft",
     "p3": "Formuliert nach API-, ACEA- und OEM-Spezifikationen",
-    "p4": "100 % Grundöle in Neuwarenqualität"
+    "p4": "100 % Grundöle in Neuware-Qualität"
   },
   "certifications": {
     "eyebrow": "Zertifizierungen",
@@ -210,7 +210,7 @@
         "desc": "Wir finden oder entwickeln Formulierungen und bestätigen sie mit Labordaten."
       },
       "s3": {
-        "title": "Branden & abfüllen",
+        "title": "Etikettieren & abfüllen",
         "desc": "Ihr Etikett, Ihre Verpackung, abgefüllt auf unseren Linien."
       },
       "s4": {
@@ -219,12 +219,12 @@
       }
     },
     "ctaPrimary": "Private-Label-Anfrage starten",
-    "ctaSecondary": "Auf WhatsApp besprechen"
+    "ctaSecondary": "Per WhatsApp besprechen"
   },
   "exportMap": {
     "eyebrow": "Globale Reichweite",
     "title": "Versand von Ras Al Khaimah in sechs Regionen",
-    "subtitle": "Ein Freizonen-Standort am Arabischen Golf, positioniert für schnellen Zugang nach Ost und West.",
+    "subtitle": "Ein Freizonen-Standort am Arabischen Golf, positioniert für schnellen Zugang zu Märkten in Ost und West.",
     "hub": "Ras Al Khaimah, UAE",
     "regions": {
       "gcc": {
@@ -255,7 +255,7 @@
   },
   "contact": {
     "eyebrow": "Kontakt",
-    "title": "Angebot oder Distributorkonditionen anfragen",
+    "title": "Angebot oder Konditionen für Distributoren anfragen",
     "subtitle": "Sagen Sie uns, was Sie brauchen. Antworten in der Regel innerhalb eines Werktags aus Ras Al Khaimah.",
     "channels": {
       "whatsapp": "WhatsApp",
@@ -282,21 +282,21 @@
       "successTitle": "Anfrage erhalten",
       "successText": "Vielen Dank — unser Export-Team meldet sich in Kürze. Für eine sofortige Antwort schreiben Sie uns auf WhatsApp.",
       "errorTitle": "Konnte nicht gesendet werden",
-      "errorText": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder erreichen Sie uns direkt auf WhatsApp.",
+      "errorText": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt über WhatsApp.",
       "whatsappFallback": "Auf WhatsApp fortfahren",
       "required": "Erforderlich",
       "invalidEmail": "Gültige E-Mail eingeben",
-      "consent": "Mit dem Absenden erklären Sie sich einverstanden, zu Ihrer Anfrage kontaktiert zu werden."
+      "consent": "Mit dem Absenden erklären Sie sich damit einverstanden, bezüglich Ihrer Anfrage kontaktiert zu werden."
     }
   },
   "about": {
     "eyebrow": "Über uns",
-    "title": "Der Exportarm eines Schmierstoffherstellers aus den UAE",
+    "title": "Der Exportbereich eines Schmierstoffherstellers aus den UAE",
     "lead": "Lubcon Oil Group ist der Export- und Handelsbereich von {factory}, einem ISO-zertifizierten Schmierstoffwerk in Ras Al Khaimah, Vereinigte Arabische Emirate.",
     "structureTitle": "Gruppenstruktur",
     "structureText": "Produktion, Qualitätssysteme und ISO-Zertifikate gehören zum Gruppenwerk. Lubcon Oil Group verantwortet Export, Vertriebspartnerschaften und Private-Label-Programme. Wir legen diese Beziehung offen dar — die Zertifikate tragen den Namen und die Nummern der Fertigungsgesellschaft.",
     "whoTitle": "Wen wir bedienen",
-    "whoText": "Distributoren, Flottenbetreiber, Industrieeinkäufer und Markeninhaber, die zuverlässige Schmierstoffe in Spezifikationsqualität und einen Partner benötigen, der im großen Maßstab Private-Label und Export bietet.",
+    "whoText": "Distributoren, Flottenbetreiber, Industrieeinkäufer und Markeninhaber, die zuverlässige Schmierstoffe in Spezifikationsqualität sowie einen Partner benötigen, der Private-Label-Fertigung und Export im großen Maßstab anbietet.",
     "whyTitle": "Warum Ras Al Khaimah",
     "whyText": "Ein Freizonen-Industriestandort am Arabischen Golf bietet effiziente See- und Landlogistik, vereinfachte Exportdokumentation und schnellen Zugang zu östlichen wie westlichen Märkten."
   },

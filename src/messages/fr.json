@@ -1,15 +1,15 @@
 {
   "meta": {
     "homeTitle": "Lubcon Oil Group — Fabricant et exportateur de lubrifiants, UAE",
-    "homeDescription": "Fabricant de lubrifiants certifié ISO à Ras Al Khaimah, UAE. Huiles moteur, diesel, industrielles et marines, graisses et huiles de base. Marque de distributeur et marque blanche pour distributeurs dans le monde entier.",
+    "homeDescription": "Fabricant de lubrifiants certifié ISO à Ras Al Khaimah, UAE. Huiles moteur, diesel, industrielles et marines, graisses et huiles de base. Solutions en marque de distributeur et en marque blanche pour distributeurs du monde entier.",
     "productsTitle": "Produits — Lubrifiants moteur, industriels et marins",
-    "productsDescription": "Gamme complète de lubrifiants fabriqués aux UAE : huiles moteur, huiles pour moteurs diesel, huiles de transmission et d'engrenage, hydrauliques, marines, graisses, liquides de refroidissement et huiles de base.",
+    "productsDescription": "Gamme complète de lubrifiants fabriqués aux UAE : huiles moteur, huiles pour moteurs diesel, huiles de transmission et d'engrenage, huiles hydrauliques et marines, graisses, liquides de refroidissement et huiles de base.",
     "manufacturingTitle": "Fabrication et contrôle qualité",
-    "manufacturingDescription": "Au sein de notre usine de Ras Al Khaimah : mélange, laboratoire interne, technologie d'additifs et logistique d'export selon ISO 9001 / 14001 / 45001.",
+    "manufacturingDescription": "Au sein de notre usine de Ras Al Khaimah : mélange, laboratoire interne, technologie d'additifs et logistique d'export conformes aux normes ISO 9001 / 14001 / 45001.",
     "certificationsTitle": "Certifications — ISO 9001 / 14001 / 45001",
     "certificationsDescription": "Systèmes de management ISO 9001:2015, ISO 14001:2015 et ISO 45001:2018 vérifiés, avec numéros de certificat et détails d'accréditation.",
     "privateLabelTitle": "Lubrifiants en marque de distributeur et marque blanche",
-    "privateLabelDescription": "Lancez votre propre marque de lubrifiants depuis une usine certifiée ISO aux UAE. Formulation, mélange, conditionnement, emballage et export chez un seul partenaire.",
+    "privateLabelDescription": "Lancez votre propre marque de lubrifiants depuis une usine certifiée ISO aux UAE. Formulation, mélange, conditionnement, emballage et export auprès d'un seul et même partenaire.",
     "aboutTitle": "À propos de Lubcon Oil Group",
     "aboutDescription": "La division export et commerciale d'un fabricant de lubrifiants certifié ISO à Ras Al Khaimah, UAE, approvisionnant des distributeurs dans six régions.",
     "contactTitle": "Contact et demande de devis",
@@ -37,7 +37,7 @@
     "titleAccent": "fabriquées sous votre marque",
     "title2": "exportées dans le monde entier",
     "cycleCaption": "Votre marque · Fabriqué aux UAE",
-    "subhead": "Nous mélangeons et conditionnons des huiles moteur de qualité premium selon vos spécifications — votre formule, votre étiquette, votre emballage — dans une usine certifiée ISO à Ras Al Khaimah, UAE, prêtes à l'export mondial.",
+    "subhead": "Nous mélangeons et conditionnons des huiles moteur premium selon vos spécifications — votre formule, votre étiquette, votre emballage — dans une usine certifiée ISO à Ras Al Khaimah, UAE, prêtes pour l'export mondial.",
     "ctaQuote": "Demander un devis",
     "ctaDistributor": "Créez votre marque",
     "scroll": "Faites défiler pour découvrir",
@@ -90,7 +90,7 @@
     "m3Label": "Portée export"
   },
   "trust": {
-    "title": "Conçu pour les acheteurs qui vérifient",
+    "title": "Pensé pour les acheteurs qui exigent des preuves",
     "marquee": "ISO 9001:2015 · ISO 14001:2015 · ISO 45001:2018 · Spécifications API · Séquences ACEA · Formulations conformes OEM · Accrédité UAF · Ras Al Khaimah, UAE",
     "stats": {
       "regionsValue": "6",
@@ -110,7 +110,7 @@
     "tdsNote": "Fiches techniques disponibles sur demande.",
     "cta": "Demander le catalogue complet",
     "ctaCardTitle": "Besoin d'un grade spécifique ?",
-    "ctaCardText": "Envoyez votre spécification — nous la faisons correspondre à une formulation ou en développons une.",
+    "ctaCardText": "Envoyez-nous votre cahier des charges : nous identifions la formulation adaptée ou en développons une sur mesure.",
     "requestQuote": "Demander un devis",
     "viewAll": "Voir tous les produits",
     "badgeBest": "Meilleure vente",
@@ -127,7 +127,7 @@
       },
       "transmission": {
         "name": "Transmission et engrenages",
-        "desc": "Fluides pour transmission automatique, huiles pour boîtes manuelles et engrenages industriels, y compris ATF."
+        "desc": "Fluides pour transmission automatique (ATF), huiles pour boîtes manuelles et engrenages industriels."
       },
       "industrial": {
         "name": "Industriel et hydraulique",
@@ -135,7 +135,7 @@
       },
       "marine": {
         "name": "Lubrifiants marins",
-        "desc": "Huiles pour pistons fourreau, systèmes et cylindres pour moteurs marins et flottes maritimes."
+        "desc": "Huiles pour pistons fourreau, huiles système et huiles cylindre pour moteurs marins et flottes maritimes."
       },
       "greases": {
         "name": "Graisses",
@@ -166,7 +166,7 @@
       },
       "logistics": {
         "title": "Logistique d'export",
-        "desc": "Emplacement en zone franche avec documentation et expédition pour le fret maritime et terrestre dans le monde entier."
+        "desc": "Implantation en zone franche assurant documentation et expédition pour le fret maritime et terrestre dans le monde entier."
       }
     },
     "ringCaption": "Al Hamra Industrial Zone, Ras Al Khaimah",
@@ -178,15 +178,15 @@
   "quality": {
     "eyebrow": "Pourquoi Lubcon",
     "title": "Une protection conçue à l'échelle nanométrique",
-    "p1": "Technologie d'additifs nanoSHIELD pour moins de friction et d'usure",
+    "p1": "Technologie d'additifs nanoSHIELD pour réduire le frottement et l'usure",
     "p2": "Chaque lot testé en laboratoire avant libération",
     "p3": "Formulé selon les spécifications API, ACEA et OEM",
     "p4": "Huiles de base 100 % qualité vierge"
   },
   "certifications": {
     "eyebrow": "Certifications",
-    "title": "Systèmes de management certifiés en toute indépendance",
-    "subtitle": "Délivrés à notre entité de fabrication du groupe et vérifiables par numéro de certificat — comme l'attendent les acheteurs professionnels.",
+    "title": "Des systèmes de management certifiés en toute indépendance",
+    "subtitle": "Délivrés à l'entité de fabrication du groupe et vérifiables par numéro de certificat, comme l'exigent les acheteurs professionnels.",
     "issued": "Délivré",
     "validUntil": "Valable jusqu'au",
     "certNo": "N° de certificat",
@@ -203,14 +203,14 @@
     "steps": {
       "s1": {
         "title": "Spécifier",
-        "desc": "Communiquez grades cibles, spécifications, volumes et marchés."
+        "desc": "Communiquez-nous vos grades cibles, spécifications, volumes et marchés."
       },
       "s2": {
         "title": "Formuler",
         "desc": "Nous faisons correspondre ou développons des formulations et confirmons avec des données de laboratoire."
       },
       "s3": {
-        "title": "Marquer et conditionner",
+        "title": "Personnaliser et conditionner",
         "desc": "Votre étiquette, votre emballage, conditionnés sur nos lignes."
       },
       "s4": {
@@ -294,9 +294,9 @@
     "title": "La branche export d'un fabricant de lubrifiants des UAE",
     "lead": "Lubcon Oil Group est la division export et commerciale de {factory}, une usine de lubrifiants certifiée ISO à Ras Al Khaimah, Émirats arabes unis.",
     "structureTitle": "Structure du groupe",
-    "structureText": "La fabrication, les systèmes qualité et les certificats ISO appartiennent à l'usine du groupe. Lubcon Oil Group gère l'export, les partenariats de distribution et les programmes de marque de distributeur. Nous exposons cette relation ouvertement — les certificats portent le nom et les numéros de l'entité de fabrication.",
-    "whoTitle": "Qui nous servons",
-    "whoText": "Distributeurs, gestionnaires de flottes, acheteurs industriels et propriétaires de marques qui ont besoin de lubrifiants fiables et conformes aux spécifications, et d'un partenaire capable de produire en marque de distributeur et d'exporter à grande échelle.",
+    "structureText": "La fabrication, les systèmes qualité et les certificats ISO relèvent de l'usine du groupe. Lubcon Oil Group gère l'export, les partenariats de distribution et les programmes de marque de distributeur. Nous assumons cette relation en toute transparence : les certificats portent le nom et les numéros de l'entité de fabrication.",
+    "whoTitle": "À qui nous nous adressons",
+    "whoText": "Distributeurs, gestionnaires de flottes, acheteurs industriels et propriétaires de marques en quête de lubrifiants fiables et conformes aux spécifications, ainsi que d'un partenaire capable de produire en marque de distributeur et d'exporter à grande échelle.",
     "whyTitle": "Pourquoi Ras Al Khaimah",
     "whyText": "Une base industrielle en zone franche sur le golfe Arabique offre une logistique maritime et terrestre efficace, une documentation d'export simplifiée et un accès rapide aux marchés de l'Est comme de l'Ouest."
   },

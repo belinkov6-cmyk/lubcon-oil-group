@@ -5,7 +5,7 @@
     "productsTitle": "Prodotti — Lubrificanti per motori, industriali e marini",
     "productsDescription": "Gamma completa di lubrificanti prodotti negli UAE: oli motore, oli per motori diesel, oli per trasmissioni e ingranaggi, idraulici, marini, grassi, liquidi refrigeranti e oli base.",
     "manufacturingTitle": "Produzione e controllo qualità",
-    "manufacturingDescription": "All'interno del nostro stabilimento di Ras Al Khaimah: miscelazione, laboratorio interno, tecnologia degli additivi e logistica di esportazione secondo ISO 9001 / 14001 / 45001.",
+    "manufacturingDescription": "All'interno del nostro stabilimento di Ras Al Khaimah: miscelazione, laboratorio interno, tecnologia degli additivi e logistica di esportazione conformi a ISO 9001 / 14001 / 45001.",
     "certificationsTitle": "Certificazioni — ISO 9001 / 14001 / 45001",
     "certificationsDescription": "Sistemi di gestione ISO 9001:2015, ISO 14001:2015 e ISO 45001:2018 verificati, con numeri di certificato e dettagli di accreditamento.",
     "privateLabelTitle": "Lubrificanti private label e white label",
@@ -37,14 +37,14 @@
     "titleAccent": "prodotti con il tuo marchio",
     "title2": "esportati in tutto il mondo",
     "cycleCaption": "Il tuo marchio · Prodotto negli UAE",
-    "subhead": "Misceliamo e confezioniamo oli motore di qualità premium secondo le tue specifiche — la tua formula, la tua etichetta, il tuo packaging — in uno stabilimento certificato ISO a Ras Al Khaimah, UAE, pronti per l'esportazione mondiale.",
+    "subhead": "Misceliamo e confezioniamo oli motore di qualità premium secondo le tue specifiche — la tua formula, la tua etichetta, il tuo packaging — in uno stabilimento certificato ISO a Ras Al Khaimah, UAE, pronti per l'esportazione in tutto il mondo.",
     "ctaQuote": "Richiedi un preventivo",
     "ctaDistributor": "Costruisci il tuo marchio",
     "scroll": "Scorri per esplorare",
     "canisterLabel": "IL TUO MARCHIO",
     "cards": {
       "c1": {
-        "title": "Flessibilità tecnologica",
+        "title": "Flessibilità di formulazione",
         "desc": "La tua formula, il tuo packaging, la tua etichetta."
       },
       "c2": {
@@ -87,10 +87,10 @@
     "m2Value": "10–14",
     "m2Label": "Giorni di consegna",
     "m3Value": "Globale",
-    "m3Label": "Portata export"
+    "m3Label": "Copertura export"
   },
   "trust": {
-    "title": "Pensato per gli acquirenti che verificano",
+    "title": "Costruito per gli acquirenti che verificano",
     "marquee": "ISO 9001:2015 · ISO 14001:2015 · ISO 45001:2018 · Specifiche API · Sequenze ACEA · Formulazioni conformi OEM · Accreditato UAF · Ras Al Khaimah, UAE",
     "stats": {
       "regionsValue": "6",
@@ -131,7 +131,7 @@
       },
       "industrial": {
         "name": "Industriale e idraulico",
-        "desc": "Oli idraulici, per compressori e per guide nelle gradazioni ISO VG per impianti e macchinari."
+        "desc": "Oli idraulici, per compressori e per guide di scorrimento nelle gradazioni ISO VG per impianti e macchinari."
       },
       "marine": {
         "name": "Lubrificanti marini",
@@ -142,8 +142,8 @@
         "desc": "Grassi al complesso di litio, al solfonato di calcio ed EP per uso automobilistico e industriale."
       },
       "coolants": {
-        "name": "Refrigeranti, liquidi freni e oli base",
-        "desc": "Liquidi refrigeranti per motori, liquidi freni e oli base dei gruppi I–III per partner di miscelazione."
+        "name": "Refrigeranti, liquidi per freni e oli base",
+        "desc": "Liquidi refrigeranti per motori, liquidi per freni e oli base dei gruppi I–III per partner di miscelazione."
       }
     }
   },
@@ -162,7 +162,7 @@
       },
       "additive": {
         "title": "Tecnologia degli additivi",
-        "desc": "Sistemi di additivi conformi OEM e selezione degli oli base per prestazioni stabili e a livello di specifica."
+        "desc": "Sistemi di additivi conformi OEM e selezione degli oli base per prestazioni costanti e conformi alle specifiche."
       },
       "logistics": {
         "title": "Logistica di esportazione",
@@ -178,7 +178,7 @@
   "quality": {
     "eyebrow": "Perché Lubcon",
     "title": "Protezione progettata su scala nanometrica",
-    "p1": "Tecnologia di additivi nanoSHIELD per minori attrito e usura",
+    "p1": "Tecnologia di additivi nanoSHIELD per ridurre attrito e usura",
     "p2": "Ogni lotto testato in laboratorio prima del rilascio",
     "p3": "Formulato secondo le specifiche API, ACEA e OEM",
     "p4": "Oli base 100% di qualità vergine"
@@ -210,8 +210,8 @@
         "desc": "Abbiniamo o sviluppiamo formulazioni e confermiamo con dati di laboratorio."
       },
       "s3": {
-        "title": "Marchia e riempi",
-        "desc": "La tua etichetta, il tuo packaging, riempiti sulle nostre linee."
+        "title": "Etichetta e riempi",
+        "desc": "La tua etichetta e il tuo packaging, riempiti sulle nostre linee."
       },
       "s4": {
         "title": "Esporta",
@@ -256,7 +256,7 @@
   "contact": {
     "eyebrow": "Contatti",
     "title": "Richiedi un preventivo o condizioni per distributori",
-    "subtitle": "Dicci di cosa hai bisogno. Risposte in genere entro un giorno lavorativo da Ras Al Khaimah.",
+    "subtitle": "Facci sapere di cosa hai bisogno. Rispondiamo in genere entro un giorno lavorativo da Ras Al Khaimah.",
     "channels": {
       "whatsapp": "WhatsApp",
       "whatsappValue": "Chatta con l'ufficio export",
@@ -296,7 +296,7 @@
     "structureTitle": "Struttura del gruppo",
     "structureText": "Produzione, sistemi qualità e certificati ISO appartengono allo stabilimento del gruppo. Lubcon Oil Group gestisce export, partnership di distribuzione e programmi private label. Dichiariamo apertamente questa relazione — i certificati riportano il nome e i numeri dell'entità produttiva.",
     "whoTitle": "Chi serviamo",
-    "whoText": "Distributori, gestori di flotte, acquirenti industriali e titolari di marchi che necessitano di lubrificanti affidabili e a livello di specifica e di un partner in grado di produrre private label ed esportare su larga scala.",
+    "whoText": "Distributori, gestori di flotte, acquirenti industriali e titolari di marchi che necessitano di lubrificanti affidabili e conformi alle specifiche, oltre a un partner in grado di produrre in private label ed esportare su larga scala.",
     "whyTitle": "Perché Ras Al Khaimah",
     "whyText": "Una base industriale in zona franca sul Golfo Arabico offre una logistica marittima e terrestre efficiente, documentazione di export semplificata e un accesso rapido ai mercati orientali e occidentali."
   },

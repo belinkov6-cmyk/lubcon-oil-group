@@ -35,9 +35,9 @@
     "eyebrow": "Lubricant manufacturer · Ras Al Khaimah, UAE",
     "title1": "Premium motor oils, ",
     "titleAccent": "made under your brand",
-    "title2": "exported worldwide",
+    "title2": "exported worldwide.",
     "cycleCaption": "Your brand · Made in the UAE",
-    "subhead": "We blend and bottle premium-quality motor oils to your specification — your formula, your label, your packaging — at an ISO-certified plant in Ras Al Khaimah, UAE, ready to export worldwide.",
+    "subhead": "We blend and bottle premium motor oils to your specification — your formula, your label, your packaging — at an ISO-certified plant in Ras Al Khaimah, UAE, ready for export worldwide.",
     "ctaQuote": "Request a Quote",
     "ctaDistributor": "Build your brand",
     "scroll": "Scroll to explore",
@@ -100,7 +100,7 @@
       "packsValue": "1L–208L",
       "packsLabel": "Pack sizes & bulk",
       "isoValue": "ISO 3",
-      "isoLabel": "Certified systems in place"
+      "isoLabel": "Certified management systems"
     }
   },
   "products": {
@@ -127,7 +127,7 @@
       },
       "transmission": {
         "name": "Transmission & Gear",
-        "desc": "Automatic transmission fluids, manual and industrial gear oils, including ATF."
+        "desc": "Automatic transmission fluids and manual and industrial gear oils."
       },
       "industrial": {
         "name": "Industrial & Hydraulic",
@@ -186,7 +186,7 @@
   "certifications": {
     "eyebrow": "Certifications",
     "title": "Independently certified management systems",
-    "subtitle": "Issued to our group manufacturing entity and verifiable by certificate number — the way professional buyers expect.",
+    "subtitle": "Issued to our group manufacturing entity and verifiable by certificate number — exactly as professional buyers expect.",
     "issued": "Issued",
     "validUntil": "Valid until",
     "certNo": "Certificate no.",
@@ -224,7 +224,7 @@
   "exportMap": {
     "eyebrow": "Global reach",
     "title": "Shipping from Ras Al Khaimah to six regions",
-    "subtitle": "A free-zone base on the Arabian Gulf, positioned for fast access to East and West.",
+    "subtitle": "A free-zone base on the Arabian Gulf, positioned for fast access to both East and West.",
     "hub": "Ras Al Khaimah, UAE",
     "regions": {
       "gcc": {
@@ -298,7 +298,7 @@
     "whoTitle": "Who we serve",
     "whoText": "Distributors, fleet operators, industrial buyers and brand owners who need reliable, specification-grade lubricants and a partner that can private-label and export at scale.",
     "whyTitle": "Why Ras Al Khaimah",
-    "whyText": "A free-zone industrial base on the Arabian Gulf gives efficient sea and land logistics, simplified export documentation and fast reach into both Eastern and Western markets."
+    "whyText": "A free-zone industrial base on the Arabian Gulf provides efficient sea and land logistics, simplified export documentation and fast reach into both Eastern and Western markets."
   },
   "footer": {
     "tagline": "UAE-manufactured lubricants for global markets.",

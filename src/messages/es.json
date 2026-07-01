@@ -61,12 +61,12 @@
       "product": "Producto",
       "productPlaceholder": "Seleccione producto",
       "volume": "Volumen / envase",
-      "volumePlaceholder": "ej. 5.000 L / mes",
+      "volumePlaceholder": "ej.: 5.000 L / mes",
       "country": "País",
       "countryPlaceholder": "Su país",
       "submit": "Solicitar presupuesto",
       "unit": "L",
-      "volumeOver": "Más de 20,000 L"
+      "volumeOver": "Más de 20.000 L"
     },
     "stat1Value": "3",
     "stat1Label": "Sistemas de gestión ISO",
@@ -90,7 +90,7 @@
     "m3Label": "Exportación"
   },
   "trust": {
-    "title": "Hecho para compradores que verifican",
+    "title": "Pensado para compradores que verifican",
     "marquee": "ISO 9001:2015 · ISO 14001:2015 · ISO 45001:2018 · Especificaciones API · Secuencias ACEA · Formulaciones alineadas con OEM · Acreditado por UAF · Ras Al Khaimah, EAU",
     "stats": {
       "regionsValue": "6",
@@ -111,7 +111,7 @@
     "cta": "Solicitar el catálogo completo",
     "ctaCardTitle": "¿Necesita un grado específico?",
     "ctaCardText": "Envíe su especificación — la igualamos a una formulación o desarrollamos una.",
-    "requestQuote": "Pedir precio",
+    "requestQuote": "Solicitar precio",
     "viewAll": "Ver todos los productos",
     "badgeBest": "Más vendido",
     "badgeHeavy": "Servicio pesado",
@@ -135,7 +135,7 @@
       },
       "marine": {
         "name": "Lubricantes marinos",
-        "desc": "Aceites de pistón de tronco, de sistema y de cilindro para motores marinos y flotas navieras."
+        "desc": "Aceites para motores de tronco, de sistema y de cilindro para motores marinos y flotas navieras."
       },
       "greases": {
         "name": "Grasas",
@@ -143,7 +143,7 @@
       },
       "coolants": {
         "name": "Refrigerantes, líquidos de freno y aceites base",
-        "desc": "Refrigerantes de motor, líquidos de freno y aceites base de grupo I–III para socios mezcladores."
+        "desc": "Refrigerantes de motor, líquidos de freno y aceites base de los grupos I–III para socios mezcladores."
       }
     }
   },
@@ -286,7 +286,7 @@
       "whatsappFallback": "Continuar por WhatsApp",
       "required": "Obligatorio",
       "invalidEmail": "Introduzca un correo válido",
-      "consent": "Al enviar, acepta ser contactado sobre su consulta."
+      "consent": "Al enviar el formulario, acepta que le contactemos en relación con su consulta."
     }
   },
   "about": {

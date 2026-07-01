@@ -7,9 +7,9 @@
     "manufacturingTitle": "Üretim ve Kalite Kontrol",
     "manufacturingDescription": "Ras Al Khaimah tesisimizde: harmanlama, kendi bünyemizdeki laboratuvar, katkı teknolojisi ve ISO 9001 / 14001 / 45001 kapsamında ihracat lojistiği.",
     "certificationsTitle": "Sertifikalar — ISO 9001 / 14001 / 45001",
-    "certificationsDescription": "Sertifika numaraları ve akreditasyon ayrıntılarıyla doğrulanmış ISO 9001:2015, ISO 14001:2015 ve ISO 45001:2018 yönetim sistemleri.",
+    "certificationsDescription": "Sertifika numaraları ve akreditasyon bilgileriyle doğrulanabilen ISO 9001:2015, ISO 14001:2015 ve ISO 45001:2018 yönetim sistemleri.",
     "privateLabelTitle": "Özel Marka ve Beyaz Etiket Yağlayıcılar",
-    "privateLabelDescription": "Kendi yağlayıcı markanızı UAE'deki ISO sertifikalı bir tesisten başlatın. Formülasyon, harmanlama, dolum, ambalaj ve ihracat tek bir ortakta.",
+    "privateLabelDescription": "Kendi yağlayıcı markanızı UAE'deki ISO sertifikalı bir tesiste hayata geçirin. Formülasyon, harmanlama, dolum, ambalaj ve ihracat tek bir ortakta.",
     "aboutTitle": "Lubcon Oil Group Hakkında",
     "aboutDescription": "Ras Al Khaimah, UAE'de ISO sertifikalı bir yağlayıcı üreticisinin, altı bölgedeki distribütörlere tedarik sağlayan ihracat ve ticaret bölümü.",
     "contactTitle": "İletişim ve Teklif İsteme",
@@ -37,7 +37,7 @@
     "titleAccent": "kendi markanızla üretilir",
     "title2": "dünya çapında ihraç edilir",
     "cycleCaption": "Sizin markanız · UAE'de üretildi",
-    "subhead": "Premium kalitede motor yağlarını sizin özelliklerinize göre harmanlıyor ve dolduruyoruz — sizin formülünüz, sizin etiketiniz, sizin ambalajınız — Ras Al Khaimah, UAE'deki ISO sertifikalı bir tesiste, dünya çapında ihracata hazır.",
+    "subhead": "Premium kalitedeki motor yağlarını sizin spesifikasyonlarınıza göre harmanlıyor ve dolduruyoruz — sizin formülünüz, sizin etiketiniz, sizin ambalajınız — Ras Al Khaimah, UAE'deki ISO sertifikalı bir tesiste, dünya çapında ihracata hazır.",
     "ctaQuote": "Teklif İste",
     "ctaDistributor": "Markanızı oluşturun",
     "scroll": "Keşfetmek için kaydırın",
@@ -90,8 +90,8 @@
     "m3Label": "İhracat erişimi"
   },
   "trust": {
-    "title": "Doğrulayan alıcılar için tasarlandı",
-    "marquee": "ISO 9001:2015 · ISO 14001:2015 · ISO 45001:2018 · API spesifikasyonları · ACEA dizileri · OEM uyumlu formülasyonlar · UAF akrediteli · Ras Al Khaimah, UAE",
+    "title": "Titiz alıcılar için tasarlandı",
+    "marquee": "ISO 9001:2015 · ISO 14001:2015 · ISO 45001:2018 · API spesifikasyonları · ACEA sınıfları · OEM uyumlu formülasyonlar · UAF akrediteli · Ras Al Khaimah, UAE",
     "stats": {
       "regionsValue": "6",
       "regionsLabel": "Hizmet verilen ihracat bölgesi",
@@ -188,12 +188,12 @@
     "title": "Bağımsız olarak sertifikalandırılmış yönetim sistemleri",
     "subtitle": "Grup üretim kuruluşumuza verilmiş ve sertifika numarasıyla doğrulanabilir — profesyonel alıcıların beklediği gibi.",
     "issued": "Verildi",
-    "validUntil": "Geçerlilik tarihi",
+    "validUntil": "Son geçerlilik tarihi",
     "certNo": "Sertifika no.",
     "scope": "Kapsam",
     "scopeText": "Yağlayıcıların ve ilgili ürünlerin üretimi, harmanlanması ve tedariki.",
     "verifyTitle": "Doğrulama",
-    "verifyText": "Sertifikalar, grubun üretim kuruluşu olan {factory} tarafından tutulmaktadır. {body} ({note}) tarafından akredite edilmiştir ve {verifyAt} adresinden doğrulanabilir. Lubcon Oil Group onun ihracat ve ticaret bölümüdür.",
+    "verifyText": "Sertifikalar, grubun üretim kuruluşu olan {factory} adına düzenlenmiştir. {body} ({note}) tarafından akredite edilmiş olup {verifyAt} adresinden doğrulanabilir. Lubcon Oil Group, bu kuruluşun ihracat ve ticaret bölümüdür.",
     "download": "Sertifikayı görüntüle"
   },
   "privateLabel": {
