@@ -52,7 +52,7 @@ export default function HeroPremium() {
               WebkitMaskImage: 'linear-gradient(to right, transparent 0%, rgba(0,0,0,.4) 16%, #000 38%)',
             }}
           >
-            <Image src="/hero.png" alt="" fill priority sizes="100vw" className="object-cover object-[82%_42%]" />
+            <Image src="/hero.png" alt="" fill priority sizes="(max-width: 1024px) 100vw, 74vw" className="object-cover object-[82%_42%]" />
           </div>
           <div
             className="hero-photo-light absolute inset-0"
@@ -61,7 +61,7 @@ export default function HeroPremium() {
               WebkitMaskImage: 'linear-gradient(to right, transparent 0%, rgba(0,0,0,.4) 14%, #000 34%)',
             }}
           >
-            <Image src="/hero-light.png" alt="" fill sizes="100vw" className="object-cover object-[79%_42%]" />
+            <Image src="/hero-light.png" alt="" fill sizes="(max-width: 1024px) 100vw, 74vw" className="object-cover object-[79%_42%]" />
           </div>
         </div>
         {/* Text-side wash — cream in light theme so dark copy stays legible over
