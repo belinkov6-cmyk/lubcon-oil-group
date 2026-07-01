@@ -61,7 +61,7 @@ export default function HeroPremium() {
               WebkitMaskImage: 'linear-gradient(to right, transparent 0%, rgba(0,0,0,.4) 14%, #000 34%)',
             }}
           >
-            <Image src="/hero-light.png" alt="" fill sizes="100vw" className="object-cover object-[82%_42%]" />
+            <Image src="/hero-light.png" alt="" fill sizes="100vw" className="object-cover object-[78%_42%]" />
           </div>
         </div>
         {/* Text-side wash — cream in light theme so dark copy stays legible over
