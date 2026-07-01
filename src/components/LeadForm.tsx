@@ -25,23 +25,38 @@ export default function LeadForm() {
     ...productKeys.map((k) => ({ value: k, label: tp(`${k}.name`) })),
   ];
 
-  async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
+  function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     const form = e.currentTarget;
-    const data = Object.fromEntries(new FormData(form).entries());
-    setStatus('sending');
-    try {
-      const res = await fetch('/api/lead', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(data),
-      });
-      if (!res.ok) throw new Error('Request failed');
-      setStatus('success');
-      form.reset();
-    } catch {
-      setStatus('error');
-    }
+    const fd = new FormData(form);
+    if ((fd.get('company_website') ?? '').toString().trim()) return; // honeypot
+    const val = (k: string) => (fd.get(k) ?? '').toString().trim();
+
+    const interestLabel =
+      interest === 'general' ? t('interestGeneral') : interest ? tp(`${interest}.name`) : '—';
+    const lines = [
+      `${t('name')}: ${val('name') || '—'}`,
+      `${t('company')}: ${val('company') || '—'}`,
+      `${t('country')}: ${country || '—'}`,
+      `${t('email')}: ${val('email') || '—'}`,
+      `${t('phone')}: ${val('phone') || '—'}`,
+      `${t('interest')}: ${interestLabel}`,
+      `${t('message')}: ${val('message') || '—'}`,
+    ];
+    const text = encodeURIComponent(`Quote request\n\n${lines.join('\n')}`);
+    window.open(`${company.whatsapp}?text=${text}`, '_blank', 'noopener,noreferrer');
+
+    // Best-effort background capture (only does anything if Telegram env is set).
+    fetch('/api/lead', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(Object.fromEntries(fd.entries())),
+    }).catch(() => {});
+
+    setStatus('success');
+    form.reset();
+    setCountry('');
+    setInterest('');
   }
 
   if (status === 'success') {
@@ -62,7 +77,7 @@ export default function LeadForm() {
   }
 
   return (
-    <form onSubmit={onSubmit} className="card p-6 sm:p-8" noValidate>
+    <form onSubmit={onSubmit} className="card p-6 sm:p-8">
       {/* Honeypot */}
       <input
         type="text"
@@ -128,8 +143,8 @@ export default function LeadForm() {
         </div>
       )}
 
-      <button type="submit" disabled={status === 'sending'} className="btn-brass mt-6 w-full disabled:opacity-70">
-        {status === 'sending' ? t('sending') : t('submit')}
+      <button type="submit" className="btn-brass mt-6 w-full shadow-none hover:shadow-none">
+        {t('submit')}
       </button>
       <p className="mt-3 text-center text-xs text-muted">{t('consent')}</p>
     </form>
