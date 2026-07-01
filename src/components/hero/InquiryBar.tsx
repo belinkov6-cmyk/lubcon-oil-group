@@ -1,15 +1,32 @@
 'use client';
 
 import { useState } from 'react';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { company, productKeys } from '@/lib/site';
+import { countryOptions } from '@/lib/countries';
+import WheelPicker from '../WheelPicker';
+
+const VOLUME_STEPS = [1000, 2000, 5000, 10000, 15000, 20000];
 
 export default function InquiryBar({ onBand = false }: { onBand?: boolean }) {
   const t = useTranslations('hero.inquiry');
   const tp = useTranslations('products.items');
+  const locale = useLocale();
+
   const [product, setProduct] = useState('');
   const [volume, setVolume] = useState('');
   const [country, setCountry] = useState('');
+
+  const unit = t('unit');
+  const productOptions = productKeys.map((k) => ({ value: k, label: tp(`${k}.name`) }));
+  const volumeOptions = [
+    ...VOLUME_STEPS.map((n) => {
+      const label = `${n.toLocaleString(locale)} ${unit}`;
+      return { value: label, label };
+    }),
+    { value: t('volumeOver'), label: t('volumeOver') },
+  ];
+  const countries = countryOptions(locale);
 
   function submit(e: React.FormEvent) {
     e.preventDefault();
@@ -19,8 +36,8 @@ export default function InquiryBar({ onBand = false }: { onBand?: boolean }) {
   }
 
   const fieldCls = onBand
-    ? 'w-full rounded-pill border border-black/10 bg-white px-4 py-3 text-sm text-[#1c1206] outline-none placeholder:text-[#8a7a55] focus:border-[#1c1206] focus:ring-2 focus:ring-black/15'
-    : 'w-full rounded-pill border border-line bg-surface px-4 py-3 text-sm text-ink outline-none placeholder:text-muted/70 focus:border-amber focus:ring-2 focus:ring-amber-100';
+    ? 'w-full rounded-pill border border-black/10 bg-white px-4 py-3 text-sm text-[#1c1206] outline-none focus:border-[#1c1206] focus:ring-2 focus:ring-black/15'
+    : 'w-full rounded-pill border border-line bg-surface px-4 py-3 text-sm text-ink outline-none focus:border-amber focus:ring-2 focus:ring-amber-100';
 
   return (
     <form
@@ -32,38 +49,35 @@ export default function InquiryBar({ onBand = false }: { onBand?: boolean }) {
       }
     >
       <Field label={t('product')} onBand={onBand}>
-        <select
+        <WheelPicker
+          options={productOptions}
           value={product}
-          onChange={(e) => setProduct(e.target.value)}
+          onChange={setProduct}
+          placeholder={t('productPlaceholder')}
           className={fieldCls}
-          aria-label={t('product')}
-        >
-          <option value="">{t('productPlaceholder')}</option>
-          {productKeys.map((k) => (
-            <option key={k} value={k}>
-              {tp(`${k}.name`)}
-            </option>
-          ))}
-        </select>
+          ariaLabel={t('product')}
+        />
       </Field>
 
       <Field label={t('volume')} onBand={onBand}>
-        <input
+        <WheelPicker
+          options={volumeOptions}
           value={volume}
-          onChange={(e) => setVolume(e.target.value)}
+          onChange={setVolume}
           placeholder={t('volumePlaceholder')}
           className={fieldCls}
-          aria-label={t('volume')}
+          ariaLabel={t('volume')}
         />
       </Field>
 
       <Field label={t('country')} onBand={onBand}>
-        <input
+        <WheelPicker
+          options={countries}
           value={country}
-          onChange={(e) => setCountry(e.target.value)}
+          onChange={setCountry}
           placeholder={t('countryPlaceholder')}
           className={fieldCls}
-          aria-label={t('country')}
+          ariaLabel={t('country')}
         />
       </Field>
 
@@ -91,11 +105,11 @@ function Field({
   onBand?: boolean;
 }) {
   return (
-    <label className="flex flex-col gap-1.5">
+    <div className="flex flex-col gap-1.5">
       <span className={`px-1 text-xs font-semibold ${onBand ? 'text-[#3a2a0a]' : 'text-muted'}`}>
         {label}
       </span>
       {children}
-    </label>
+    </div>
   );
 }

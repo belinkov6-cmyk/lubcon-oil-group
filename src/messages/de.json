@@ -43,9 +43,18 @@
     "scroll": "Scrollen zum Entdecken",
     "canisterLabel": "IHRE MARKE",
     "cards": {
-      "c1": { "title": "Technologische Flexibilität", "desc": "Ihre Formulierung, Ihre Verpackung, Ihr Etikett." },
-      "c2": { "title": "Zertifizierte Qualität", "desc": "ISO 9001 · 14001 · 45001, laborgeprüfte Chargen." },
-      "c3": { "title": "Globale Logistik", "desc": "Freizonen-Export in sechs Regionen weltweit." }
+      "c1": {
+        "title": "Technologische Flexibilität",
+        "desc": "Ihre Formulierung, Ihre Verpackung, Ihr Etikett."
+      },
+      "c2": {
+        "title": "Zertifizierte Qualität",
+        "desc": "ISO 9001 · 14001 · 45001, laborgeprüfte Chargen."
+      },
+      "c3": {
+        "title": "Globale Logistik",
+        "desc": "Freizonen-Export in sechs Regionen weltweit."
+      }
     },
     "inquiry": {
       "label": "Angebot in 1 Minute anfragen",
@@ -55,7 +64,9 @@
       "volumePlaceholder": "z. B. 5.000 L / Monat",
       "country": "Land",
       "countryPlaceholder": "Ihr Land",
-      "submit": "Angebot erhalten"
+      "submit": "Angebot erhalten",
+      "unit": "L",
+      "volumeOver": "Mehr als 20.000 L"
     },
     "stat1Value": "3",
     "stat1Label": "ISO-Managementsysteme",
@@ -190,10 +201,22 @@
     "title": "Bringen Sie Ihre eigene Schmierstoffmarke auf den Markt",
     "subtitle": "Von einem einzigen ISO-zertifizierten Partner in den UAE — Formulierung, Mischung, Abfüllung, Etikettendesign und Export.",
     "steps": {
-      "s1": { "title": "Spezifizieren", "desc": "Teilen Sie Zielsorten, Spezifikationen, Mengen und Märkte mit." },
-      "s2": { "title": "Formulieren", "desc": "Wir finden oder entwickeln Formulierungen und bestätigen sie mit Labordaten." },
-      "s3": { "title": "Branden & abfüllen", "desc": "Ihr Etikett, Ihre Verpackung, abgefüllt auf unseren Linien." },
-      "s4": { "title": "Exportieren", "desc": "Dokumentation und Fracht zu Ihrem Distributionszentrum." }
+      "s1": {
+        "title": "Spezifizieren",
+        "desc": "Teilen Sie Zielsorten, Spezifikationen, Mengen und Märkte mit."
+      },
+      "s2": {
+        "title": "Formulieren",
+        "desc": "Wir finden oder entwickeln Formulierungen und bestätigen sie mit Labordaten."
+      },
+      "s3": {
+        "title": "Branden & abfüllen",
+        "desc": "Ihr Etikett, Ihre Verpackung, abgefüllt auf unseren Linien."
+      },
+      "s4": {
+        "title": "Exportieren",
+        "desc": "Dokumentation und Fracht zu Ihrem Distributionszentrum."
+      }
     },
     "ctaPrimary": "Private-Label-Anfrage starten",
     "ctaSecondary": "Auf WhatsApp besprechen"
@@ -204,12 +227,30 @@
     "subtitle": "Ein Freizonen-Standort am Arabischen Golf, positioniert für schnellen Zugang nach Ost und West.",
     "hub": "Ras Al Khaimah, UAE",
     "regions": {
-      "gcc": { "name": "GCC & Naher Osten", "note": "Saudi-Arabien, Oman, Katar, Kuwait, Bahrain" },
-      "europe": { "name": "Europa", "note": "EU-Distributoren und -Mischer" },
-      "cis": { "name": "Russland & GUS", "note": "Russischsprachige Märkte" },
-      "africa": { "name": "Afrika", "note": "Häfen in Ost- und Westafrika" },
-      "latam": { "name": "Lateinamerika", "note": "Süd- und Mittelamerika" },
-      "asia": { "name": "Asien", "note": "Süd- und Südostasien" }
+      "gcc": {
+        "name": "GCC & Naher Osten",
+        "note": "Saudi-Arabien, Oman, Katar, Kuwait, Bahrain"
+      },
+      "europe": {
+        "name": "Europa",
+        "note": "EU-Distributoren und -Mischer"
+      },
+      "cis": {
+        "name": "Russland & GUS",
+        "note": "Russischsprachige Märkte"
+      },
+      "africa": {
+        "name": "Afrika",
+        "note": "Häfen in Ost- und Westafrika"
+      },
+      "latam": {
+        "name": "Lateinamerika",
+        "note": "Süd- und Mittelamerika"
+      },
+      "asia": {
+        "name": "Asien",
+        "note": "Süd- und Südostasien"
+      }
     }
   },
   "contact": {
@@ -275,6 +316,7 @@
     "learnMore": "Mehr erfahren",
     "backHome": "Zurück zur Startseite",
     "specs": "Spezifikationen",
-    "getInTouch": "Kontakt aufnehmen"
+    "getInTouch": "Kontakt aufnehmen",
+    "done": "Fertig"
   }
 }

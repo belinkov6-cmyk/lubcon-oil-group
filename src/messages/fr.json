@@ -43,9 +43,18 @@
     "scroll": "Faites défiler pour découvrir",
     "canisterLabel": "VOTRE MARQUE",
     "cards": {
-      "c1": { "title": "Flexibilité technologique", "desc": "Votre formule, votre emballage, votre étiquette." },
-      "c2": { "title": "Qualité certifiée", "desc": "ISO 9001 · 14001 · 45001, lots testés en laboratoire." },
-      "c3": { "title": "Logistique mondiale", "desc": "Export en zone franche vers six régions du monde." }
+      "c1": {
+        "title": "Flexibilité technologique",
+        "desc": "Votre formule, votre emballage, votre étiquette."
+      },
+      "c2": {
+        "title": "Qualité certifiée",
+        "desc": "ISO 9001 · 14001 · 45001, lots testés en laboratoire."
+      },
+      "c3": {
+        "title": "Logistique mondiale",
+        "desc": "Export en zone franche vers six régions du monde."
+      }
     },
     "inquiry": {
       "label": "Demandez un devis en 1 minute",
@@ -55,7 +64,9 @@
       "volumePlaceholder": "ex. 5 000 L / mois",
       "country": "Pays",
       "countryPlaceholder": "Votre pays",
-      "submit": "Obtenir un devis"
+      "submit": "Obtenir un devis",
+      "unit": "L",
+      "volumeOver": "Plus de 20 000 L"
     },
     "stat1Value": "3",
     "stat1Label": "Systèmes de management ISO",
@@ -190,10 +201,22 @@
     "title": "Lancez votre propre marque de lubrifiants",
     "subtitle": "Auprès d'un seul partenaire certifié ISO aux UAE — formulation, mélange, conditionnement, conception d'étiquette et export.",
     "steps": {
-      "s1": { "title": "Spécifier", "desc": "Communiquez grades cibles, spécifications, volumes et marchés." },
-      "s2": { "title": "Formuler", "desc": "Nous faisons correspondre ou développons des formulations et confirmons avec des données de laboratoire." },
-      "s3": { "title": "Marquer et conditionner", "desc": "Votre étiquette, votre emballage, conditionnés sur nos lignes." },
-      "s4": { "title": "Exporter", "desc": "Documentation et fret vers votre centre de distribution." }
+      "s1": {
+        "title": "Spécifier",
+        "desc": "Communiquez grades cibles, spécifications, volumes et marchés."
+      },
+      "s2": {
+        "title": "Formuler",
+        "desc": "Nous faisons correspondre ou développons des formulations et confirmons avec des données de laboratoire."
+      },
+      "s3": {
+        "title": "Marquer et conditionner",
+        "desc": "Votre étiquette, votre emballage, conditionnés sur nos lignes."
+      },
+      "s4": {
+        "title": "Exporter",
+        "desc": "Documentation et fret vers votre centre de distribution."
+      }
     },
     "ctaPrimary": "Lancer une demande de marque de distributeur",
     "ctaSecondary": "Discuter sur WhatsApp"
@@ -204,12 +227,30 @@
     "subtitle": "Une base en zone franche sur le golfe Arabique, positionnée pour un accès rapide à l'Est comme à l'Ouest.",
     "hub": "Ras Al Khaimah, UAE",
     "regions": {
-      "gcc": { "name": "CCG et Moyen-Orient", "note": "Arabie saoudite, Oman, Qatar, Koweït, Bahreïn" },
-      "europe": { "name": "Europe", "note": "Distributeurs et mélangeurs de l'UE" },
-      "cis": { "name": "Russie et CEI", "note": "Marchés russophones" },
-      "africa": { "name": "Afrique", "note": "Ports d'Afrique de l'Est et de l'Ouest" },
-      "latam": { "name": "Amérique latine", "note": "Amérique du Sud et centrale" },
-      "asia": { "name": "Asie", "note": "Asie du Sud et du Sud-Est" }
+      "gcc": {
+        "name": "CCG et Moyen-Orient",
+        "note": "Arabie saoudite, Oman, Qatar, Koweït, Bahreïn"
+      },
+      "europe": {
+        "name": "Europe",
+        "note": "Distributeurs et mélangeurs de l'UE"
+      },
+      "cis": {
+        "name": "Russie et CEI",
+        "note": "Marchés russophones"
+      },
+      "africa": {
+        "name": "Afrique",
+        "note": "Ports d'Afrique de l'Est et de l'Ouest"
+      },
+      "latam": {
+        "name": "Amérique latine",
+        "note": "Amérique du Sud et centrale"
+      },
+      "asia": {
+        "name": "Asie",
+        "note": "Asie du Sud et du Sud-Est"
+      }
     }
   },
   "contact": {
@@ -275,6 +316,7 @@
     "learnMore": "En savoir plus",
     "backHome": "Retour à l'accueil",
     "specs": "Spécifications",
-    "getInTouch": "Nous contacter"
+    "getInTouch": "Nous contacter",
+    "done": "Terminé"
   }
 }

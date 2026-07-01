@@ -43,9 +43,18 @@
     "scroll": "Scorri per esplorare",
     "canisterLabel": "IL TUO MARCHIO",
     "cards": {
-      "c1": { "title": "Flessibilità tecnologica", "desc": "La tua formula, il tuo packaging, la tua etichetta." },
-      "c2": { "title": "Qualità certificata", "desc": "ISO 9001 · 14001 · 45001, lotti testati in laboratorio." },
-      "c3": { "title": "Logistica globale", "desc": "Esportazione in zona franca verso sei regioni nel mondo." }
+      "c1": {
+        "title": "Flessibilità tecnologica",
+        "desc": "La tua formula, il tuo packaging, la tua etichetta."
+      },
+      "c2": {
+        "title": "Qualità certificata",
+        "desc": "ISO 9001 · 14001 · 45001, lotti testati in laboratorio."
+      },
+      "c3": {
+        "title": "Logistica globale",
+        "desc": "Esportazione in zona franca verso sei regioni nel mondo."
+      }
     },
     "inquiry": {
       "label": "Richiedi un preventivo in 1 minuto",
@@ -55,7 +64,9 @@
       "volumePlaceholder": "es. 5.000 L / mese",
       "country": "Paese",
       "countryPlaceholder": "Il tuo paese",
-      "submit": "Ottieni un preventivo"
+      "submit": "Ottieni un preventivo",
+      "unit": "L",
+      "volumeOver": "Più di 20.000 L"
     },
     "stat1Value": "3",
     "stat1Label": "Sistemi di gestione ISO",
@@ -190,10 +201,22 @@
     "title": "Lancia il tuo marchio di lubrificanti",
     "subtitle": "Da un unico partner certificato ISO negli UAE — formulazione, miscelazione, riempimento, progettazione etichetta ed export.",
     "steps": {
-      "s1": { "title": "Specifica", "desc": "Condividi gradazioni target, specifiche, volumi e mercati." },
-      "s2": { "title": "Formula", "desc": "Abbiniamo o sviluppiamo formulazioni e confermiamo con dati di laboratorio." },
-      "s3": { "title": "Marchia e riempi", "desc": "La tua etichetta, il tuo packaging, riempiti sulle nostre linee." },
-      "s4": { "title": "Esporta", "desc": "Documentazione e spedizione verso il tuo hub di distribuzione." }
+      "s1": {
+        "title": "Specifica",
+        "desc": "Condividi gradazioni target, specifiche, volumi e mercati."
+      },
+      "s2": {
+        "title": "Formula",
+        "desc": "Abbiniamo o sviluppiamo formulazioni e confermiamo con dati di laboratorio."
+      },
+      "s3": {
+        "title": "Marchia e riempi",
+        "desc": "La tua etichetta, il tuo packaging, riempiti sulle nostre linee."
+      },
+      "s4": {
+        "title": "Esporta",
+        "desc": "Documentazione e spedizione verso il tuo hub di distribuzione."
+      }
     },
     "ctaPrimary": "Avvia una richiesta private label",
     "ctaSecondary": "Parlane su WhatsApp"
@@ -204,12 +227,30 @@
     "subtitle": "Una base in zona franca sul Golfo Arabico, posizionata per un accesso rapido a Est e Ovest.",
     "hub": "Ras Al Khaimah, UAE",
     "regions": {
-      "gcc": { "name": "GCC e Medio Oriente", "note": "Arabia Saudita, Oman, Qatar, Kuwait, Bahrein" },
-      "europe": { "name": "Europa", "note": "Distributori e miscelatori dell'UE" },
-      "cis": { "name": "Russia e CSI", "note": "Mercati di lingua russa" },
-      "africa": { "name": "Africa", "note": "Porti dell'Africa orientale e occidentale" },
-      "latam": { "name": "America Latina", "note": "America del Sud e centrale" },
-      "asia": { "name": "Asia", "note": "Asia meridionale e sud-orientale" }
+      "gcc": {
+        "name": "GCC e Medio Oriente",
+        "note": "Arabia Saudita, Oman, Qatar, Kuwait, Bahrein"
+      },
+      "europe": {
+        "name": "Europa",
+        "note": "Distributori e miscelatori dell'UE"
+      },
+      "cis": {
+        "name": "Russia e CSI",
+        "note": "Mercati di lingua russa"
+      },
+      "africa": {
+        "name": "Africa",
+        "note": "Porti dell'Africa orientale e occidentale"
+      },
+      "latam": {
+        "name": "America Latina",
+        "note": "America del Sud e centrale"
+      },
+      "asia": {
+        "name": "Asia",
+        "note": "Asia meridionale e sud-orientale"
+      }
     }
   },
   "contact": {
@@ -275,6 +316,7 @@
     "learnMore": "Scopri di più",
     "backHome": "Torna alla home",
     "specs": "Specifiche",
-    "getInTouch": "Contattaci"
+    "getInTouch": "Contattaci",
+    "done": "Fatto"
   }
 }

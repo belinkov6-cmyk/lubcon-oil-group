@@ -43,9 +43,18 @@
     "scroll": "Scroll to explore",
     "canisterLabel": "YOUR BRAND",
     "cards": {
-      "c1": { "title": "Technological flexibility", "desc": "Your formulation, your packaging, your label." },
-      "c2": { "title": "Certified quality", "desc": "ISO 9001 · 14001 · 45001, lab-tested batches." },
-      "c3": { "title": "Global logistics", "desc": "Free-zone export to six regions worldwide." }
+      "c1": {
+        "title": "Technological flexibility",
+        "desc": "Your formulation, your packaging, your label."
+      },
+      "c2": {
+        "title": "Certified quality",
+        "desc": "ISO 9001 · 14001 · 45001, lab-tested batches."
+      },
+      "c3": {
+        "title": "Global logistics",
+        "desc": "Free-zone export to six regions worldwide."
+      }
     },
     "inquiry": {
       "label": "Request a quote in 1 minute",
@@ -55,7 +64,9 @@
       "volumePlaceholder": "e.g. 5,000 L / month",
       "country": "Country",
       "countryPlaceholder": "Your country",
-      "submit": "Get a Quote"
+      "submit": "Get a Quote",
+      "unit": "L",
+      "volumeOver": "More than 20,000 L"
     },
     "stat1Value": "3",
     "stat1Label": "ISO management systems",
@@ -190,10 +201,22 @@
     "title": "Launch your own lubricant brand",
     "subtitle": "From a single ISO-certified UAE partner — formulation, blending, filling, label design and export.",
     "steps": {
-      "s1": { "title": "Specify", "desc": "Share target grades, specifications, volumes and markets." },
-      "s2": { "title": "Formulate", "desc": "We match or develop formulations and confirm with lab data." },
-      "s3": { "title": "Brand & fill", "desc": "Your label, your packaging, filled on our lines." },
-      "s4": { "title": "Export", "desc": "Documentation and freight to your distribution hub." }
+      "s1": {
+        "title": "Specify",
+        "desc": "Share target grades, specifications, volumes and markets."
+      },
+      "s2": {
+        "title": "Formulate",
+        "desc": "We match or develop formulations and confirm with lab data."
+      },
+      "s3": {
+        "title": "Brand & fill",
+        "desc": "Your label, your packaging, filled on our lines."
+      },
+      "s4": {
+        "title": "Export",
+        "desc": "Documentation and freight to your distribution hub."
+      }
     },
     "ctaPrimary": "Start a private-label inquiry",
     "ctaSecondary": "Discuss on WhatsApp"
@@ -204,12 +227,30 @@
     "subtitle": "A free-zone base on the Arabian Gulf, positioned for fast access to East and West.",
     "hub": "Ras Al Khaimah, UAE",
     "regions": {
-      "gcc": { "name": "GCC & Middle East", "note": "Saudi Arabia, Oman, Qatar, Kuwait, Bahrain" },
-      "europe": { "name": "Europe", "note": "EU distributors and blenders" },
-      "cis": { "name": "Russia & CIS", "note": "Russian-speaking markets" },
-      "africa": { "name": "Africa", "note": "East & West African ports" },
-      "latam": { "name": "Latin America", "note": "South & Central America" },
-      "asia": { "name": "Asia", "note": "South & Southeast Asia" }
+      "gcc": {
+        "name": "GCC & Middle East",
+        "note": "Saudi Arabia, Oman, Qatar, Kuwait, Bahrain"
+      },
+      "europe": {
+        "name": "Europe",
+        "note": "EU distributors and blenders"
+      },
+      "cis": {
+        "name": "Russia & CIS",
+        "note": "Russian-speaking markets"
+      },
+      "africa": {
+        "name": "Africa",
+        "note": "East & West African ports"
+      },
+      "latam": {
+        "name": "Latin America",
+        "note": "South & Central America"
+      },
+      "asia": {
+        "name": "Asia",
+        "note": "South & Southeast Asia"
+      }
     }
   },
   "contact": {
@@ -275,6 +316,7 @@
     "learnMore": "Learn more",
     "backHome": "Back to home",
     "specs": "Specifications",
-    "getInTouch": "Get in touch"
+    "getInTouch": "Get in touch",
+    "done": "Done"
   }
 }

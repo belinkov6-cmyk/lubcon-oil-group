@@ -1,15 +1,29 @@
 'use client';
 
 import { useState } from 'react';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { company, productKeys } from '@/lib/site';
+import { countryOptions } from '@/lib/countries';
+import WheelPicker from './WheelPicker';
 
 type Status = 'idle' | 'sending' | 'success' | 'error';
+
+const PICKER_CLS =
+  'field-dark w-full rounded-card border border-line bg-[rgba(10,7,3,0.5)] px-4 py-2.5 text-sm text-cream outline-none transition-colors focus:border-brass-2 focus:ring-2 focus:ring-brass-2/40';
 
 export default function LeadForm() {
   const t = useTranslations('contact.form');
   const tp = useTranslations('products.items');
+  const locale = useLocale();
   const [status, setStatus] = useState<Status>('idle');
+  const [country, setCountry] = useState('');
+  const [interest, setInterest] = useState('');
+
+  const countries = countryOptions(locale);
+  const interestOptions = [
+    { value: 'general', label: t('interestGeneral') },
+    ...productKeys.map((k) => ({ value: k, label: tp(`${k}.name`) })),
+  ];
 
   async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -62,29 +76,31 @@ export default function LeadForm() {
       <div className="grid gap-4 sm:grid-cols-2">
         <Field label={t('name')} name="name" required autoComplete="name" />
         <Field label={t('company')} name="company" autoComplete="organization" />
-        <Field label={t('country')} name="country" autoComplete="country-name" />
+        <div className="flex flex-col gap-1.5">
+          <span className="text-sm font-medium text-ink">{t('country')}</span>
+          <WheelPicker
+            options={countries}
+            value={country}
+            onChange={setCountry}
+            name="country"
+            placeholder={t('country')}
+            className={PICKER_CLS}
+            ariaLabel={t('country')}
+          />
+        </div>
         <Field label={t('email')} name="email" type="email" required autoComplete="email" />
         <Field label={t('phone')} name="phone" type="tel" autoComplete="tel" />
         <div className="flex flex-col gap-1.5">
-          <label htmlFor="interest" className="text-sm font-medium text-ink">
-            {t('interest')}
-          </label>
-          <select
-            id="interest"
+          <span className="text-sm font-medium text-ink">{t('interest')}</span>
+          <WheelPicker
+            options={interestOptions}
+            value={interest}
+            onChange={setInterest}
             name="interest"
-            defaultValue=""
-            className="field-dark rounded-card border border-line bg-[rgba(10,7,3,0.5)] px-4 py-2.5 text-sm text-cream outline-none transition-colors focus:border-brass-2 focus:ring-2 focus:ring-brass-2/40"
-          >
-            <option value="" disabled>
-              {t('interestPlaceholder')}
-            </option>
-            <option value="general">{t('interestGeneral')}</option>
-            {productKeys.map((k) => (
-              <option key={k} value={k}>
-                {tp(`${k}.name`)}
-              </option>
-            ))}
-          </select>
+            placeholder={t('interestPlaceholder')}
+            className={PICKER_CLS}
+            ariaLabel={t('interest')}
+          />
         </div>
       </div>
 

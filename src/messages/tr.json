@@ -43,9 +43,18 @@
     "scroll": "Keşfetmek için kaydırın",
     "canisterLabel": "MARKANIZ",
     "cards": {
-      "c1": { "title": "Teknolojik esneklik", "desc": "Sizin formülünüz, ambalajınız, etiketiniz." },
-      "c2": { "title": "Sertifikalı kalite", "desc": "ISO 9001 · 14001 · 45001, laboratuvarda test edilmiş partiler." },
-      "c3": { "title": "Küresel lojistik", "desc": "Serbest bölgeden dünya çapında altı bölgeye ihracat." }
+      "c1": {
+        "title": "Teknolojik esneklik",
+        "desc": "Sizin formülünüz, ambalajınız, etiketiniz."
+      },
+      "c2": {
+        "title": "Sertifikalı kalite",
+        "desc": "ISO 9001 · 14001 · 45001, laboratuvarda test edilmiş partiler."
+      },
+      "c3": {
+        "title": "Küresel lojistik",
+        "desc": "Serbest bölgeden dünya çapında altı bölgeye ihracat."
+      }
     },
     "inquiry": {
       "label": "1 dakikada teklif isteyin",
@@ -55,7 +64,9 @@
       "volumePlaceholder": "örn. 5.000 L / ay",
       "country": "Ülke",
       "countryPlaceholder": "Ülkeniz",
-      "submit": "Teklif Al"
+      "submit": "Teklif Al",
+      "unit": "L",
+      "volumeOver": "20.000 L'den fazla"
     },
     "stat1Value": "3",
     "stat1Label": "ISO yönetim sistemi",
@@ -190,10 +201,22 @@
     "title": "Kendi yağlayıcı markanızı başlatın",
     "subtitle": "UAE'deki tek bir ISO sertifikalı ortaktan — formülasyon, harmanlama, dolum, etiket tasarımı ve ihracat.",
     "steps": {
-      "s1": { "title": "Belirleyin", "desc": "Hedef kaliteleri, spesifikasyonları, hacimleri ve pazarları paylaşın." },
-      "s2": { "title": "Formüle edin", "desc": "Formülasyonları eşleştirir veya geliştirir ve laboratuvar verileriyle doğrularız." },
-      "s3": { "title": "Markalandırın ve doldurun", "desc": "Sizin etiketiniz, sizin ambalajınız, hatlarımızda doldurulur." },
-      "s4": { "title": "İhraç edin", "desc": "Dağıtım merkezinize belgeleme ve sevkiyat." }
+      "s1": {
+        "title": "Belirleyin",
+        "desc": "Hedef kaliteleri, spesifikasyonları, hacimleri ve pazarları paylaşın."
+      },
+      "s2": {
+        "title": "Formüle edin",
+        "desc": "Formülasyonları eşleştirir veya geliştirir ve laboratuvar verileriyle doğrularız."
+      },
+      "s3": {
+        "title": "Markalandırın ve doldurun",
+        "desc": "Sizin etiketiniz, sizin ambalajınız, hatlarımızda doldurulur."
+      },
+      "s4": {
+        "title": "İhraç edin",
+        "desc": "Dağıtım merkezinize belgeleme ve sevkiyat."
+      }
     },
     "ctaPrimary": "Özel marka talebi başlatın",
     "ctaSecondary": "WhatsApp'ta görüşün"
@@ -204,12 +227,30 @@
     "subtitle": "Arap Körfezi'nde bir serbest bölge üssü, Doğu ve Batı'ya hızlı erişim için konumlandırılmıştır.",
     "hub": "Ras Al Khaimah, UAE",
     "regions": {
-      "gcc": { "name": "KİK ve Orta Doğu", "note": "Suudi Arabistan, Umman, Katar, Kuveyt, Bahreyn" },
-      "europe": { "name": "Avrupa", "note": "AB distribütörleri ve harmancıları" },
-      "cis": { "name": "Rusya ve BDT", "note": "Rusça konuşulan pazarlar" },
-      "africa": { "name": "Afrika", "note": "Doğu ve Batı Afrika limanları" },
-      "latam": { "name": "Latin Amerika", "note": "Güney ve Orta Amerika" },
-      "asia": { "name": "Asya", "note": "Güney ve Güneydoğu Asya" }
+      "gcc": {
+        "name": "KİK ve Orta Doğu",
+        "note": "Suudi Arabistan, Umman, Katar, Kuveyt, Bahreyn"
+      },
+      "europe": {
+        "name": "Avrupa",
+        "note": "AB distribütörleri ve harmancıları"
+      },
+      "cis": {
+        "name": "Rusya ve BDT",
+        "note": "Rusça konuşulan pazarlar"
+      },
+      "africa": {
+        "name": "Afrika",
+        "note": "Doğu ve Batı Afrika limanları"
+      },
+      "latam": {
+        "name": "Latin Amerika",
+        "note": "Güney ve Orta Amerika"
+      },
+      "asia": {
+        "name": "Asya",
+        "note": "Güney ve Güneydoğu Asya"
+      }
     }
   },
   "contact": {
@@ -275,6 +316,7 @@
     "learnMore": "Daha fazla bilgi",
     "backHome": "Ana sayfaya dön",
     "specs": "Spesifikasyonlar",
-    "getInTouch": "İletişime geçin"
+    "getInTouch": "İletişime geçin",
+    "done": "Tamam"
   }
 }

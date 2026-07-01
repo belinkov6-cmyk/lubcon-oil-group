@@ -43,9 +43,18 @@
     "scroll": "Role para explorar",
     "canisterLabel": "SUA MARCA",
     "cards": {
-      "c1": { "title": "Flexibilidade tecnológica", "desc": "Sua fórmula, sua embalagem, seu rótulo." },
-      "c2": { "title": "Qualidade certificada", "desc": "ISO 9001 · 14001 · 45001, lotes testados." },
-      "c3": { "title": "Logística global", "desc": "Exportação de zona franca para seis regiões." }
+      "c1": {
+        "title": "Flexibilidade tecnológica",
+        "desc": "Sua fórmula, sua embalagem, seu rótulo."
+      },
+      "c2": {
+        "title": "Qualidade certificada",
+        "desc": "ISO 9001 · 14001 · 45001, lotes testados."
+      },
+      "c3": {
+        "title": "Logística global",
+        "desc": "Exportação de zona franca para seis regiões."
+      }
     },
     "inquiry": {
       "label": "Solicite um orçamento em 1 minuto",
@@ -55,7 +64,9 @@
       "volumePlaceholder": "ex. 5.000 L / mês",
       "country": "País",
       "countryPlaceholder": "Seu país",
-      "submit": "Solicitar orçamento"
+      "submit": "Solicitar orçamento",
+      "unit": "L",
+      "volumeOver": "Mais de 20.000 L"
     },
     "stat1Value": "3",
     "stat1Label": "Sistemas de gestão ISO",
@@ -190,10 +201,22 @@
     "title": "Lance sua própria marca de lubrificantes",
     "subtitle": "A partir de um único parceiro com certificação ISO nos EAU — formulação, mistura, envase, design de rótulo e exportação.",
     "steps": {
-      "s1": { "title": "Especificar", "desc": "Compartilhe graus, especificações, volumes e mercados-alvo." },
-      "s2": { "title": "Formular", "desc": "Combinamos ou desenvolvemos formulações e confirmamos com dados de laboratório." },
-      "s3": { "title": "Marca e envase", "desc": "Seu rótulo, sua embalagem, envasados em nossas linhas." },
-      "s4": { "title": "Exportar", "desc": "Documentação e transporte até seu centro de distribuição." }
+      "s1": {
+        "title": "Especificar",
+        "desc": "Compartilhe graus, especificações, volumes e mercados-alvo."
+      },
+      "s2": {
+        "title": "Formular",
+        "desc": "Combinamos ou desenvolvemos formulações e confirmamos com dados de laboratório."
+      },
+      "s3": {
+        "title": "Marca e envase",
+        "desc": "Seu rótulo, sua embalagem, envasados em nossas linhas."
+      },
+      "s4": {
+        "title": "Exportar",
+        "desc": "Documentação e transporte até seu centro de distribuição."
+      }
     },
     "ctaPrimary": "Iniciar consulta de marca própria",
     "ctaSecondary": "Falar no WhatsApp"
@@ -204,12 +227,30 @@
     "subtitle": "Uma base em zona franca no Golfo Arábico, posicionada para acesso rápido ao Oriente e ao Ocidente.",
     "hub": "Ras Al Khaimah, EAU",
     "regions": {
-      "gcc": { "name": "Golfo e Oriente Médio", "note": "Arábia Saudita, Omã, Catar, Kuwait, Bahrein" },
-      "europe": { "name": "Europa", "note": "Distribuidores e misturadores da UE" },
-      "cis": { "name": "Rússia e CEI", "note": "Mercados de língua russa" },
-      "africa": { "name": "África", "note": "Portos da África Oriental e Ocidental" },
-      "latam": { "name": "América Latina", "note": "América do Sul e Central" },
-      "asia": { "name": "Ásia", "note": "Sul e Sudeste Asiático" }
+      "gcc": {
+        "name": "Golfo e Oriente Médio",
+        "note": "Arábia Saudita, Omã, Catar, Kuwait, Bahrein"
+      },
+      "europe": {
+        "name": "Europa",
+        "note": "Distribuidores e misturadores da UE"
+      },
+      "cis": {
+        "name": "Rússia e CEI",
+        "note": "Mercados de língua russa"
+      },
+      "africa": {
+        "name": "África",
+        "note": "Portos da África Oriental e Ocidental"
+      },
+      "latam": {
+        "name": "América Latina",
+        "note": "América do Sul e Central"
+      },
+      "asia": {
+        "name": "Ásia",
+        "note": "Sul e Sudeste Asiático"
+      }
     }
   },
   "contact": {
@@ -275,6 +316,7 @@
     "learnMore": "Saiba mais",
     "backHome": "Voltar ao início",
     "specs": "Especificações",
-    "getInTouch": "Entre em contato"
+    "getInTouch": "Entre em contato",
+    "done": "Concluído"
   }
 }

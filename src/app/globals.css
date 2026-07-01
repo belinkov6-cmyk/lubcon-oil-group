@@ -67,6 +67,15 @@
   border-color: var(--line);
 }
 
+/* iOS-style wheel picker: hide the scrollbar but keep it scrollable */
+.wheel-scroll {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.wheel-scroll::-webkit-scrollbar {
+  display: none;
+}
+
 /* --- Dark-theme surface overrides (plain CSS so they win over utilities) --- */
 /* Generic cards (certifications, capabilities, contact, etc.) -> dark translucent */
 .card {
