@@ -52,7 +52,7 @@ export default function ContactSection({ bare = false }: { bare?: boolean }) {
                   key={c.title}
                   href={c.href}
                   {...(c.external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
-                  className="group flex items-center gap-4 rounded-card border border-line bg-[rgba(22,16,9,0.45)] p-5 transition-all hover:-translate-y-0.5 hover:border-gold"
+                  className="panel-dark group flex items-center gap-4 rounded-card border border-line bg-[rgba(22,16,9,0.45)] p-5 transition-all hover:-translate-y-0.5 hover:border-gold"
                 >
                   <span className="inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-[14px] bg-navy text-brass-3 transition-transform group-hover:scale-105">
                     <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -76,7 +76,7 @@ export default function ContactSection({ bare = false }: { bare?: boolean }) {
                 </a>
               ))}
 
-              <div className="mt-2 rounded-card border border-line bg-[rgba(22,16,9,0.45)] p-5">
+              <div className="panel-dark mt-2 rounded-card border border-line bg-[rgba(22,16,9,0.45)] p-5">
                 <p className="text-xs font-semibold uppercase tracking-[0.16em] text-navy-600">
                   {t('channels.personLabel')}
                 </p>

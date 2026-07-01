@@ -29,7 +29,7 @@ export default function Products({ bare = false }: { bare?: boolean }) {
         <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {catalog.map((p, i) => (
             <Reveal key={p.slug} delay={(i % 4) * 60}>
-              <article className="group flex h-full flex-col overflow-hidden rounded-card border border-[rgba(201,162,75,0.35)] bg-[#f6f1e6] shadow-[0_10px_30px_rgba(0,0,0,.35)] transition-all duration-300 hover:-translate-y-1 hover:border-[rgba(201,162,75,0.6)]">
+              <article className="product-card group flex h-full flex-col overflow-hidden rounded-card border border-[rgba(201,162,75,0.35)] bg-[#f6f1e6] shadow-[0_10px_30px_rgba(0,0,0,.35)] transition-all duration-300 hover:-translate-y-1 hover:border-[rgba(201,162,75,0.6)]">
                 <div className="relative aspect-square bg-gradient-to-b from-white to-[#efe7d6]">
                   {p.badge && (
                     <span

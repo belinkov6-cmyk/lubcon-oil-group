@@ -6,6 +6,7 @@ import { Link } from '@/i18n/navigation';
 import { company } from '@/lib/site';
 import Logo from './Logo';
 import LanguageSwitcher from './LanguageSwitcher';
+import ThemeToggle from './ThemeToggle';
 
 const NAV = [
   { href: '/products', key: 'products' },
@@ -76,9 +77,11 @@ export default function Header({ locale }: { locale: string }) {
             {th('quote')}
           </Link>
           <LanguageSwitcher label={th('language')} light={dark} />
+          <ThemeToggle />
         </div>
 
         <div className="flex items-center gap-2 lg:hidden">
+          <ThemeToggle />
           <LanguageSwitcher label={th('language')} light={dark} />
           <button
             type="button"

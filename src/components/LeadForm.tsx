@@ -73,7 +73,7 @@ export default function LeadForm() {
             id="interest"
             name="interest"
             defaultValue=""
-            className="rounded-card border border-line bg-[rgba(10,7,3,0.5)] px-4 py-2.5 text-sm text-cream outline-none transition-colors focus:border-brass-2 focus:ring-2 focus:ring-brass-2/40"
+            className="field-dark rounded-card border border-line bg-[rgba(10,7,3,0.5)] px-4 py-2.5 text-sm text-cream outline-none transition-colors focus:border-brass-2 focus:ring-2 focus:ring-brass-2/40"
           >
             <option value="" disabled>
               {t('interestPlaceholder')}
@@ -97,7 +97,7 @@ export default function LeadForm() {
           name="message"
           rows={4}
           placeholder={t('messagePlaceholder')}
-          className="rounded-card border border-line bg-[rgba(10,7,3,0.5)] px-4 py-3 text-sm text-cream outline-none transition-colors placeholder:text-muted/70 focus:border-brass-2 focus:ring-2 focus:ring-brass-2/40"
+          className="field-dark rounded-card border border-line bg-[rgba(10,7,3,0.5)] px-4 py-3 text-sm text-cream outline-none transition-colors placeholder:text-muted/70 focus:border-brass-2 focus:ring-2 focus:ring-brass-2/40"
         />
       </div>
 
@@ -145,7 +145,7 @@ function Field({
         type={type}
         required={required}
         autoComplete={autoComplete}
-        className="rounded-card border border-line bg-[rgba(10,7,3,0.5)] px-4 py-2.5 text-sm text-cream outline-none transition-colors placeholder:text-muted/70 focus:border-brass-2 focus:ring-2 focus:ring-brass-2/40"
+        className="field-dark rounded-card border border-line bg-[rgba(10,7,3,0.5)] px-4 py-2.5 text-sm text-cream outline-none transition-colors placeholder:text-muted/70 focus:border-brass-2 focus:ring-2 focus:ring-brass-2/40"
       />
     </div>
   );

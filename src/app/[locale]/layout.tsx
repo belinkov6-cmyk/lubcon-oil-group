@@ -77,10 +77,11 @@ export default async function LocaleLayout({ children, params }: Props) {
       suppressHydrationWarning
     >
       <body>
-        {/* Enables progressive-enhancement reveal animations without blocking content */}
+        {/* Enables reveal animations + applies the saved theme before paint (no flash) */}
         <script
           dangerouslySetInnerHTML={{
-            __html: "document.documentElement.classList.add('js')",
+            __html:
+              "document.documentElement.classList.add('js');try{if(localStorage.getItem('theme')==='light')document.documentElement.setAttribute('data-theme','light')}catch(e){}",
           }}
         />
         <NextIntlClientProvider messages={messages}>

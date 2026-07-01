@@ -70,6 +70,64 @@
   pointer-events: none;
 }
 
+/* ===================================================================== */
+/* LIGHT THEME (champagne) — toggled via [data-theme="light"] on <html>.  */
+/* Repoints shared tokens to warm-light values so every token-based class */
+/* (text-ink, text-navy, text-muted, border-line …) auto-recolours, then  */
+/* patches the hand-coded dark "island" surfaces.                          */
+/* ===================================================================== */
+[data-theme='light'] {
+  --surface: transparent;
+  --surface-2: rgba(176, 125, 43, 0.08);
+  --ink: #2e2110; /* headings — deep espresso */
+  --text: #4a3a1f; /* body */
+  --muted: #7e6c4c; /* secondary */
+  --navy: #a9781f; /* gold accent */
+  --navy-700: #8c6118;
+  --navy-600: #b07d2b;
+  --navy-500: #c99a45;
+  --line: rgba(176, 125, 43, 0.28);
+  --page-light: linear-gradient(180deg, #fffdf8 0%, #f6efe0 40%, #fbf4e4 74%, #f3ead6 100%);
+}
+[data-theme='light'] body {
+  background: var(--page-light);
+}
+/* Generic cards -> soft white islands on the champagne sheet */
+[data-theme='light'] .card {
+  background-color: rgba(255, 255, 255, 0.72);
+}
+/* Former dark tiles/bands -> keep a dark espresso tile for contrast on light */
+[data-theme='light'] .bg-navy {
+  background-color: #2e2110 !important;
+}
+/* Product tiles are warm-cream in dark mode (would blend on champagne) -> white */
+[data-theme='light'] .product-card {
+  background-color: #ffffff !important;
+}
+/* Hand-coded dark island panels -> soft white on light */
+[data-theme='light'] .panel-dark {
+  background-color: rgba(255, 255, 255, 0.72) !important;
+}
+/* Buttons/pills that keep light-gold text -> solid espresso so they stay legible */
+[data-theme='light'] .pill-espresso {
+  background-color: #2e2110 !important;
+}
+/* Form fields flip from dark-glass to crisp white with dark text on light */
+[data-theme='light'] .field-dark {
+  background-color: #ffffff !important;
+  color: #2e2110 !important;
+}
+[data-theme='light'] .field-dark::placeholder {
+  color: #9a875f !important;
+}
+/* Marquee edge fades track the sheet colour */
+[data-theme='light'] .marquee-fade-l {
+  background-image: linear-gradient(to right, #f6efe0, transparent) !important;
+}
+[data-theme='light'] .marquee-fade-r {
+  background-image: linear-gradient(to left, #f6efe0, transparent) !important;
+}
+
 html {
   scroll-behavior: smooth;
 }

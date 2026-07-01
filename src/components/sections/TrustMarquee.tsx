@@ -15,8 +15,8 @@ export default function TrustMarquee() {
   return (
     <section aria-label={t('title')} className="border-y border-line py-10">
       <div className="relative overflow-hidden">
-        <div className="pointer-events-none absolute inset-y-0 start-0 z-10 w-16 bg-gradient-to-r from-[#15100a] to-transparent" />
-        <div className="pointer-events-none absolute inset-y-0 end-0 z-10 w-16 bg-gradient-to-l from-[#15100a] to-transparent" />
+        <div className="marquee-fade-l pointer-events-none absolute inset-y-0 start-0 z-10 w-16 bg-gradient-to-r from-[#15100a] to-transparent" />
+        <div className="marquee-fade-r pointer-events-none absolute inset-y-0 end-0 z-10 w-16 bg-gradient-to-l from-[#15100a] to-transparent" />
         <div className="flex w-max animate-marquee gap-8 will-change-transform">
           {[0, 1].map((dup) => (
             <ul

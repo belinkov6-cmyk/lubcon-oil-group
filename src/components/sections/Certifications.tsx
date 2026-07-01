@@ -56,7 +56,7 @@ export default function Certifications({ bare = false }: { bare?: boolean }) {
                   href={c.pdf}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-auto inline-flex w-fit items-center gap-2 rounded-pill border border-line bg-[rgba(22,16,9,0.4)] px-4 py-2 pt-2 text-sm font-semibold text-gold-hi transition-colors hover:border-gold hover:bg-[rgba(22,16,9,0.65)]"
+                  className="pill-espresso mt-auto inline-flex w-fit items-center gap-2 rounded-pill border border-line bg-[rgba(22,16,9,0.4)] px-4 py-2 pt-2 text-sm font-semibold text-gold-hi transition-colors hover:border-gold hover:bg-[rgba(22,16,9,0.65)]"
                   style={{ marginTop: 'auto' }}
                 >
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
@@ -70,7 +70,7 @@ export default function Certifications({ bare = false }: { bare?: boolean }) {
         </div>
 
         <Reveal delay={120}>
-          <div className="mt-6 flex items-start gap-3 rounded-card border border-line bg-[rgba(22,16,9,0.5)] p-5">
+          <div className="panel-dark mt-6 flex items-start gap-3 rounded-card border border-line bg-[rgba(22,16,9,0.5)] p-5">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" className="mt-0.5 shrink-0 text-brass" aria-hidden="true">
               <path d="M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6l7-3Z" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round" />
               <path d="M9 12l2 2 4-4" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />

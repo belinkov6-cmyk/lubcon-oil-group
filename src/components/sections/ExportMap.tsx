@@ -115,7 +115,7 @@ export default function ExportMap() {
               {regionKeys.map((key) => (
                 <li
                   key={key}
-                  className="group flex items-start gap-3 rounded-card border border-line bg-[rgba(22,16,9,0.45)] p-4 transition-colors hover:border-gold hover:bg-[rgba(22,16,9,0.6)]"
+                  className="panel-dark group flex items-start gap-3 rounded-card border border-line bg-[rgba(22,16,9,0.45)] p-4 transition-colors hover:border-gold hover:bg-[rgba(22,16,9,0.6)]"
                 >
                   <span className="mt-1 inline-flex h-2.5 w-2.5 shrink-0 rounded-full bg-navy-600 ring-4 ring-navy-600/10" aria-hidden="true" />
                   <div>
