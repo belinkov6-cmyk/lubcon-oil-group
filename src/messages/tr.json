@@ -1,0 +1,280 @@
+{
+  "meta": {
+    "homeTitle": "Lubcon Oil Group — Yağlayıcı Üreticisi ve İhracatçısı, UAE",
+    "homeDescription": "Ras Al Khaimah, UAE'de ISO sertifikalı yağlayıcı üreticisi. Motor, dizel, endüstriyel ve denizcilik yağları, gresler ve baz yağlar. Dünya çapında distribütörler için özel marka ve beyaz etiket.",
+    "productsTitle": "Ürünler — Motor, Endüstriyel ve Denizcilik Yağlayıcıları",
+    "productsDescription": "UAE'de üretilen yağlayıcıların tam yelpazesi: motor yağları, dizel motor yağları, şanzıman ve dişli yağları, hidrolik, denizcilik, gresler, soğutucular ve baz yağlar.",
+    "manufacturingTitle": "Üretim ve Kalite Kontrol",
+    "manufacturingDescription": "Ras Al Khaimah tesisimizde: harmanlama, kendi bünyemizdeki laboratuvar, katkı teknolojisi ve ISO 9001 / 14001 / 45001 kapsamında ihracat lojistiği.",
+    "certificationsTitle": "Sertifikalar — ISO 9001 / 14001 / 45001",
+    "certificationsDescription": "Sertifika numaraları ve akreditasyon ayrıntılarıyla doğrulanmış ISO 9001:2015, ISO 14001:2015 ve ISO 45001:2018 yönetim sistemleri.",
+    "privateLabelTitle": "Özel Marka ve Beyaz Etiket Yağlayıcılar",
+    "privateLabelDescription": "Kendi yağlayıcı markanızı UAE'deki ISO sertifikalı bir tesisten başlatın. Formülasyon, harmanlama, dolum, ambalaj ve ihracat tek bir ortakta.",
+    "aboutTitle": "Lubcon Oil Group Hakkında",
+    "aboutDescription": "Ras Al Khaimah, UAE'de ISO sertifikalı bir yağlayıcı üreticisinin, altı bölgedeki distribütörlere tedarik sağlayan ihracat ve ticaret bölümü.",
+    "contactTitle": "İletişim ve Teklif İsteme",
+    "contactDescription": "Teklif, distribütör koşulları veya özel marka teklifi isteyin. WhatsApp, Telegram, telefon ve form — Ras Al Khaimah, UAE'den yanıtlanır."
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "products": "Ürünler",
+    "manufacturing": "Üretim",
+    "certifications": "Sertifikalar",
+    "privateLabel": "Özel Marka",
+    "about": "Hakkımızda",
+    "contact": "İletişim"
+  },
+  "header": {
+    "quote": "Teklif İste",
+    "call": "Ara",
+    "menu": "Menü",
+    "close": "Kapat",
+    "language": "Dil"
+  },
+  "hero": {
+    "eyebrow": "Yağlayıcı üreticisi · Ras Al Khaimah, UAE",
+    "title1": "Premium motor yağları, ",
+    "titleAccent": "kendi markanızla üretilir",
+    "title2": "dünya çapında ihraç edilir",
+    "cycleCaption": "Sizin markanız · UAE'de üretildi",
+    "subhead": "Premium kalitede motor yağlarını sizin özelliklerinize göre harmanlıyor ve dolduruyoruz — sizin formülünüz, sizin etiketiniz, sizin ambalajınız — Ras Al Khaimah, UAE'deki ISO sertifikalı bir tesiste, dünya çapında ihracata hazır.",
+    "ctaQuote": "Teklif İste",
+    "ctaDistributor": "Markanızı oluşturun",
+    "scroll": "Keşfetmek için kaydırın",
+    "canisterLabel": "MARKANIZ",
+    "cards": {
+      "c1": { "title": "Teknolojik esneklik", "desc": "Sizin formülünüz, ambalajınız, etiketiniz." },
+      "c2": { "title": "Sertifikalı kalite", "desc": "ISO 9001 · 14001 · 45001, laboratuvarda test edilmiş partiler." },
+      "c3": { "title": "Küresel lojistik", "desc": "Serbest bölgeden dünya çapında altı bölgeye ihracat." }
+    },
+    "inquiry": {
+      "label": "1 dakikada teklif isteyin",
+      "product": "Ürün",
+      "productPlaceholder": "Ürün seçin",
+      "volume": "Hacim / ambalaj",
+      "volumePlaceholder": "örn. 5.000 L / ay",
+      "country": "Ülke",
+      "countryPlaceholder": "Ülkeniz",
+      "submit": "Teklif Al"
+    },
+    "stat1Value": "3",
+    "stat1Label": "ISO yönetim sistemi",
+    "stat2Value": "6",
+    "stat2Label": "Tedarik edilen bölge",
+    "stat3Value": "7",
+    "stat3Label": "Ürün ailesi",
+    "stat4Value": "100%",
+    "stat4Label": "UAE'de üretildi"
+  },
+  "promo": {
+    "badge": "Özel marka",
+    "title": "Kendi motor yağı markanızı başlatın",
+    "text": "UAE'deki tek bir ISO sertifikalı ortaktan tam özel marka üretimi — sizin formülünüz, sizin etiketiniz, ihracata hazır.",
+    "cta": "Teklif alın",
+    "m1Value": "1.000 L",
+    "m1Label": "Min. sipariş",
+    "m2Value": "10–14",
+    "m2Label": "Gün teslim süresi",
+    "m3Value": "Küresel",
+    "m3Label": "İhracat erişimi"
+  },
+  "trust": {
+    "title": "Doğrulayan alıcılar için tasarlandı",
+    "marquee": "ISO 9001:2015 · ISO 14001:2015 · ISO 45001:2018 · API spesifikasyonları · ACEA dizileri · OEM uyumlu formülasyonlar · UAF akrediteli · Ras Al Khaimah, UAE",
+    "stats": {
+      "regionsValue": "6",
+      "regionsLabel": "Hizmet verilen ihracat bölgesi",
+      "familiesValue": "7+",
+      "familiesLabel": "Yağlayıcı ürün ailesi",
+      "packsValue": "1L–208L",
+      "packsLabel": "Ambalaj boyutları ve dökme",
+      "isoValue": "ISO 3",
+      "isoLabel": "Mevcut sertifikalı sistem"
+    }
+  },
+  "products": {
+    "eyebrow": "Ürün yelpazesi",
+    "title": "Eksiksiz bir yağlayıcı portföyü",
+    "subtitle": "Uluslararası API, ACEA ve OEM spesifikasyonlarına göre formüle edilmiş, UAE'de harmanlanmış ve 1 L'den dökmeye kadar paketlenmiştir.",
+    "tdsNote": "Teknik veri sayfaları talep üzerine sunulur.",
+    "cta": "Tam kataloğu isteyin",
+    "ctaCardTitle": "Belirli bir kaliteye mi ihtiyacınız var?",
+    "ctaCardText": "Spesifikasyonunuzu gönderin — bir formülasyonla eşleştirir veya yenisini geliştiririz.",
+    "requestQuote": "Teklif iste",
+    "viewAll": "Tüm ürünleri gör",
+    "badgeBest": "Çok satan",
+    "badgeHeavy": "Ağır hizmet",
+    "badge2t": "2 zamanlı",
+    "items": {
+      "motor": {
+        "name": "Motor Yağları",
+        "desc": "Modern viskozite kademelerinde sentetik ve yarı sentetik binek araç motor yağları."
+      },
+      "diesel": {
+        "name": "Dizel Motor Yağları",
+        "desc": "Ticari filolar, inşaat ve enerji üretimi için ağır hizmet yağları."
+      },
+      "transmission": {
+        "name": "Şanzıman ve Dişli",
+        "desc": "Otomatik şanzıman sıvıları, manuel ve endüstriyel dişli yağları, ATF dahil."
+      },
+      "industrial": {
+        "name": "Endüstriyel ve Hidrolik",
+        "desc": "Tesis ve makineler için ISO VG kademelerinde hidrolik, kompresör ve kızak yağları."
+      },
+      "marine": {
+        "name": "Denizcilik Yağlayıcıları",
+        "desc": "Deniz motorları ve denizcilik filoları için trunk piston, sistem ve silindir yağları."
+      },
+      "greases": {
+        "name": "Gresler",
+        "desc": "Otomotiv ve endüstriyel kullanım için lityum kompleks, kalsiyum sülfonat ve EP gresler."
+      },
+      "coolants": {
+        "name": "Soğutucular, Fren Hidrolikleri ve Baz Yağlar",
+        "desc": "Harmanlama ortakları için motor soğutucuları, fren hidrolikleri ve Grup I–III baz yağlar."
+      }
+    }
+  },
+  "manufacturing": {
+    "eyebrow": "Üretim",
+    "title": "Baz yağdan mühürlü palete, tek çatı altında",
+    "subtitle": "Al Hamra Serbest Bölgesi'nde entegre bir tesis — harmanlama, test, dolum ve ihracat lojistiği.",
+    "capabilities": {
+      "facility": {
+        "title": "Harmanlama tesisi",
+        "desc": "1 L'den 208 L varillere ve dökmeye kadar ambalajlar için otomatik harmanlama ve yüksek hızlı dolum hatları."
+      },
+      "lab": {
+        "title": "Bünyemizdeki laboratuvar",
+        "desc": "Her parti, sevkiyattan önce viskozite, parlama noktası ve temel parametreler açısından test edilir."
+      },
+      "additive": {
+        "title": "Katkı teknolojisi",
+        "desc": "Kararlı, spesifikasyon düzeyinde performans için OEM uyumlu katkı sistemleri ve baz yağ seçimi."
+      },
+      "logistics": {
+        "title": "İhracat lojistiği",
+        "desc": "Dünya çapında deniz ve kara taşımacılığı için belgeleme ve sevkiyat sağlayan serbest bölge konumu."
+      }
+    },
+    "ringCaption": "Al Hamra Industrial Zone, Ras Al Khaimah",
+    "galleryTitle": "Tesisin içi",
+    "gallerySubtitle": "Ras Al Khaimah, UAE'de üretim salonu ve kalite kontrol laboratuvarı.",
+    "galleryLine": "Harmanlama ve dolum hattı",
+    "galleryFilling": "Yüksek hızlı şişeleme"
+  },
+  "quality": {
+    "eyebrow": "Neden Lubcon",
+    "title": "Nano ölçekte tasarlanmış koruma",
+    "p1": "Daha az sürtünme ve aşınma için nanoSHIELD katkı teknolojisi",
+    "p2": "Her parti sevkiyattan önce laboratuvarda test edilir",
+    "p3": "API, ACEA ve OEM spesifikasyonlarına göre formüle edilmiştir",
+    "p4": "%100 birinci sınıf baz yağlar"
+  },
+  "certifications": {
+    "eyebrow": "Sertifikalar",
+    "title": "Bağımsız olarak sertifikalandırılmış yönetim sistemleri",
+    "subtitle": "Grup üretim kuruluşumuza verilmiş ve sertifika numarasıyla doğrulanabilir — profesyonel alıcıların beklediği gibi.",
+    "issued": "Verildi",
+    "validUntil": "Geçerlilik tarihi",
+    "certNo": "Sertifika no.",
+    "scope": "Kapsam",
+    "scopeText": "Yağlayıcıların ve ilgili ürünlerin üretimi, harmanlanması ve tedariki.",
+    "verifyTitle": "Doğrulama",
+    "verifyText": "Sertifikalar, grubun üretim kuruluşu olan {factory} tarafından tutulmaktadır. {body} ({note}) tarafından akredite edilmiştir ve {verifyAt} adresinden doğrulanabilir. Lubcon Oil Group onun ihracat ve ticaret bölümüdür.",
+    "download": "Sertifikayı görüntüle"
+  },
+  "privateLabel": {
+    "eyebrow": "Özel ve beyaz etiket",
+    "title": "Kendi yağlayıcı markanızı başlatın",
+    "subtitle": "UAE'deki tek bir ISO sertifikalı ortaktan — formülasyon, harmanlama, dolum, etiket tasarımı ve ihracat.",
+    "steps": {
+      "s1": { "title": "Belirleyin", "desc": "Hedef kaliteleri, spesifikasyonları, hacimleri ve pazarları paylaşın." },
+      "s2": { "title": "Formüle edin", "desc": "Formülasyonları eşleştirir veya geliştirir ve laboratuvar verileriyle doğrularız." },
+      "s3": { "title": "Markalandırın ve doldurun", "desc": "Sizin etiketiniz, sizin ambalajınız, hatlarımızda doldurulur." },
+      "s4": { "title": "İhraç edin", "desc": "Dağıtım merkezinize belgeleme ve sevkiyat." }
+    },
+    "ctaPrimary": "Özel marka talebi başlatın",
+    "ctaSecondary": "WhatsApp'ta görüşün"
+  },
+  "exportMap": {
+    "eyebrow": "Küresel erişim",
+    "title": "Ras Al Khaimah'tan altı bölgeye sevkiyat",
+    "subtitle": "Arap Körfezi'nde bir serbest bölge üssü, Doğu ve Batı'ya hızlı erişim için konumlandırılmıştır.",
+    "hub": "Ras Al Khaimah, UAE",
+    "regions": {
+      "gcc": { "name": "KİK ve Orta Doğu", "note": "Suudi Arabistan, Umman, Katar, Kuveyt, Bahreyn" },
+      "europe": { "name": "Avrupa", "note": "AB distribütörleri ve harmancıları" },
+      "cis": { "name": "Rusya ve BDT", "note": "Rusça konuşulan pazarlar" },
+      "africa": { "name": "Afrika", "note": "Doğu ve Batı Afrika limanları" },
+      "latam": { "name": "Latin Amerika", "note": "Güney ve Orta Amerika" },
+      "asia": { "name": "Asya", "note": "Güney ve Güneydoğu Asya" }
+    }
+  },
+  "contact": {
+    "eyebrow": "İletişim",
+    "title": "Teklif veya distribütör koşulları isteyin",
+    "subtitle": "Neye ihtiyacınız olduğunu söyleyin. Yanıtlar genellikle Ras Al Khaimah'tan bir iş günü içinde verilir.",
+    "channels": {
+      "whatsapp": "WhatsApp",
+      "whatsappValue": "İhracat masasıyla sohbet edin",
+      "telegram": "Telegram",
+      "telegramValue": "Bize Telegram'dan yazın",
+      "phone": "Telefon",
+      "phoneValue": "İhracat bölümünü arayın",
+      "personLabel": "İhracat iletişim"
+    },
+    "form": {
+      "name": "Ad soyad",
+      "company": "Şirket",
+      "country": "Ülke",
+      "email": "E-posta",
+      "phone": "Telefon",
+      "interest": "İlgilenilen ürün",
+      "interestPlaceholder": "Bir kategori seçin",
+      "interestGeneral": "Genel / birden fazla",
+      "message": "Mesaj",
+      "messagePlaceholder": "Hacimler, hedef kaliteler, pazarlar, zaman çizelgesi…",
+      "submit": "Talep gönder",
+      "sending": "Gönderiliyor…",
+      "successTitle": "Talep alındı",
+      "successText": "Teşekkürler — ihracat masamız kısa süre içinde yanıt verecek. Anında yanıt için bize WhatsApp'tan yazın.",
+      "errorTitle": "Gönderilemedi",
+      "errorText": "Bir şeyler ters gitti. Lütfen tekrar deneyin veya bize doğrudan WhatsApp'tan ulaşın.",
+      "whatsappFallback": "WhatsApp'ta devam edin",
+      "required": "Zorunlu",
+      "invalidEmail": "Geçerli bir e-posta girin",
+      "consent": "Göndererek, talebinizle ilgili sizinle iletişime geçilmesini kabul edersiniz."
+    }
+  },
+  "about": {
+    "eyebrow": "Hakkımızda",
+    "title": "Bir UAE yağlayıcı üreticisinin ihracat kolu",
+    "lead": "Lubcon Oil Group, Ras Al Khaimah, Birleşik Arap Emirlikleri'nde ISO sertifikalı bir yağlayıcı tesisi olan {factory}'nin ihracat ve ticaret bölümüdür.",
+    "structureTitle": "Grup yapısı",
+    "structureText": "Üretim, kalite sistemleri ve ISO sertifikaları grup fabrikasına aittir. Lubcon Oil Group ihracatı, dağıtım ortaklıklarını ve özel marka programlarını yürütür. Bu ilişkiyi açıkça belirtiyoruz — sertifikalar üretim kuruluşunun adını ve numaralarını taşır.",
+    "whoTitle": "Kime hizmet ediyoruz",
+    "whoText": "Güvenilir, spesifikasyon düzeyinde yağlayıcılara ve büyük ölçekte özel marka ve ihracat yapabilen bir ortağa ihtiyaç duyan distribütörler, filo operatörleri, endüstriyel alıcılar ve marka sahipleri.",
+    "whyTitle": "Neden Ras Al Khaimah",
+    "whyText": "Arap Körfezi'ndeki serbest bölge sanayi üssü, verimli deniz ve kara lojistiği, basitleştirilmiş ihracat belgeleri ve hem Doğu hem Batı pazarlarına hızlı erişim sağlar."
+  },
+  "footer": {
+    "tagline": "Küresel pazarlar için UAE'de üretilen yağlayıcılar.",
+    "explore": "Keşfet",
+    "company": "Şirket",
+    "contact": "İletişim",
+    "addressLabel": "Tesis",
+    "relationship": "Lubcon Oil Group, {factory}'nin ihracat bölümüdür.",
+    "rights": "Tüm hakları saklıdır.",
+    "languageLabel": "Dil"
+  },
+  "common": {
+    "requestQuote": "Teklif İste",
+    "viewProducts": "Ürünleri gör",
+    "learnMore": "Daha fazla bilgi",
+    "backHome": "Ana sayfaya dön",
+    "specs": "Spesifikasyonlar",
+    "getInTouch": "İletişime geçin"
+  }
+}

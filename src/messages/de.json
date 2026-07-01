@@ -1,0 +1,280 @@
+{
+  "meta": {
+    "homeTitle": "Lubcon Oil Group — Schmierstoffhersteller & Exporteur, UAE",
+    "homeDescription": "ISO-zertifizierter Schmierstoffhersteller in Ras Al Khaimah, UAE. Motoren-, Diesel-, Industrie- und Marineöle, Fette und Grundöle. Private Label und White Label für Distributoren weltweit.",
+    "productsTitle": "Produkte — Motoren-, Industrie- & Marineschmierstoffe",
+    "productsDescription": "Vollständiges Sortiment in den UAE hergestellter Schmierstoffe: Motorenöle, Dieselmotorenöle, Getriebeöle, Hydrauliköle, Marineöle, Fette, Kühlmittel und Grundöle.",
+    "manufacturingTitle": "Produktion & Qualitätskontrolle",
+    "manufacturingDescription": "In unserem Werk in Ras Al Khaimah: Mischung, hauseigenes Labor, Additivtechnologie und Exportlogistik nach ISO 9001 / 14001 / 45001.",
+    "certificationsTitle": "Zertifizierungen — ISO 9001 / 14001 / 45001",
+    "certificationsDescription": "Verifizierte Managementsysteme nach ISO 9001:2015, ISO 14001:2015 und ISO 45001:2018 mit Zertifikatsnummern und Akkreditierungsdetails.",
+    "privateLabelTitle": "Private-Label- & White-Label-Schmierstoffe",
+    "privateLabelDescription": "Bringen Sie Ihre eigene Schmierstoffmarke aus einem ISO-zertifizierten Werk in den UAE auf den Markt. Formulierung, Mischung, Abfüllung, Verpackung und Export bei einem Partner.",
+    "aboutTitle": "Über Lubcon Oil Group",
+    "aboutDescription": "Der Export- und Handelsbereich eines ISO-zertifizierten Schmierstoffherstellers in Ras Al Khaimah, UAE, der Distributoren in sechs Regionen beliefert.",
+    "contactTitle": "Kontakt & Angebot anfragen",
+    "contactDescription": "Fordern Sie ein Angebot, Distributorkonditionen oder einen Private-Label-Vorschlag an. WhatsApp, Telegram, Telefon und Formular — beantwortet aus Ras Al Khaimah, UAE."
+  },
+  "nav": {
+    "home": "Start",
+    "products": "Produkte",
+    "manufacturing": "Produktion",
+    "certifications": "Zertifizierungen",
+    "privateLabel": "Private Label",
+    "about": "Über uns",
+    "contact": "Kontakt"
+  },
+  "header": {
+    "quote": "Angebot anfragen",
+    "call": "Anrufen",
+    "menu": "Menü",
+    "close": "Schließen",
+    "language": "Sprache"
+  },
+  "hero": {
+    "eyebrow": "Schmierstoffhersteller · Ras Al Khaimah, UAE",
+    "title1": "Premium-Motorenöle, ",
+    "titleAccent": "unter Ihrer Marke gefertigt",
+    "title2": "weltweit exportiert",
+    "cycleCaption": "Ihre Marke · Hergestellt in den UAE",
+    "subhead": "Wir mischen und füllen Premium-Motorenöle nach Ihren Vorgaben ab — Ihre Formulierung, Ihr Etikett, Ihre Verpackung — in einem ISO-zertifizierten Werk in Ras Al Khaimah, UAE, bereit für den weltweiten Export.",
+    "ctaQuote": "Angebot anfragen",
+    "ctaDistributor": "Ihre Marke aufbauen",
+    "scroll": "Scrollen zum Entdecken",
+    "canisterLabel": "IHRE MARKE",
+    "cards": {
+      "c1": { "title": "Technologische Flexibilität", "desc": "Ihre Formulierung, Ihre Verpackung, Ihr Etikett." },
+      "c2": { "title": "Zertifizierte Qualität", "desc": "ISO 9001 · 14001 · 45001, laborgeprüfte Chargen." },
+      "c3": { "title": "Globale Logistik", "desc": "Freizonen-Export in sechs Regionen weltweit." }
+    },
+    "inquiry": {
+      "label": "Angebot in 1 Minute anfragen",
+      "product": "Produkt",
+      "productPlaceholder": "Produkt wählen",
+      "volume": "Menge / Verpackung",
+      "volumePlaceholder": "z. B. 5.000 L / Monat",
+      "country": "Land",
+      "countryPlaceholder": "Ihr Land",
+      "submit": "Angebot erhalten"
+    },
+    "stat1Value": "3",
+    "stat1Label": "ISO-Managementsysteme",
+    "stat2Value": "6",
+    "stat2Label": "Belieferte Regionen",
+    "stat3Value": "7",
+    "stat3Label": "Produktfamilien",
+    "stat4Value": "100%",
+    "stat4Label": "In den UAE hergestellt"
+  },
+  "promo": {
+    "badge": "Private Label",
+    "title": "Bringen Sie Ihre eigene Motorenöl-Marke auf den Markt",
+    "text": "Vollständige Private-Label-Produktion von einem ISO-zertifizierten Partner in den UAE — Ihre Formulierung, Ihr Etikett, exportbereit.",
+    "cta": "Vorschlag erhalten",
+    "m1Value": "1.000 L",
+    "m1Label": "Mindestbestellung",
+    "m2Value": "10–14",
+    "m2Label": "Tage Lieferzeit",
+    "m3Value": "Weltweit",
+    "m3Label": "Exportreichweite"
+  },
+  "trust": {
+    "title": "Gemacht für Einkäufer, die prüfen",
+    "marquee": "ISO 9001:2015 · ISO 14001:2015 · ISO 45001:2018 · API-Spezifikationen · ACEA-Sequenzen · OEM-konforme Formulierungen · UAF-akkreditiert · Ras Al Khaimah, UAE",
+    "stats": {
+      "regionsValue": "6",
+      "regionsLabel": "Belieferte Exportregionen",
+      "familiesValue": "7+",
+      "familiesLabel": "Schmierstoff-Produktfamilien",
+      "packsValue": "1L–208L",
+      "packsLabel": "Gebindegrößen & Bulk",
+      "isoValue": "ISO 3",
+      "isoLabel": "Zertifizierte Systeme vorhanden"
+    }
+  },
+  "products": {
+    "eyebrow": "Produktsortiment",
+    "title": "Ein vollständiges Schmierstoff-Portfolio",
+    "subtitle": "Formuliert nach internationalen API-, ACEA- und OEM-Spezifikationen, in den UAE gemischt und von 1 L bis Bulk abgefüllt.",
+    "tdsNote": "Technische Datenblätter auf Anfrage erhältlich.",
+    "cta": "Vollständigen Katalog anfragen",
+    "ctaCardTitle": "Benötigen Sie eine bestimmte Sorte?",
+    "ctaCardText": "Senden Sie Ihre Spezifikation — wir finden die passende Formulierung oder entwickeln eine.",
+    "requestQuote": "Angebot anfragen",
+    "viewAll": "Alle Produkte ansehen",
+    "badgeBest": "Bestseller",
+    "badgeHeavy": "Heavy Duty",
+    "badge2t": "Zweitakt",
+    "items": {
+      "motor": {
+        "name": "Motorenöle",
+        "desc": "Synthetische und teilsynthetische Pkw-Motorenöle in modernen Viskositätsklassen."
+      },
+      "diesel": {
+        "name": "Dieselmotorenöle",
+        "desc": "Hochleistungsöle für Nutzfahrzeugflotten, Bau und Energieerzeugung."
+      },
+      "transmission": {
+        "name": "Getriebe & Antrieb",
+        "desc": "Automatikgetriebeöle, Schalt- und Industriegetriebeöle, einschließlich ATF."
+      },
+      "industrial": {
+        "name": "Industrie & Hydraulik",
+        "desc": "Hydraulik-, Kompressor- und Gleitbahnöle nach ISO-VG-Klassen für Anlagen und Maschinen."
+      },
+      "marine": {
+        "name": "Marineschmierstoffe",
+        "desc": "Trunk-Kolben-, System- und Zylinderöle für Schiffsmotoren und Schiffsflotten."
+      },
+      "greases": {
+        "name": "Fette",
+        "desc": "Lithiumkomplex-, Calciumsulfonat- und EP-Fette für Automobil und Industrie."
+      },
+      "coolants": {
+        "name": "Kühlmittel, Bremsflüssigkeiten & Grundöle",
+        "desc": "Motorkühlmittel, Bremsflüssigkeiten und Grundöle der Gruppen I–III für Mischpartner."
+      }
+    }
+  },
+  "manufacturing": {
+    "eyebrow": "Produktion",
+    "title": "Vom Grundöl bis zur versiegelten Palette, unter einem Dach",
+    "subtitle": "Ein integriertes Werk in der Al Hamra Free Zone — Mischung, Prüfung, Abfüllung und Exportlogistik.",
+    "capabilities": {
+      "facility": {
+        "title": "Mischanlage",
+        "desc": "Automatisierte Mischung und Hochgeschwindigkeits-Abfülllinien für Gebinde von 1 L bis 208-L-Fässern und Bulk."
+      },
+      "lab": {
+        "title": "Hauseigenes Labor",
+        "desc": "Jede Charge wird vor Freigabe auf Viskosität, Flammpunkt und Schlüsselparameter geprüft."
+      },
+      "additive": {
+        "title": "Additivtechnologie",
+        "desc": "OEM-konforme Additivsysteme und Grundölauswahl für stabile Leistung in Spezifikationsqualität."
+      },
+      "logistics": {
+        "title": "Exportlogistik",
+        "desc": "Freizonen-Standort mit Dokumentation und Verschiffung für See- und Landfracht weltweit."
+      }
+    },
+    "ringCaption": "Al Hamra Industrial Zone, Ras Al Khaimah",
+    "galleryTitle": "Einblick in das Werk",
+    "gallerySubtitle": "Produktionshalle und Qualitätskontroll-Labor in Ras Al Khaimah, UAE.",
+    "galleryLine": "Misch- & Abfülllinie",
+    "galleryFilling": "Hochgeschwindigkeits-Abfüllung"
+  },
+  "quality": {
+    "eyebrow": "Warum Lubcon",
+    "title": "Schutz, entwickelt auf Nano-Ebene",
+    "p1": "nanoSHIELD-Additivtechnologie für weniger Reibung und Verschleiß",
+    "p2": "Jede Charge vor Freigabe laborgeprüft",
+    "p3": "Formuliert nach API-, ACEA- und OEM-Spezifikationen",
+    "p4": "100 % Grundöle in Neuwarenqualität"
+  },
+  "certifications": {
+    "eyebrow": "Zertifizierungen",
+    "title": "Unabhängig zertifizierte Managementsysteme",
+    "subtitle": "Ausgestellt für unsere Fertigungsgesellschaft und über die Zertifikatsnummer verifizierbar — so, wie professionelle Einkäufer es erwarten.",
+    "issued": "Ausgestellt",
+    "validUntil": "Gültig bis",
+    "certNo": "Zertifikat-Nr.",
+    "scope": "Geltungsbereich",
+    "scopeText": "Herstellung, Mischung und Lieferung von Schmierstoffen und verwandten Produkten.",
+    "verifyTitle": "Verifizierung",
+    "verifyText": "Die Zertifikate werden von {factory}, der Fertigungsgesellschaft der Gruppe, gehalten. Akkreditiert durch {body} ({note}) und verifizierbar unter {verifyAt}. Lubcon Oil Group ist deren Export- und Handelsbereich.",
+    "download": "Zertifikat ansehen"
+  },
+  "privateLabel": {
+    "eyebrow": "Private & White Label",
+    "title": "Bringen Sie Ihre eigene Schmierstoffmarke auf den Markt",
+    "subtitle": "Von einem einzigen ISO-zertifizierten Partner in den UAE — Formulierung, Mischung, Abfüllung, Etikettendesign und Export.",
+    "steps": {
+      "s1": { "title": "Spezifizieren", "desc": "Teilen Sie Zielsorten, Spezifikationen, Mengen und Märkte mit." },
+      "s2": { "title": "Formulieren", "desc": "Wir finden oder entwickeln Formulierungen und bestätigen sie mit Labordaten." },
+      "s3": { "title": "Branden & abfüllen", "desc": "Ihr Etikett, Ihre Verpackung, abgefüllt auf unseren Linien." },
+      "s4": { "title": "Exportieren", "desc": "Dokumentation und Fracht zu Ihrem Distributionszentrum." }
+    },
+    "ctaPrimary": "Private-Label-Anfrage starten",
+    "ctaSecondary": "Auf WhatsApp besprechen"
+  },
+  "exportMap": {
+    "eyebrow": "Globale Reichweite",
+    "title": "Versand von Ras Al Khaimah in sechs Regionen",
+    "subtitle": "Ein Freizonen-Standort am Arabischen Golf, positioniert für schnellen Zugang nach Ost und West.",
+    "hub": "Ras Al Khaimah, UAE",
+    "regions": {
+      "gcc": { "name": "GCC & Naher Osten", "note": "Saudi-Arabien, Oman, Katar, Kuwait, Bahrain" },
+      "europe": { "name": "Europa", "note": "EU-Distributoren und -Mischer" },
+      "cis": { "name": "Russland & GUS", "note": "Russischsprachige Märkte" },
+      "africa": { "name": "Afrika", "note": "Häfen in Ost- und Westafrika" },
+      "latam": { "name": "Lateinamerika", "note": "Süd- und Mittelamerika" },
+      "asia": { "name": "Asien", "note": "Süd- und Südostasien" }
+    }
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "title": "Angebot oder Distributorkonditionen anfragen",
+    "subtitle": "Sagen Sie uns, was Sie brauchen. Antworten in der Regel innerhalb eines Werktags aus Ras Al Khaimah.",
+    "channels": {
+      "whatsapp": "WhatsApp",
+      "whatsappValue": "Mit dem Export-Team chatten",
+      "telegram": "Telegram",
+      "telegramValue": "Schreiben Sie uns auf Telegram",
+      "phone": "Telefon",
+      "phoneValue": "Exportabteilung anrufen",
+      "personLabel": "Export-Kontakt"
+    },
+    "form": {
+      "name": "Vollständiger Name",
+      "company": "Unternehmen",
+      "country": "Land",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "interest": "Produktinteresse",
+      "interestPlaceholder": "Kategorie wählen",
+      "interestGeneral": "Allgemein / mehrere",
+      "message": "Nachricht",
+      "messagePlaceholder": "Mengen, Zielsorten, Märkte, Zeitplan…",
+      "submit": "Anfrage senden",
+      "sending": "Wird gesendet…",
+      "successTitle": "Anfrage erhalten",
+      "successText": "Vielen Dank — unser Export-Team meldet sich in Kürze. Für eine sofortige Antwort schreiben Sie uns auf WhatsApp.",
+      "errorTitle": "Konnte nicht gesendet werden",
+      "errorText": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder erreichen Sie uns direkt auf WhatsApp.",
+      "whatsappFallback": "Auf WhatsApp fortfahren",
+      "required": "Erforderlich",
+      "invalidEmail": "Gültige E-Mail eingeben",
+      "consent": "Mit dem Absenden erklären Sie sich einverstanden, zu Ihrer Anfrage kontaktiert zu werden."
+    }
+  },
+  "about": {
+    "eyebrow": "Über uns",
+    "title": "Der Exportarm eines Schmierstoffherstellers aus den UAE",
+    "lead": "Lubcon Oil Group ist der Export- und Handelsbereich von {factory}, einem ISO-zertifizierten Schmierstoffwerk in Ras Al Khaimah, Vereinigte Arabische Emirate.",
+    "structureTitle": "Gruppenstruktur",
+    "structureText": "Produktion, Qualitätssysteme und ISO-Zertifikate gehören zum Gruppenwerk. Lubcon Oil Group verantwortet Export, Vertriebspartnerschaften und Private-Label-Programme. Wir legen diese Beziehung offen dar — die Zertifikate tragen den Namen und die Nummern der Fertigungsgesellschaft.",
+    "whoTitle": "Wen wir bedienen",
+    "whoText": "Distributoren, Flottenbetreiber, Industrieeinkäufer und Markeninhaber, die zuverlässige Schmierstoffe in Spezifikationsqualität und einen Partner benötigen, der im großen Maßstab Private-Label und Export bietet.",
+    "whyTitle": "Warum Ras Al Khaimah",
+    "whyText": "Ein Freizonen-Industriestandort am Arabischen Golf bietet effiziente See- und Landlogistik, vereinfachte Exportdokumentation und schnellen Zugang zu östlichen wie westlichen Märkten."
+  },
+  "footer": {
+    "tagline": "In den UAE hergestellte Schmierstoffe für globale Märkte.",
+    "explore": "Entdecken",
+    "company": "Unternehmen",
+    "contact": "Kontakt",
+    "addressLabel": "Werk",
+    "relationship": "Lubcon Oil Group ist der Exportbereich von {factory}.",
+    "rights": "Alle Rechte vorbehalten.",
+    "languageLabel": "Sprache"
+  },
+  "common": {
+    "requestQuote": "Angebot anfragen",
+    "viewProducts": "Produkte ansehen",
+    "learnMore": "Mehr erfahren",
+    "backHome": "Zurück zur Startseite",
+    "specs": "Spezifikationen",
+    "getInTouch": "Kontakt aufnehmen"
+  }
+}

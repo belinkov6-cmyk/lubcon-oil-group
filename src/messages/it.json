@@ -1,0 +1,280 @@
+{
+  "meta": {
+    "homeTitle": "Lubcon Oil Group — Produttore ed esportatore di lubrificanti, UAE",
+    "homeDescription": "Produttore di lubrificanti certificato ISO a Ras Al Khaimah, UAE. Oli motore, diesel, industriali e marini, grassi e oli base. Private label e white label per distributori in tutto il mondo.",
+    "productsTitle": "Prodotti — Lubrificanti per motori, industriali e marini",
+    "productsDescription": "Gamma completa di lubrificanti prodotti negli UAE: oli motore, oli per motori diesel, oli per trasmissioni e ingranaggi, idraulici, marini, grassi, liquidi refrigeranti e oli base.",
+    "manufacturingTitle": "Produzione e controllo qualità",
+    "manufacturingDescription": "All'interno del nostro stabilimento di Ras Al Khaimah: miscelazione, laboratorio interno, tecnologia degli additivi e logistica di esportazione secondo ISO 9001 / 14001 / 45001.",
+    "certificationsTitle": "Certificazioni — ISO 9001 / 14001 / 45001",
+    "certificationsDescription": "Sistemi di gestione ISO 9001:2015, ISO 14001:2015 e ISO 45001:2018 verificati, con numeri di certificato e dettagli di accreditamento.",
+    "privateLabelTitle": "Lubrificanti private label e white label",
+    "privateLabelDescription": "Lancia il tuo marchio di lubrificanti da uno stabilimento certificato ISO negli UAE. Formulazione, miscelazione, riempimento, confezionamento ed esportazione con un unico partner.",
+    "aboutTitle": "Chi è Lubcon Oil Group",
+    "aboutDescription": "La divisione export e commerciale di un produttore di lubrificanti certificato ISO a Ras Al Khaimah, UAE, che rifornisce distributori in sei regioni.",
+    "contactTitle": "Contatti e richiesta di preventivo",
+    "contactDescription": "Richiedi un preventivo, condizioni per distributori o una proposta private label. WhatsApp, Telegram, telefono e modulo — risposte da Ras Al Khaimah, UAE."
+  },
+  "nav": {
+    "home": "Home",
+    "products": "Prodotti",
+    "manufacturing": "Produzione",
+    "certifications": "Certificazioni",
+    "privateLabel": "Private Label",
+    "about": "Chi siamo",
+    "contact": "Contatti"
+  },
+  "header": {
+    "quote": "Richiedi un preventivo",
+    "call": "Chiama",
+    "menu": "Menu",
+    "close": "Chiudi",
+    "language": "Lingua"
+  },
+  "hero": {
+    "eyebrow": "Produttore di lubrificanti · Ras Al Khaimah, UAE",
+    "title1": "Oli motore premium, ",
+    "titleAccent": "prodotti con il tuo marchio",
+    "title2": "esportati in tutto il mondo",
+    "cycleCaption": "Il tuo marchio · Prodotto negli UAE",
+    "subhead": "Misceliamo e confezioniamo oli motore di qualità premium secondo le tue specifiche — la tua formula, la tua etichetta, il tuo packaging — in uno stabilimento certificato ISO a Ras Al Khaimah, UAE, pronti per l'esportazione mondiale.",
+    "ctaQuote": "Richiedi un preventivo",
+    "ctaDistributor": "Costruisci il tuo marchio",
+    "scroll": "Scorri per esplorare",
+    "canisterLabel": "IL TUO MARCHIO",
+    "cards": {
+      "c1": { "title": "Flessibilità tecnologica", "desc": "La tua formula, il tuo packaging, la tua etichetta." },
+      "c2": { "title": "Qualità certificata", "desc": "ISO 9001 · 14001 · 45001, lotti testati in laboratorio." },
+      "c3": { "title": "Logistica globale", "desc": "Esportazione in zona franca verso sei regioni nel mondo." }
+    },
+    "inquiry": {
+      "label": "Richiedi un preventivo in 1 minuto",
+      "product": "Prodotto",
+      "productPlaceholder": "Seleziona prodotto",
+      "volume": "Volume / confezionamento",
+      "volumePlaceholder": "es. 5.000 L / mese",
+      "country": "Paese",
+      "countryPlaceholder": "Il tuo paese",
+      "submit": "Ottieni un preventivo"
+    },
+    "stat1Value": "3",
+    "stat1Label": "Sistemi di gestione ISO",
+    "stat2Value": "6",
+    "stat2Label": "Regioni rifornite",
+    "stat3Value": "7",
+    "stat3Label": "Famiglie di prodotti",
+    "stat4Value": "100%",
+    "stat4Label": "Prodotto negli UAE"
+  },
+  "promo": {
+    "badge": "Private label",
+    "title": "Lancia il tuo marchio di olio motore",
+    "text": "Produzione private label completa da un unico partner certificato ISO negli UAE — la tua formula, la tua etichetta, pronta per l'export.",
+    "cta": "Ottieni una proposta",
+    "m1Value": "1.000 L",
+    "m1Label": "Ordine min.",
+    "m2Value": "10–14",
+    "m2Label": "Giorni di consegna",
+    "m3Value": "Globale",
+    "m3Label": "Portata export"
+  },
+  "trust": {
+    "title": "Pensato per gli acquirenti che verificano",
+    "marquee": "ISO 9001:2015 · ISO 14001:2015 · ISO 45001:2018 · Specifiche API · Sequenze ACEA · Formulazioni conformi OEM · Accreditato UAF · Ras Al Khaimah, UAE",
+    "stats": {
+      "regionsValue": "6",
+      "regionsLabel": "Regioni di export servite",
+      "familiesValue": "7+",
+      "familiesLabel": "Famiglie di lubrificanti",
+      "packsValue": "1L–208L",
+      "packsLabel": "Formati e sfuso",
+      "isoValue": "ISO 3",
+      "isoLabel": "Sistemi certificati attivi"
+    }
+  },
+  "products": {
+    "eyebrow": "Gamma di prodotti",
+    "title": "Un portafoglio completo di lubrificanti",
+    "subtitle": "Formulati secondo le specifiche internazionali API, ACEA e OEM, miscelati negli UAE e confezionati da 1 L allo sfuso.",
+    "tdsNote": "Schede tecniche disponibili su richiesta.",
+    "cta": "Richiedi il catalogo completo",
+    "ctaCardTitle": "Ti serve una gradazione specifica?",
+    "ctaCardText": "Inviaci la tua specifica — la abbiniamo a una formulazione o ne sviluppiamo una.",
+    "requestQuote": "Richiedi preventivo",
+    "viewAll": "Vedi tutti i prodotti",
+    "badgeBest": "Più venduto",
+    "badgeHeavy": "Uso gravoso",
+    "badge2t": "2 tempi",
+    "items": {
+      "motor": {
+        "name": "Oli motore",
+        "desc": "Oli motore sintetici e semisintetici per autovetture nelle moderne gradazioni di viscosità."
+      },
+      "diesel": {
+        "name": "Oli per motori diesel",
+        "desc": "Oli per uso gravoso per flotte commerciali, edilizia e generazione di energia."
+      },
+      "transmission": {
+        "name": "Trasmissione e ingranaggi",
+        "desc": "Fluidi per trasmissioni automatiche, oli per cambi manuali e ingranaggi industriali, incluso ATF."
+      },
+      "industrial": {
+        "name": "Industriale e idraulico",
+        "desc": "Oli idraulici, per compressori e per guide nelle gradazioni ISO VG per impianti e macchinari."
+      },
+      "marine": {
+        "name": "Lubrificanti marini",
+        "desc": "Oli per pistoni a fodero, di sistema e per cilindri per motori marini e flotte navali."
+      },
+      "greases": {
+        "name": "Grassi",
+        "desc": "Grassi al complesso di litio, al solfonato di calcio ed EP per uso automobilistico e industriale."
+      },
+      "coolants": {
+        "name": "Refrigeranti, liquidi freni e oli base",
+        "desc": "Liquidi refrigeranti per motori, liquidi freni e oli base dei gruppi I–III per partner di miscelazione."
+      }
+    }
+  },
+  "manufacturing": {
+    "eyebrow": "Produzione",
+    "title": "Dall'olio base al pallet sigillato, sotto un unico tetto",
+    "subtitle": "Uno stabilimento integrato nella zona franca di Al Hamra — miscelazione, test, riempimento e logistica di esportazione.",
+    "capabilities": {
+      "facility": {
+        "title": "Impianto di miscelazione",
+        "desc": "Miscelazione automatizzata e linee di riempimento ad alta velocità per confezioni da 1 L ai fusti da 208 L e sfuso."
+      },
+      "lab": {
+        "title": "Laboratorio interno",
+        "desc": "Ogni lotto testato per viscosità, punto di infiammabilità e parametri chiave prima del rilascio."
+      },
+      "additive": {
+        "title": "Tecnologia degli additivi",
+        "desc": "Sistemi di additivi conformi OEM e selezione degli oli base per prestazioni stabili e a livello di specifica."
+      },
+      "logistics": {
+        "title": "Logistica di esportazione",
+        "desc": "Sede in zona franca con documentazione e spedizione per trasporto marittimo e terrestre in tutto il mondo."
+      }
+    },
+    "ringCaption": "Al Hamra Industrial Zone, Ras Al Khaimah",
+    "galleryTitle": "All'interno dello stabilimento",
+    "gallerySubtitle": "Sala di produzione e laboratorio di controllo qualità a Ras Al Khaimah, UAE.",
+    "galleryLine": "Linea di miscelazione e riempimento",
+    "galleryFilling": "Imbottigliamento ad alta velocità"
+  },
+  "quality": {
+    "eyebrow": "Perché Lubcon",
+    "title": "Protezione progettata su scala nanometrica",
+    "p1": "Tecnologia di additivi nanoSHIELD per minori attrito e usura",
+    "p2": "Ogni lotto testato in laboratorio prima del rilascio",
+    "p3": "Formulato secondo le specifiche API, ACEA e OEM",
+    "p4": "Oli base 100% di qualità vergine"
+  },
+  "certifications": {
+    "eyebrow": "Certificazioni",
+    "title": "Sistemi di gestione certificati in modo indipendente",
+    "subtitle": "Rilasciati alla nostra entità produttiva del gruppo e verificabili tramite numero di certificato — come si aspettano gli acquirenti professionali.",
+    "issued": "Rilasciato",
+    "validUntil": "Valido fino al",
+    "certNo": "N. certificato",
+    "scope": "Ambito",
+    "scopeText": "Produzione, miscelazione e fornitura di lubrificanti e prodotti correlati.",
+    "verifyTitle": "Verifica",
+    "verifyText": "I certificati sono detenuti da {factory}, l'entità produttiva del gruppo. Accreditati da {body} ({note}) e verificabili su {verifyAt}. Lubcon Oil Group ne è la divisione export e commerciale.",
+    "download": "Vedi certificato"
+  },
+  "privateLabel": {
+    "eyebrow": "Private e white label",
+    "title": "Lancia il tuo marchio di lubrificanti",
+    "subtitle": "Da un unico partner certificato ISO negli UAE — formulazione, miscelazione, riempimento, progettazione etichetta ed export.",
+    "steps": {
+      "s1": { "title": "Specifica", "desc": "Condividi gradazioni target, specifiche, volumi e mercati." },
+      "s2": { "title": "Formula", "desc": "Abbiniamo o sviluppiamo formulazioni e confermiamo con dati di laboratorio." },
+      "s3": { "title": "Marchia e riempi", "desc": "La tua etichetta, il tuo packaging, riempiti sulle nostre linee." },
+      "s4": { "title": "Esporta", "desc": "Documentazione e spedizione verso il tuo hub di distribuzione." }
+    },
+    "ctaPrimary": "Avvia una richiesta private label",
+    "ctaSecondary": "Parlane su WhatsApp"
+  },
+  "exportMap": {
+    "eyebrow": "Portata globale",
+    "title": "Spedizioni da Ras Al Khaimah verso sei regioni",
+    "subtitle": "Una base in zona franca sul Golfo Arabico, posizionata per un accesso rapido a Est e Ovest.",
+    "hub": "Ras Al Khaimah, UAE",
+    "regions": {
+      "gcc": { "name": "GCC e Medio Oriente", "note": "Arabia Saudita, Oman, Qatar, Kuwait, Bahrein" },
+      "europe": { "name": "Europa", "note": "Distributori e miscelatori dell'UE" },
+      "cis": { "name": "Russia e CSI", "note": "Mercati di lingua russa" },
+      "africa": { "name": "Africa", "note": "Porti dell'Africa orientale e occidentale" },
+      "latam": { "name": "America Latina", "note": "America del Sud e centrale" },
+      "asia": { "name": "Asia", "note": "Asia meridionale e sud-orientale" }
+    }
+  },
+  "contact": {
+    "eyebrow": "Contatti",
+    "title": "Richiedi un preventivo o condizioni per distributori",
+    "subtitle": "Dicci di cosa hai bisogno. Risposte in genere entro un giorno lavorativo da Ras Al Khaimah.",
+    "channels": {
+      "whatsapp": "WhatsApp",
+      "whatsappValue": "Chatta con l'ufficio export",
+      "telegram": "Telegram",
+      "telegramValue": "Scrivici su Telegram",
+      "phone": "Telefono",
+      "phoneValue": "Chiama la divisione export",
+      "personLabel": "Contatto export"
+    },
+    "form": {
+      "name": "Nome completo",
+      "company": "Azienda",
+      "country": "Paese",
+      "email": "Email",
+      "phone": "Telefono",
+      "interest": "Prodotto di interesse",
+      "interestPlaceholder": "Seleziona una categoria",
+      "interestGeneral": "Generale / vari",
+      "message": "Messaggio",
+      "messagePlaceholder": "Volumi, gradazioni target, mercati, tempistiche…",
+      "submit": "Invia richiesta",
+      "sending": "Invio in corso…",
+      "successTitle": "Richiesta ricevuta",
+      "successText": "Grazie — il nostro ufficio export ti risponderà a breve. Per una risposta immediata, scrivici su WhatsApp.",
+      "errorTitle": "Impossibile inviare",
+      "errorText": "Qualcosa è andato storto. Riprova o contattaci direttamente su WhatsApp.",
+      "whatsappFallback": "Continua su WhatsApp",
+      "required": "Obbligatorio",
+      "invalidEmail": "Inserisci un'email valida",
+      "consent": "Inviando accetti di essere contattato in merito alla tua richiesta."
+    }
+  },
+  "about": {
+    "eyebrow": "Chi siamo",
+    "title": "Il ramo export di un produttore di lubrificanti degli UAE",
+    "lead": "Lubcon Oil Group è la divisione export e commerciale di {factory}, uno stabilimento di lubrificanti certificato ISO a Ras Al Khaimah, Emirati Arabi Uniti.",
+    "structureTitle": "Struttura del gruppo",
+    "structureText": "Produzione, sistemi qualità e certificati ISO appartengono allo stabilimento del gruppo. Lubcon Oil Group gestisce export, partnership di distribuzione e programmi private label. Dichiariamo apertamente questa relazione — i certificati riportano il nome e i numeri dell'entità produttiva.",
+    "whoTitle": "Chi serviamo",
+    "whoText": "Distributori, gestori di flotte, acquirenti industriali e titolari di marchi che necessitano di lubrificanti affidabili e a livello di specifica e di un partner in grado di produrre private label ed esportare su larga scala.",
+    "whyTitle": "Perché Ras Al Khaimah",
+    "whyText": "Una base industriale in zona franca sul Golfo Arabico offre una logistica marittima e terrestre efficiente, documentazione di export semplificata e un accesso rapido ai mercati orientali e occidentali."
+  },
+  "footer": {
+    "tagline": "Lubrificanti prodotti negli UAE per i mercati globali.",
+    "explore": "Esplora",
+    "company": "Azienda",
+    "contact": "Contatti",
+    "addressLabel": "Stabilimento",
+    "relationship": "Lubcon Oil Group è la divisione export di {factory}.",
+    "rights": "Tutti i diritti riservati.",
+    "languageLabel": "Lingua"
+  },
+  "common": {
+    "requestQuote": "Richiedi un preventivo",
+    "viewProducts": "Vedi i prodotti",
+    "learnMore": "Scopri di più",
+    "backHome": "Torna alla home",
+    "specs": "Specifiche",
+    "getInTouch": "Contattaci"
+  }
+}

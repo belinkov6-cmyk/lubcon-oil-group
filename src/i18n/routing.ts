@@ -1,6 +1,6 @@
 import { defineRouting } from 'next-intl/routing';
 
-export const locales = ['en', 'ar', 'zh', 'ru', 'es', 'pt'] as const;
+export const locales = ['en', 'ar', 'zh', 'ru', 'es', 'pt', 'de', 'fr', 'it', 'tr'] as const;
 export type Locale = (typeof locales)[number];
 
 export const localeNames: Record<Locale, string> = {
@@ -10,6 +10,10 @@ export const localeNames: Record<Locale, string> = {
   ru: 'Русский',
   es: 'Español',
   pt: 'Português',
+  de: 'Deutsch',
+  fr: 'Français',
+  it: 'Italiano',
+  tr: 'Türkçe',
 };
 
 // Locales that render right-to-left.
