@@ -346,7 +346,6 @@ body {
     @apply btn px-7 py-3.5 font-bold;
     color: #1b1206;
     background: linear-gradient(135deg, var(--gold-hi), var(--gold));
-    box-shadow: 0 10px 30px rgba(201, 162, 75, 0.3);
   }
   .btn-gold:hover {
     filter: brightness(1.05);
