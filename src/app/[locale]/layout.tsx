@@ -73,6 +73,7 @@ export default async function LocaleLayout({ children, params }: Props) {
     <html
       lang={locale}
       dir={dir}
+      data-theme="light"
       className={`${fontSans.variable} ${fontDisplay.variable} ${fontSerif.variable}`}
       suppressHydrationWarning
     >
@@ -81,7 +82,7 @@ export default async function LocaleLayout({ children, params }: Props) {
         <script
           dangerouslySetInnerHTML={{
             __html:
-              "document.documentElement.classList.add('js');try{if(localStorage.getItem('theme')==='light')document.documentElement.setAttribute('data-theme','light')}catch(e){}",
+              "document.documentElement.classList.add('js');try{if(localStorage.getItem('theme')==='dark')document.documentElement.removeAttribute('data-theme')}catch(e){}",
           }}
         />
         <NextIntlClientProvider messages={messages}>

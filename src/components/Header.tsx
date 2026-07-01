@@ -20,7 +20,7 @@ export default function Header({ locale }: { locale: string }) {
   const th = useTranslations('header');
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
-  const [lightTheme, setLightTheme] = useState(false);
+  const [lightTheme, setLightTheme] = useState(true); // light is the default theme
   // Over the dark hero the header is light-on-dark; in the light theme the hero
   // is cream, so the header flips to dark-on-light. `dark` = render light text.
   const dark = !lightTheme;

@@ -112,15 +112,15 @@
   --hero-muted: #6a5836;
   --hero-eyebrow-bg: rgba(255, 255, 255, 0.55);
   --hero-eyebrow-text: #8c6118;
-  --hero-title-back: rgba(255, 255, 255, 0.5);
+  --hero-title-back: transparent; /* no backing plate behind the headline on light */
   --hero-metric-back: rgba(255, 255, 255, 0.62);
   /* Cream wash on the text side so dark copy always sits on a clean background */
   --hero-side-wash: linear-gradient(
     to right,
     #fdf8ee 0%,
-    rgba(253, 248, 238, 0.94) 28%,
-    rgba(253, 248, 238, 0.6) 45%,
-    transparent 60%
+    rgba(253, 248, 238, 0.78) 20%,
+    rgba(253, 248, 238, 0.22) 34%,
+    transparent 44%
   );
 }
 [data-theme='light'] body {

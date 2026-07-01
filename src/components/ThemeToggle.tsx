@@ -9,7 +9,7 @@ import { useEffect, useState } from 'react';
  * root layout, so there is no flash on reload.
  */
 export default function ThemeToggle({ label }: { label?: string }) {
-  const [light, setLight] = useState(false);
+  const [light, setLight] = useState(true); // light is the default theme
 
   useEffect(() => {
     setLight(document.documentElement.getAttribute('data-theme') === 'light');
