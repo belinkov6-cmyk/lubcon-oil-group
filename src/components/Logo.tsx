@@ -14,23 +14,31 @@ export default function Logo({
       className="group inline-flex items-center gap-2.5"
       aria-label="Lubcon Oil Group — home"
     >
-      <svg width="34" height="38" viewBox="0 0 36 40" fill="none" aria-hidden="true" className="shrink-0">
+      <svg width="38" height="38" viewBox="0 0 40 40" fill="none" aria-hidden="true" className="shrink-0">
         <defs>
-          <linearGradient id="lub-gold" x1="8" y1="12" x2="28" y2="38" gradientUnits="userSpaceOnUse">
+          <linearGradient id="lub-gold" x1="6" y1="6" x2="34" y2="36" gradientUnits="userSpaceOnUse">
             <stop stopColor="#F0D38A" />
             <stop offset="0.55" stopColor="#D7A93F" />
             <stop offset="1" stopColor="#9C7A33" />
           </linearGradient>
         </defs>
-        {/* gold droplet */}
+        {/* cog ring + teeth (manufacturing) */}
+        <g fill="url(#lub-gold)">
+          {Array.from({ length: 12 }).map((_, i) => (
+            <rect key={i} x="18.4" y="1" width="3.2" height="5.4" rx="1.1" transform={`rotate(${i * 30} 20 20)`} />
+          ))}
+          <path
+            fillRule="evenodd"
+            clipRule="evenodd"
+            d="M3.6 20a16.4 16.4 0 1 1 32.8 0 16.4 16.4 0 0 1-32.8 0Zm7 0a9.4 9.4 0 1 0 18.8 0 9.4 9.4 0 0 0-18.8 0Z"
+          />
+        </g>
+        {/* oil drop inside */}
         <path
-          d="M18 12 C23 19 27 24 27 29 a9 9 0 0 1 -18 0 C9 24 13 19 18 12 Z"
+          d="M20 11.4C23.4 16.5 26 19.9 26 22.8A6 6 0 0 1 14 22.8C14 19.9 16.6 16.5 20 11.4Z"
           fill="url(#lub-gold)"
         />
-        <path d="M14.5 27.5 a3.5 3.5 0 0 0 3.5 3.5" stroke="#fff" strokeOpacity="0.5" strokeWidth="1.4" strokeLinecap="round" fill="none" />
-        {/* red + blue flame tips */}
-        <path d="M18 13 C13 9 13.2 4.8 16 2 C15.2 6 15.4 10 18 13 Z" fill="#E2231A" />
-        <path d="M18 13 C23 9 22.8 4.8 20 2 C20.8 6 20.6 10 18 13 Z" fill="#1F2E6E" />
+        <path d="M16.8 22.7a3.2 3.2 0 0 0 3.2 3.2" stroke="#fff" strokeOpacity="0.45" strokeWidth="1.2" strokeLinecap="round" fill="none" />
       </svg>
 
       <span className="flex flex-col leading-none">
