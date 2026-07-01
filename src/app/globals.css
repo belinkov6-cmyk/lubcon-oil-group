@@ -67,9 +67,17 @@
   border-color: var(--line);
 }
 
-/* Russian headings use Montserrat (Bricolage display font lacks Cyrillic) */
+/* Bricolage (display font) is latin-only, so non-latin headings fell back to a
+   system font. Remap the display font per non-latin locale. */
 html[lang='ru'] {
-  --font-display: var(--font-display-ru);
+  --font-display: var(--font-display-ru); /* Montserrat */
+}
+html[lang='ar'] {
+  --font-display: var(--font-display-ar); /* Cairo */
+}
+html[lang='zh'] {
+  /* High-quality system CJK fonts — avoids shipping a heavy CJK webfont */
+  --font-display: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans SC', sans-serif;
 }
 
 /* iOS-style wheel picker: hide the scrollbar but keep it scrollable */

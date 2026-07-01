@@ -1,4 +1,4 @@
-import { Inter, Bricolage_Grotesque, Montserrat } from 'next/font/google';
+import { Inter, Bricolage_Grotesque, Montserrat, Cairo } from 'next/font/google';
 
 export const fontSans = Inter({
   subsets: ['latin', 'latin-ext', 'cyrillic'],
@@ -20,4 +20,12 @@ export const fontDisplayRu = Montserrat({
   display: 'swap',
   weight: ['600', '700', '800'],
   variable: '--font-display-ru',
+});
+
+// Bricolage has no Arabic glyphs — Cairo drives the display font on Arabic.
+export const fontDisplayAr = Cairo({
+  subsets: ['arabic', 'latin'],
+  display: 'swap',
+  weight: ['600', '700', '800'],
+  variable: '--font-display-ar',
 });
