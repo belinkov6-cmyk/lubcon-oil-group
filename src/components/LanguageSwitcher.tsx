@@ -5,6 +5,19 @@ import { usePathname, useRouter } from '@/i18n/navigation';
 import { locales, localeNames, type Locale } from '@/i18n/routing';
 import { useParams } from 'next/navigation';
 
+const FLAGS: Record<Locale, string> = {
+  en: '🇬🇧',
+  ar: '🇦🇪',
+  zh: '🇨🇳',
+  ru: '🇷🇺',
+  es: '🇪🇸',
+  pt: '🇵🇹',
+  de: '🇩🇪',
+  fr: '🇫🇷',
+  it: '🇮🇹',
+  tr: '🇹🇷',
+};
+
 export default function LanguageSwitcher({
   label,
   light = false,
@@ -46,6 +59,7 @@ export default function LanguageSwitcher({
             : 'border-line bg-white/70 text-ink hover:border-brass-3 hover:bg-surface'
         }`}
       >
+        <span className="text-base leading-none">{FLAGS[current]}</span>
         <span className="uppercase">{current}</span>
         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" aria-hidden="true" className="opacity-70">
           <path d="M6 9l6 6 6-6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -67,6 +81,7 @@ export default function LanguageSwitcher({
                   l === current ? 'font-semibold text-gold-hi' : 'text-cream'
                 }`}
               >
+                <span className="text-base leading-none">{FLAGS[l]}</span>
                 {localeNames[l]}
                 <span className="ms-auto text-xs uppercase text-gold-muted">{l}</span>
               </button>
