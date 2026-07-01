@@ -124,8 +124,8 @@ export default function Header({ locale }: { locale: string }) {
           onClick={() => setOpen(false)}
         />
         <div
-          style={{ backgroundColor: dark ? 'rgba(12,8,4,0.98)' : 'rgba(253,248,238,0.98)' }}
-          className={`absolute end-0 top-0 flex h-full w-[84%] max-w-sm flex-col shadow-lift backdrop-blur transition-transform duration-300 ${
+          style={{ backgroundColor: dark ? '#0f0a05' : '#fdf8ee' }}
+          className={`absolute end-0 top-0 flex h-full w-[84%] max-w-sm flex-col shadow-lift transition-transform duration-300 ${
             open ? 'translate-x-0' : 'rtl:-translate-x-full ltr:translate-x-full'
           }`}
         >
