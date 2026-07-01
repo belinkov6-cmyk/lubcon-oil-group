@@ -7,7 +7,7 @@ export default function Certifications({ bare = false }: { bare?: boolean }) {
   const t = useTranslations('certifications');
 
   return (
-    <section id="certifications" className={bare ? 'bg-surface py-16' : 'bg-surface py-20 sm:py-28'}>
+    <section id="certifications" className={bare ? 'bg-surface py-16' : 'bg-surface py-12 sm:py-28'}>
       <div className="container-x">
         {!bare && (
           <SectionHeading eyebrow={t('eyebrow')} title={t('title')} subtitle={t('subtitle')} />

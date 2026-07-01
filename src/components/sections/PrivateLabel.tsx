@@ -9,7 +9,7 @@ export default function PrivateLabel({ bare = false }: { bare?: boolean }) {
   const t = useTranslations('privateLabel');
 
   return (
-    <section id="private-label" className="relative overflow-hidden py-20 text-ink sm:py-28">
+    <section id="private-label" className="relative overflow-hidden py-12 text-ink sm:py-28">
       <div className="pointer-events-none absolute inset-0 grid-bg opacity-[0.08]" aria-hidden="true" />
       <div
         className="pointer-events-none absolute -bottom-24 start-1/2 h-[400px] w-[700px] -translate-x-1/2 rounded-full blur-3xl"

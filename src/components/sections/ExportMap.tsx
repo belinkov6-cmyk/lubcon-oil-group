@@ -31,7 +31,7 @@ export default function ExportMap() {
   const t = useTranslations('exportMap');
 
   return (
-    <section className="py-20 sm:py-28">
+    <section className="py-12 sm:py-28">
       <div className="container-x">
         <SectionHeading eyebrow={t('eyebrow')} title={t('title')} subtitle={t('subtitle')} center />
 
