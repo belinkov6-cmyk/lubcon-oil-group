@@ -48,6 +48,7 @@
   --hero-eyebrow-text: #f0d38a;
   --hero-title-back: rgba(8, 6, 3, 0.62);
   --hero-metric-back: rgba(8, 6, 3, 0.5);
+  --hero-side-wash: transparent; /* dark theme relies on the base gradient */
 
   /* UAE flag red (sparing accent) */
   --red: #ce1126;
@@ -113,6 +114,14 @@
   --hero-eyebrow-text: #8c6118;
   --hero-title-back: rgba(255, 255, 255, 0.5);
   --hero-metric-back: rgba(255, 255, 255, 0.62);
+  /* Cream wash on the text side so dark copy always sits on a clean background */
+  --hero-side-wash: linear-gradient(
+    to right,
+    #fdf8ee 0%,
+    rgba(253, 248, 238, 0.94) 28%,
+    rgba(253, 248, 238, 0.6) 45%,
+    transparent 60%
+  );
 }
 [data-theme='light'] body {
   background: var(--page-light);

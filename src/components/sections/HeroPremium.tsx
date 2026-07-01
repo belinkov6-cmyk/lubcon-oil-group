@@ -64,6 +64,9 @@ export default function HeroPremium() {
             <Image src="/hero-light.png" alt="" fill sizes="100vw" className="object-cover object-[82%_42%]" />
           </div>
         </div>
+        {/* Text-side wash — cream in light theme so dark copy stays legible over
+            the photo's left edge; transparent in dark theme (no change). */}
+        <div className="absolute inset-y-0 left-0 w-full lg:w-[70%]" style={{ background: 'var(--hero-side-wash)' }} />
         {/* Header blend (top) */}
         <div
           className="absolute inset-x-0 top-0 h-40"
