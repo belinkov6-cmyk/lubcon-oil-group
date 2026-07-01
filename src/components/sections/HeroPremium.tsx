@@ -111,7 +111,7 @@ export default function HeroPremium() {
               <span className="gold-gradient-text">{t('title1').replace(/,\s*$/, '')}</span>
             </span>
             <br />
-            {t('titleAccent')}
+            <span className="text-[0.78em]">{t('titleAccent')}</span>
           </h1>
 
           <p className="mt-6 max-w-[46ch] text-base leading-relaxed text-[color:var(--hero-muted)] sm:text-lg">
