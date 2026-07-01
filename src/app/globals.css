@@ -134,7 +134,10 @@ html[lang='zh'] {
   --hero-muted: #6a5836;
   --hero-eyebrow-bg: rgba(255, 255, 255, 0.55);
   --hero-eyebrow-text: #8c6118;
-  --hero-title-back: transparent; /* no backing plate behind the headline on light */
+  /* Matte cream backing plate behind the headline so it stays legible over the
+     photo on small screens; reset to transparent on desktop (lg+) below, where
+     the cream side-wash already carries the text. */
+  --hero-title-back: rgba(255, 253, 248, 0.62);
   --hero-metric-back: rgba(255, 255, 255, 0.62);
   /* Cream wash on the text side so dark copy always sits on a clean background */
   --hero-side-wash: linear-gradient(
@@ -147,6 +150,13 @@ html[lang='zh'] {
 }
 [data-theme='light'] body {
   background: var(--page-light);
+}
+/* Desktop keeps the headline plate-free (matches the original light design) —
+   the mobile backing plate above only applies below the lg breakpoint. */
+@media (min-width: 1024px) {
+  [data-theme='light'] {
+    --hero-title-back: transparent;
+  }
 }
 /* Hero photo layers: dark photo by default, light photo when [data-theme=light].
    display:none keeps the inactive photo from downloading (light one isn't priority). */
