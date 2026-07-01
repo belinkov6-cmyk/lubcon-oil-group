@@ -20,14 +20,25 @@ export default function Header({ locale }: { locale: string }) {
   const th = useTranslations('header');
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
-  // The whole page sits on a dark backdrop, so the header is always light-on-dark.
-  const dark = true;
+  const [lightTheme, setLightTheme] = useState(false);
+  // Over the dark hero the header is light-on-dark; in the light theme the hero
+  // is cream, so the header flips to dark-on-light. `dark` = render light text.
+  const dark = !lightTheme;
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 12);
     onScroll();
     window.addEventListener('scroll', onScroll, { passive: true });
     return () => window.removeEventListener('scroll', onScroll);
+  }, []);
+
+  useEffect(() => {
+    const el = document.documentElement;
+    const read = () => setLightTheme(el.getAttribute('data-theme') === 'light');
+    read();
+    const obs = new MutationObserver(read);
+    obs.observe(el, { attributes: true, attributeFilter: ['data-theme'] });
+    return () => obs.disconnect();
   }, []);
 
   useEffect(() => {
@@ -41,7 +52,9 @@ export default function Header({ locale }: { locale: string }) {
     <header
       className={`sticky top-0 z-50 transition-all duration-300 ${
         scrolled
-          ? 'border-b border-line bg-[rgba(14,10,5,0.9)] backdrop-blur-md shadow-[0_8px_24px_rgba(0,0,0,.4)]'
+          ? dark
+            ? 'border-b border-line bg-[rgba(14,10,5,0.9)] backdrop-blur-md shadow-[0_8px_24px_rgba(0,0,0,.4)]'
+            : 'border-b border-line bg-[rgba(255,253,248,0.92)] backdrop-blur-md shadow-[0_8px_24px_rgba(120,90,30,.12)]'
           : 'border-b border-transparent bg-transparent'
       }`}
     >

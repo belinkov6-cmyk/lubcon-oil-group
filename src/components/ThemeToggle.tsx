@@ -34,7 +34,11 @@ export default function ThemeToggle({ label }: { label?: string }) {
       onClick={toggle}
       aria-label={label ?? 'Toggle theme'}
       aria-pressed={light}
-      className="inline-flex h-10 w-10 items-center justify-center rounded-pill border border-white/25 bg-white/10 text-cream transition-colors hover:bg-white/20 lg:h-9 lg:w-9"
+      className={`inline-flex h-10 w-10 items-center justify-center rounded-pill border transition-colors lg:h-9 lg:w-9 ${
+        light
+          ? 'border-[color:var(--line)] bg-black/[0.04] text-[#8c6118] hover:bg-black/[0.08]'
+          : 'border-white/25 bg-white/10 text-cream hover:bg-white/20'
+      }`}
     >
       {light ? (
         /* moon — click to go dark */

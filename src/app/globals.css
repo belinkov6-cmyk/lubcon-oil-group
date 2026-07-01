@@ -36,6 +36,19 @@
   --gold-muted: #c8bca6;
   --gold-line: rgba(201, 162, 75, 0.45);
 
+  /* Hero overlay/text colours — flipped by [data-theme="light"] so the hero
+     inverts (light photo, light gradient, dark text) with the rest of the page. */
+  --hero-base: linear-gradient(105deg, #070502 0%, #0c0804 40%, #181106 66%, #241a0c 100%);
+  --hero-top: rgba(7, 5, 2, 0.85);
+  --hero-vignette: rgba(7, 5, 2, 0.9);
+  --hero-wash: rgba(7, 5, 2, 0.5);
+  --hero-text: #f5efe3;
+  --hero-muted: #c8bca6;
+  --hero-eyebrow-bg: rgba(255, 255, 255, 0.04);
+  --hero-eyebrow-text: #f0d38a;
+  --hero-title-back: rgba(8, 6, 3, 0.62);
+  --hero-metric-back: rgba(8, 6, 3, 0.5);
+
   /* UAE flag red (sparing accent) */
   --red: #ce1126;
   --red-600: #a90e1f;
@@ -88,9 +101,39 @@
   --navy-500: #c99a45;
   --line: rgba(176, 125, 43, 0.28);
   --page-light: linear-gradient(180deg, #fffdf8 0%, #f6efe0 40%, #fbf4e4 74%, #f3ead6 100%);
+  /* Hero flips to the light photo + a warm-cream gradient with dark text */
+  --hero-bg0: #fbf4e6;
+  --hero-base: linear-gradient(105deg, #fdf8ee 0%, #f9f1e2 42%, #f4ead6 70%, #efe2cc 100%);
+  --hero-top: rgba(255, 253, 248, 0.55);
+  --hero-vignette: rgba(247, 238, 220, 0.5);
+  --hero-wash: rgba(255, 253, 248, 0.32);
+  --hero-text: #2e2110;
+  --hero-muted: #6a5836;
+  --hero-eyebrow-bg: rgba(255, 255, 255, 0.55);
+  --hero-eyebrow-text: #8c6118;
+  --hero-title-back: rgba(255, 255, 255, 0.5);
+  --hero-metric-back: rgba(255, 255, 255, 0.62);
 }
 [data-theme='light'] body {
   background: var(--page-light);
+}
+/* Hero photo layers: dark photo by default, light photo when [data-theme=light].
+   display:none keeps the inactive photo from downloading (light one isn't priority). */
+[data-theme='light'] .hero-photo-dark {
+  display: none;
+}
+.hero-photo-light {
+  display: none;
+}
+[data-theme='light'] .hero-photo-light {
+  display: block;
+}
+/* Deepen the gold headline gradient in light mode so it reads on the cream hero */
+[data-theme='light'] .gold-gradient-text {
+  background: linear-gradient(120deg, #a9781f 0%, #8c6118 55%, #6f4e14 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 /* Generic cards -> soft white islands on the champagne sheet */
 [data-theme='light'] .card {
